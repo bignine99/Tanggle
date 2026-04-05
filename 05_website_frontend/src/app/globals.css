@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-tanggle-bg: #FBF9F6;
+  --color-tanggle-beige: #E8DCC8;
+  --color-tanggle-charcoal: #2C2C2C;
+  --color-tanggle-gold: #D4AF7A;
+  --color-tanggle-gold-light: #F0D9B0;
+  --color-tanggle-coral: #F5E6E1;
+  --color-tanggle-lightgray: #F5F5F5;
+  --color-tanggle-darkgray: #666666;
+  
+  --color-background: var(--color-tanggle-bg);
+  --color-foreground: var(--color-tanggle-charcoal);
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-sm;
+  }
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-outfit), 'Pretendard', sans-serif;
+  overflow-x: hidden;
+}
