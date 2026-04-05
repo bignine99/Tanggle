@@ -1,0 +1,16 @@
+{
+  "video_id": "JZ6OuOV29Fo",
+  "title": "줄기세포 주사 추천하는 이유",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/JZ6OuOV29Fo",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T15:21:07"
+  },
+  "segments": [],
+  "full_text": "요즘에 단순히 외적인 아름다움을 추구하는 거 이상으로 내 몸 관리에 대해서 신경을 많이 쓰시는데 이런 분들에게 줄기세포 시술은 굉장히 큰 도움이 될 수 있는 좋은 시술이고 안전한 시술이라고 생각을 합니다. 직접 한번 해보신다면은 그 효과는 느낄 수 있을 거라고 생각이 됩니다. 감사합니다.",
+  "char_count": 161
+}

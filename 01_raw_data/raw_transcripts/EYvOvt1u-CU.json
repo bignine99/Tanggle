@@ -1,0 +1,16 @@
+{
+  "video_id": "EYvOvt1u-CU",
+  "title": "헐리우드 연예인들이 관리하는 그것 #쿨스컬프팅 비교",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/EYvOvt1u-CU",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T15:39:22"
+  },
+  "segments": [],
+  "full_text": "잠깐만 남은 너무 어려워\n계획대로 되는 게 없어서\n잠깐만 남은 너무 어려워\n내일은 말야",
+  "char_count": 48
+}

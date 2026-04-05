@@ -1,0 +1,106 @@
+{
+  "category": "힙업 리프팅",
+  "procedure_name": "탱글 힙업 리프팅 (TANG•GLE Hip-up Lifting)",
+  "summary": "보다 업그레이드 된 탱글 지지력으로 균형 있는 슬림한 몸매를 만드는 수술입니다. 살이 빠져 볼륨이 줄어들거나 중력에 의해 처진 엉덩이를 탄성이 좋은 엘라스티꿈 실로 당겨 올려주어, 탄탄하고 업된 애플 힙라인을 완성하며 매력적인 S라인 몸매를 만듭니다. 수술 후 수일 내에 인대처럼 자연스러운 움직임과 피부 탄력 개선이 가능합니다.",
+  "surgery_info": {
+    "surgery_time": "1-2시간 정도",
+    "anesthesia": "수면마취",
+    "hospitalization": "불필요",
+    "stitch_removal": "10일 후",
+    "clinic_visits": "4-5회",
+    "recovery_time": "바로 일상생활 가능"
+  },
+  "advantages": [
+    "엘라스티꿈의 강력한 지지력과 탄성력",
+    "엘라스티꿈의 우수한 조직 반응 및 유착",
+    "오창현 대표원장의 기술력과 노하우 (세계 최초 논문 발표)",
+    "힙업 리프팅 전용 엘라스티꿈 및 전용 니들 사용",
+    "엉덩이 처짐 증상에 따른 1:1 맞춤 디자인 (2, 3, 4 Loop method)",
+    "크리살릭스 3D 가상성형을 통한 정확한 결과 예측 및 만족도 향상"
+  ],
+  "details": {
+    "hip_lifting_methods_comparison": {
+      "incision_based_lifting": {
+        "title": "절개를 통한 엉덩이 리프팅",
+        "description": "처진 엉덩이를 당기는 가장 일반적인 방법으로 흉터와 회복기간이 길다는 단점이 있습니다."
+      },
+      "various_threads_lifting": {
+        "title": "다양한 실을 이용한 엉덩이 리프팅",
+        "description": "다양한 실을 활용한 엉덩이 리프팅이 연구되었으나, 플리프로필렌(비흡수성 봉합사)은 탄성이 없어 수술 후 풀림 및 불편함이 많고, 주변조직과의 유착을 기대하기 힘들며, 흡수성 봉합사는 유지기간의 한계가 있습니다."
+      }
+    },
+    "elastikum_features": {
+      "structure_and_characteristics": {
+        "description": "엘라스티꿈은 가운데가 탄성이 좋은 실리콘과 주위를 폴리에스테르 실이 감싸고 있는 구조로 강한 탄성의 성질을 가집니다.",
+        "components": [
+          {
+            "name": "실리콘 (Silicone)",
+            "role": "탄성 중심, 피부와 움직임을 따라가기 좋음"
+          },
+          {
+            "name": "폴리에스터 (Polyester)",
+            "role": "중심부 보호, 조직 유착에 강함"
+          }
+        ],
+        "benefits": [
+          "유연함 (Comfortable): 부드러운 움직임, 이물감 최소화",
+          "조직 유착 (Tissue adhesion): 강력한 조직 유착, 실의 이동 방지",
+          "우수한 핸들링 (Perfect handling): 간편한 시술, 수술 시간 단축"
+        ]
+      },
+      "elasticity_comparison": {
+        "elastikum": "탄성이 있어 실이 늘어나도 제자리까지 되돌아옴",
+        "other_threads": "탄성이 없음"
+      },
+      "tissue_response": {
+        "elastikum_polyester": "주변조직과의 유착이 잘 이루어짐",
+        "other_threads_prolene": "주변조직과의 유착이 거의 없음",
+        "reference": "Histology and Ultrastructural Evaluation of Sutures Used for Facial Suspension: A Comparative Study"
+      }
+    },
+    "customized_design": {
+      "description": "엉덩이의 처짐 정도와 볼륨이 부족한 부분, 원하는 힙라인을 고려한 1:1 맞춤 디자인이 매우 중요합니다.",
+      "methods": [
+        "2 Loop method",
+        "3 Loop method",
+        "4 Loop method"
+      ]
+    },
+    "crisalix_3d_analysis": {
+      "title": "크리살릭스 3D 가상성형",
+      "description": "크리살릭스 3D 가상성형 프로그램을 통해 수술 전에 수술 후 결과를 미리 예측할 수 있어 수술 실패 확률을 낮추고, 수술 만족도를 높입니다. 상세한 검진과 함께 증강현실(AR)/가상현실(VR)을 통해 생동감 있고 세세한 부분까지 완벽한 상담을 지원합니다."
+    }
+  },
+  "doctor_info": {
+    "name": "오창현 (Oh Chang-hyun)",
+    "title": "대표원장",
+    "achievements": [
+      "엘라스티꿈 엉덩이 리프팅, 힙업 리프팅 관련 논문 발표",
+      "다수의 학회 연차 발표 및 많은 임상 경험 보유",
+      "TRM KOREA로부터 2020 Elasticum Faculty Member 선정",
+      "2018 엘라스티꿈 힙업 리프팅 세계 최초 논문 발표 (APS/Aesthetic Plastic Surgery, 국제성형외과학회 공식저널에 'Buttock Lifting Using Elastic Thread (Elasticum®) with a New Classification of Gluteal Ptosis' 게재)",
+      "엘라스티꿈 공식 수입업체 TRM KOREA로부터 CASE REPORT 의뢰 및 작성 (가장 많은 경험 인정)"
+    ]
+  },
+  "who_is_it_for": [
+    "엉덩이가 전체적으로 처진 경우",
+    "지방흡입 후 엉덩이 처짐이 더 발생된 경우",
+    "엉덩이 처짐은 없지만 엉덩이 볼륨이 부족한 경우",
+    "엉덩이 볼륨감과 탄력을 더 만들고 싶은 경우"
+  ],
+  "how_it_is_performed": {
+    "description": "엘라스티꿈 실을 삽입하여 힙을 리프팅합니다. 실과 고정점을 분리하여 시술을 시행하며, 고정점이 분리되어 움직임을 만들어주어 자연스러운 움직임이 가능합니다.",
+    "steps": [
+      "수술 전: 처진 엉덩이로 인해 힙업 리프팅이 필요한 상태",
+      "힙 리프팅: 엘라스티꿈을 이용하여 힙을 리프팅",
+      "수술 후: 처진 엉덩이가 탄력있는 힙으로 개선"
+    ]
+  },
+  "effects": [
+    "볼륨 있고 업된 엉덩이",
+    "다리가 길어 보이는 효과",
+    "바디라인 개선",
+    "옷맵시 개선",
+    "자신감 상승"
+  ]
+}

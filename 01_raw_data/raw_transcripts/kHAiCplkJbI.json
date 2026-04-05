@@ -1,0 +1,16 @@
+{
+  "video_id": "kHAiCplkJbI",
+  "title": "거상은 하루에 1명만 하는 이유 | 탱글성형외과의원 오창현 대표원장",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/kHAiCplkJbI",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:33:28"
+  },
+  "segments": [],
+  "full_text": "원장님, 하루에 한 명만 거상 수술을 하세요. 거상 수술은 기본적으로 한 명 한다고 보면 그게 마치. 이유가 뭐냐면은 이게 시간이 좀 오래 걸리는 수술이라서 한 명한테 좀 최대한 집중해서 수술하는 게 내가 환자분에 대한 이게 나의 돌이고 예의라고 나는 생각을 하거든. 음. 그래서 한 명만.",
+  "char_count": 162
+}

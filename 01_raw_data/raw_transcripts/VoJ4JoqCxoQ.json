@@ -1,0 +1,16 @@
+{
+  "video_id": "VoJ4JoqCxoQ",
+  "title": "다이어트 하기 좋은 날씨",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/VoJ4JoqCxoQ",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:44:10"
+  },
+  "segments": [],
+  "full_text": "아, 날씨가 너무 좋네요.\n벚꽃이 핀 걸 보니까\n확연히\n봄이 다 온 것 같습니다.\n여러분들 벚꽃 구경은 다들 다녀오셨나요?\n이런 날씨에는 다이어트 하기에도 너무 좋겠죠.\n오늘도 여러분 모두 행복한 하루 되세요.",
+  "char_count": 117
+}

@@ -1,0 +1,16 @@
+{
+  "video_id": "K5eBeMVMXlw",
+  "title": "세포를 젊게 만든다는 그 주사! 원장이 직접 맞아보기  #shorts",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/K5eBeMVMXlw",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T16:07:25"
+  },
+  "segments": [],
+  "full_text": "코칭 님 난 이거 같단다\n나 이쁘게\n아름답게\n코칭 님 난 이거 같단다\nYou and I\n미친 듯이\ndegenerate\n저 참하게",
+  "char_count": 71
+}

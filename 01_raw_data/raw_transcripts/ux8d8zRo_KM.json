@@ -1,0 +1,16 @@
+{
+  "video_id": "ux8d8zRo_KM",
+  "title": "거상수술 후 음주와 흡연",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/ux8d8zRo_KM",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:39:07"
+  },
+  "segments": [],
+  "full_text": "음주와 흡연은 최소 한 달 정도는 좀 참아주시는 게 좋으실 것 같습니다. 흡연은 혈관 수축을 유발하기 때문에 상처 회복 지연을 시키는 요인이 될 수가 있거든요. 그래서 흡연은 사실 굉장히 좀 중요한 문제입니다. 그래서 최소 한 달 정도는 참아주시고요. 음주도 수술 초기에 음주를 하시게 되면 염증이 조금 더 유발될 수 있는 확률이 있기 때문에 음주도 한 달 정도는 좀 참아주시는 게 좋겠습니다. \n\n어 궁금한 게 있으신가요? 댓글로 남겨주시거나 프로필 링크를 확인해 주세요.",
+  "char_count": 265
+}

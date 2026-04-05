@@ -1,0 +1,185 @@
+{
+  "category": "성형외과 시술",
+  "procedure_name": "처진 복부성형",
+  "summary": "늘어지고 처진 복부, 튼살, 복부 비만 등을 개선하여 탄력 있고 슬림한 복부를 완성하는 시술입니다. 지방흡입, 복근 강화, 늘어진 피부 절제 등을 복합적으로 시행합니다.",
+  "surgery_info": {
+    "surgery_time": "3-5시간",
+    "anesthesia_method": "전신마취",
+    "hospitalization_required": "불필요",
+    "stitch_removal_time": "수술 후 10일",
+    "clinic_visits": "3-4회",
+    "recovery_period": "수술 후 2-3일",
+    "disclaimer": "붓기나 멍은 개인에 따라 차이가 있을 수 있습니다."
+  },
+  "prologue": {
+    "title": "처진 뱃살과 튼살을 한 번에 해결!",
+    "subtitle": "전체적인 체형에 어울리는 탄력 있고 슬림한 복부를 완성합니다.",
+    "description": "뱃살 늘어짐이 경미하고 피부 탄력이 유지된 경우 지방흡입으로 효과를 볼 수 있으나, 지방량이 적고 피부 탄력이 떨어진 경우 지방흡입은 오히려 악영향을 줄 수 있어 복부성형술을 시행합니다. 복부성형술은 지방흡입, 이완된 복근 강화, 배꼽 고정, 늘어진 피부 절제를 동시에 진행하는 복합적인 과정입니다."
+  },
+  "special_points": {
+    "title": "깊은층 지방 및 근막 보존을 통한 탱글 복부성형술!",
+    "features": [
+      {
+        "name": "빠른 회복",
+        "description": "탱글만의 꼼꼼하고 디테일한 술기로 수술 후 당일 퇴원, 다음날부터 일상생활 가능합니다."
+      },
+      {
+        "name": "낮은 합병증 발생률",
+        "description": "장액종, 혈종, 피부 괴사, 감각저하 등 합병증 발생 확률이 현저히 낮으며, 흉터까지 최소화하는 노하우를 가지고 있습니다."
+      },
+      {
+        "name": "지방흡입 동시 시행으로 시너지 효과",
+        "description": "복부성형과 동시에 지방흡입 시행 시 더욱 뛰어난 슬림한 바디라인으로 개선됩니다."
+      },
+      {
+        "name": "눈에 잘 띄지 않는 흉터",
+        "description": "최종 흉터는 속옷이나 비키니 라인 안에 위치하여 겉으로 드러나지 않아 흉터 걱정이 거의 없습니다."
+      }
+    ]
+  },
+  "crisalix_3d_analysis": {
+    "title": "탱글성형외과 크리살릭스 3D 가상성형",
+    "description": "크리살릭스 3D 가상성형 프로그램을 통해 수술 전후 결과를 미리 예측하여 수술 실패 확률을 낮추고 만족도를 높입니다. 전문의와의 상세 검진과 함께 AR 기술을 활용한 시뮬레이션으로 수술 후 모습을 미리 확인하고 정밀한 결과 예측이 가능하여 안전하고 만족도 높은 수술을 진행합니다."
+  },
+  "detail_design": {
+    "title": "개인에 맞는 디테일한 디자인으로 만족을 더해드립니다!",
+    "description": "늘어진 정도와 근육의 이완 정도를 파악하여 개인에 맞는 디자인으로 수술을 진행합니다.",
+    "target_concerns": [
+      "복부 비만으로 보기가 싫다면",
+      "늘어진 뱃살로 고민이라면",
+      "튼살로 스트레스라면"
+    ]
+  },
+  "comparison_with_general_abdominoplasty": {
+    "title": "복부성형술과 일반 복부성형술 비교",
+    "comparison_table": [
+      {
+        "category": "수술시간",
+        "tangle_abdominoplasty": "3~5시간",
+        "general_abdominoplasty": "2~3시간",
+        "general_abdominoplasty_incision_only": "1~2시간"
+      },
+      {
+        "category": "마취방법",
+        "tangle_abdominoplasty": "전신마취",
+        "general_abdominoplasty": "수면마취",
+        "general_abdominoplasty_incision_only": "수면마취"
+      },
+      {
+        "category": "입원치료",
+        "tangle_abdominoplasty": "불필요",
+        "general_abdominoplasty": "1일",
+        "general_abdominoplasty_incision_only": "불필요"
+      },
+      {
+        "category": "실밥제거",
+        "tangle_abdominoplasty": "10일 후",
+        "general_abdominoplasty": "7일 후",
+        "general_abdominoplasty_incision_only": "7일 후"
+      },
+      {
+        "category": "내원치료",
+        "tangle_abdominoplasty": "3~4회",
+        "general_abdominoplasty": "1~2회",
+        "general_abdominoplasty_incision_only": "1~2회"
+      },
+      {
+        "category": "회복기간",
+        "tangle_abdominoplasty": "2~3일 후",
+        "general_abdominoplasty": "1주일 후",
+        "general_abdominoplasty_incision_only": "1주일 후"
+      },
+      {
+        "category": "특징",
+        "tangle_abdominoplasty": "지방흡입 + 복근강화 + 늘어진 피부 절제 + 튼살 제거",
+        "general_abdominoplasty": "늘어진 피부 절제 + 튼살 제거",
+        "general_abdominoplasty_incision_only": "늘어진 피부 절제"
+      },
+      {
+        "category": "장점",
+        "tangle_abdominoplasty": "전체적인 체형 개선",
+        "general_abdominoplasty": "늘어진 뱃살 개선",
+        "general_abdominoplasty_incision_only": "늘어진 뱃살 개선"
+      },
+      {
+        "category": "단점",
+        "tangle_abdominoplasty": "수술시간이 길고 비용이 비쌈",
+        "general_abdominoplasty": "복근 강화 불가",
+        "general_abdominoplasty_incision_only": "복근 강화 불가, 튼살 제거 불가"
+      }
+    ]
+  },
+  "target_audience": {
+    "title": "이런 분들에게 탱글 복부성형을 추천합니다!",
+    "list": [
+      "출산 후 늘어진 뱃살과 튼살로 고민이신 분",
+      "다이어트 후 늘어진 뱃살과 피부 탄력이 저하되신 분",
+      "지방흡입 후에도 늘어진 뱃살이 개선되지 않으신 분",
+      "복부 전체적인 라인 개선을 원하시는 분",
+      "복부 비만과 튼살을 동시에 개선하고 싶으신 분"
+    ]
+  },
+  "surgical_methods": {
+    "title": "수술은 어떻게 이루어질까요?",
+    "description": "탱글성형외과에서는 늘어진 뱃살의 정도, 튼살의 유무, 복부 비만 정도, 복근 이완 정도 등 개인의 상태를 면밀히 파악하여 가장 적합한 수술 방법을 제안합니다.",
+    "types": [
+      {
+        "name": "미니 복부성형",
+        "target": "배꼽 아래 뱃살이 늘어진 경우",
+        "method": "배꼽 아래 늘어진 피부를 절제하고 복근을 강화하여 탄력 있는 복부를 완성합니다.",
+        "features": "흉터가 작고 회복이 빠릅니다."
+      },
+      {
+        "name": "전체 복부성형",
+        "target": "배꼽 위아래 뱃살이 전체적으로 늘어진 경우",
+        "method": "배꼽 위아래 늘어진 피부를 절제하고 복근을 강화하여 탄력 있는 복부를 완성합니다.",
+        "features": "늘어진 뱃살과 튼살을 효과적으로 개선합니다."
+      },
+      {
+        "name": "확장 복부성형",
+        "target": "복부뿐만 아니라 옆구리까지 늘어진 경우",
+        "method": "전체 복부성형과 동일하게 진행하며, 옆구리까지 늘어진 피부를 절제하여 허리 라인을 개선합니다.",
+        "features": "복부와 옆구리 라인을 동시에 개선합니다."
+      },
+      {
+        "name": "역 복부성형",
+        "target": "배꼽 위 뱃살이 늘어진 경우",
+        "method": "가슴 아래 절개를 통해 늘어진 피부를 절제하고 복근을 강화하여 탄력 있는 복부를 완성합니다.",
+        "features": "배꼽 위 뱃살 개선에 효과적입니다."
+      }
+    ]
+  },
+  "effects": {
+    "title": "탱글 복부성형의 효과는 어떨까요?",
+    "list": [
+      "늘어진 뱃살 개선",
+      "튼살 제거",
+      "복근 강화",
+      "허리 라인 개선",
+      "자신감 UP!"
+    ]
+  },
+  "after_care": {
+    "title": "수술만큼 중요한 수술 후 관리 프로그램",
+    "description": "탱글성형외과에서는 수술 후 일상으로의 빠른 복귀를 위해 멍, 붓기를 줄여주는 고주파, 스마트룩스 등 고객별 수술 후 관리를 제공합니다.",
+    "programs": [
+      {
+        "name": "스마트룩스",
+        "description": "특수한 의료용 LED로 피부재생, 상처치료, 붓기개선 등 수술 후 회복에 효과적입니다."
+      },
+      {
+        "name": "흉터레이저",
+        "description": "정밀한 에너지를 피부에 조사, 진피층에 콜라겐 재생을 유도하며 피부재생 효과가 있습니다."
+      },
+      {
+        "name": "고주파 관리",
+        "description": "붓기 개선과 멍 개선뿐만 아니라 남아있는 지방을 분해해 바디라인을 잡아주는 역할을 합니다."
+      },
+      {
+        "name": "체중관리 1:1 처방",
+        "description": "필요에 따라 약 처방을 통해 체중을 관리해 드립니다."
+      }
+    ],
+    "disclaimer": "개인차에 따라 수술 후 관리 프로그램 및 횟수는 변경될 수 있습니다."
+  }
+}

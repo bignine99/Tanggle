@@ -1,0 +1,16 @@
+{
+  "video_id": "cvHNAYRQHBU",
+  "title": "처진 살에 진심인 오원장",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/cvHNAYRQHBU",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:40:37"
+  },
+  "segments": [],
+  "full_text": "네, 직업이 어떻게 되세요?\n저도 사실 미용하고 있습니다. 원장님.\n아, 그러시군요. 어디서 오세요?\n저기 조금 떨어지는 데인데 피오카를 하고 있습니다.\n아.\n뭘 때문에 상담받으러 오신 거예요?\n저는 사실 아니고. 저번에 출산을 했는데.\n네.\n아 좀 많이 스트레스 받고 있어 가지고.\n아.\n네.\n저희도 그렇고.\n네.\nSRS도 찾으러 가셨나 보네요?\n네. 네.\n그럼 어떻게 알고 오시게 된 거예요?\n네이버 카페에서 후기 좀 보고.\n네.\n네. 너무 좋아 가지고 왔습니다.\n아. 그러시군요.\n호사는 제가 좀",
+  "char_count": 280
+}

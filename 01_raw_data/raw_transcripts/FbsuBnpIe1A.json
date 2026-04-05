@@ -1,0 +1,16 @@
+{
+  "video_id": "FbsuBnpIe1A",
+  "title": "50대 갱년기라 뱃살빼기 힘들었는데.. 수술없이 뱃살만 쏙 빠졌어요! #쿨스컬프팅 #비수술지방제거",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/FbsuBnpIe1A",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T15:11:08"
+  },
+  "segments": [],
+  "full_text": "Fall in love, fall in love with you.",
+  "char_count": 36
+}

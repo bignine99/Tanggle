@@ -1,0 +1,16 @@
+{
+  "video_id": "l5q57TaeYLY",
+  "title": "벚꽃 엔딩 아쉽지만🌸 이젠..",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/l5q57TaeYLY",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:43:41"
+  },
+  "segments": [],
+  "full_text": "원장님. 날씨가 너무 좋다 그죠? 아, 너무 좋네요. 그러니까요. 네. 봄이 온 거 같아요. 진짜 그죠? 네. 아, 날씨 너무 좋다. 원장님 봄이 왔는데 어디 여행이라도 가셔야 될 텐데. 저 사가느라. 아, 거참. 다이어트 하기 좋은 날씨네.",
+  "char_count": 135
+}

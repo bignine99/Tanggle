@@ -1,0 +1,60 @@
+{
+  "category": "병원 정보",
+  "page_title": "의료진 소개",
+  "summary": "실력과 인성, 그리고 노하우까지 탱글성형외과 의료진을 소개합니다.",
+  "medical_staff": [
+    {
+      "type": "Specialist Doctor",
+      "name_korean": "오창현",
+      "name_english": "Changhyun Oh",
+      "position": "대표원장",
+      "specialty": "성형외과 전문의",
+      "career_and_affiliations": [
+        "前) BS성형외과 대표원장",
+        "대한성형외과학회 정회원",
+        "대한미용성형외과학회 정회원",
+        "대한성형외과개원의협의회 정회원",
+        "미국성형외과학회(ASPS) 정회원",
+        "국제성형외과학회(ISAPS) 정회원",
+        "PNU 의료경영관리자과정 수료",
+        "유방성형연구회 정회원",
+        "눈성형연구회 정회원",
+        "재건성형연구회 정회원",
+        "지방성형연구회 정회원"
+      ],
+      "academic_activities_and_overseas_training": {
+        "title": "해외연수",
+        "details": [
+          "Beverly Hills South Pacific Surgical Center(USA)",
+          "LA Marina Plastic Surgery Center(USA)",
+          "Ivo Pitanguy Clinic(BRA)",
+          "Rio National Hospital(BRA)"
+        ],
+        "symposium_info": {
+          "section_title": "TANG:GLE SYMPOSIUM",
+          "activity_title": "오창현 대표원장의 학술활동",
+          "description": "만족스러운 결과를 위해 끊임없이 연구합니다",
+          "link_text": "학술활동 더 자세히 보기"
+        },
+        "visual_evidence_description": "수술, 강연, 학회 참여, 연구 발표 등 오창현 대표원장의 다양한 학술 활동 및 전문성을 보여주는 이미지들."
+      }
+    },
+    {
+      "type": "Specialist Doctor",
+      "name_korean": "양병이",
+      "name_english": "Byong Yi Yang",
+      "position": "원장",
+      "status": "상주",
+      "specialty": "마취통증의학과 전문의",
+      "career_and_affiliations": [
+        "前) 그날성형외과 마취과장",
+        "前) 일퍼센트성형외과 마취과장",
+        "前) 유노성형외과 마취과장",
+        "前) 분당제일여성병원 마취과장",
+        "대한마취통증의학회 정회원",
+        "대한통증학회 정회원",
+        "대한부위마취학회 회원"
+      ]
+    }
+  ]
+}

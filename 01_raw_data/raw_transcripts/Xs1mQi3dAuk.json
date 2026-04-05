@@ -1,0 +1,16 @@
+{
+  "video_id": "Xs1mQi3dAuk",
+  "title": "복부거상 온찜질 하지마세요! | 거상하고 온찜질 하면 안되는이유 #복부거상",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/Xs1mQi3dAuk",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T15:49:40"
+  },
+  "segments": [],
+  "full_text": "가벼운 샤워는 수술 후 일주일 정도부터 가능하지만, 뜨거운 환경에 들어가는 사우나, 다음 온찜질 이런 것들은 두 달 정도는 피해 주셔야 돼요. 왜냐하면 상처라는 게 새로 상처난 부위에 장력이 거의 100% 회복되는 요 단계가 한 8주 정도 지난 시점이에요. 그래서 요런 것들 환경에 노출되는 거는 두 달 정도 지나서 좀 하라고 말씀드리고 싶습니다.",
+  "char_count": 194
+}

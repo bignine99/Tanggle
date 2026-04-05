@@ -1,0 +1,16 @@
+{
+  "video_id": "xtgxRWRoRa8",
+  "title": "복부거상 후 샤워 가능한 시기 #복부거상 #복부거상후샤워",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/xtgxRWRoRa8",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T15:50:53"
+  },
+  "segments": [],
+  "full_text": "저희는 거의 필수로 피주머니를 하게 되는데 보통 일주일 정도 피주머니를 하세요. 그럼 일주일 정도 뒤에 피주머니를 뽑게 되는데 그 전까지는 직접적으로 샤워를 하기는 조금 힘드시고 피주머니를 뽑고 나면 제가 방수 테이프로 수술 부위 환부를 다 커버를 해 드리거든요. 그래서 피주머니를 뺌과 동시에 샤워를 바로 하실 수가 있다고 알고 계시면 되겠습니다.",
+  "char_count": 195
+}

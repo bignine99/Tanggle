@@ -1,0 +1,16 @@
+{
+  "video_id": "r9seLV9kHnU",
+  "title": "여자 배우들이 몰래하는 다이어트 시술 #shorts",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/r9seLV9kHnU",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T16:05:57"
+  },
+  "segments": [],
+  "full_text": "Stop, stop.\nI could have my Gucci on.\nI go with my Louis Vuitton.\nBut even with nothing on,\nthat I made you look.\nI made you look.",
+  "char_count": 130
+}

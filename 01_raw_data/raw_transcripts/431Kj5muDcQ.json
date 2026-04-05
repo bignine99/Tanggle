@@ -1,0 +1,16 @@
+{
+  "video_id": "431Kj5muDcQ",
+  "title": "거상수술 언제부터 가능해요?",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/431Kj5muDcQ",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:39:20"
+  },
+  "segments": [],
+  "full_text": "거상 수술에서 나이 제한은 사실 없습니다. 하지만 뭐 너무 어린 미성년자는 수술을 권하지 않고요. 이후 성인이 된 이후 시점에서는 이제 나이가 많든 적든 크게 상관은 없고요. 네 건강 상태가 허락해 준다면은 수술을 받을 수 있는 컨디션만 된다면은 60대, 70대도 충분히 수술은 가능합니다. 혹 궁금한 게 있으신가요? 댓글로 남겨주시거나 프로필 링크를 확인해 주세요.",
+  "char_count": 205
+}

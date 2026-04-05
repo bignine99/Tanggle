@@ -1,0 +1,16 @@
+{
+  "video_id": "ugo1BEFi9BE",
+  "title": "쿨스컬프팅, 받을 때 통증은 어떤가요? | 탱글성형외과의원 오창현 대표원장",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/ugo1BEFi9BE",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:24:16"
+  },
+  "segments": [],
+  "full_text": "원장님, 제가 코스 컬프팅 시술 설명 듣고 너무 하고 싶은데 제가 아픈 걸 진짜 못 참거든요. 그럼 시술할 때 통증이나 시술하고 나서 회복은 어떻게 하면 좋을까요? 나도 여러 번 시술을 받아봤고 시술을 하게 되면은 처음에 피부를 이렇게 빨아당겨서 얼리는 과정이 시작이 되는데 그걸 빨아당길 때 약간의 불편함이 있을 수 있지만 시술을 하면서 없어지기 때문에 통증에 관해서는 걱정을 안 해도 돼. 그다음에 시술을 끝나고 나면은 한 2분 정도 마사지를 해 주게 되는데 그때 약간의 불편감은 있지만 큰 문제가 되진.",
+  "char_count": 284
+}

@@ -1,0 +1,16 @@
+{
+  "video_id": "aqqlXwos-X8",
+  "title": "쿨스컬프팅, 여러 번 받아도 되나요? | 탱글성형외과의원 오창현 대표원장",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/aqqlXwos-X8",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:24:01"
+  },
+  "segments": [],
+  "full_text": "원장님, 필러 시술 같은 부위에 여러 번 가능하는가요? 어, 당연히 할 수 있어. 근데 여러 번 하더라도 굳이 텀을 너무 짧게 할 필요는 없고, 서서히 줄어들면서 90일 정도 지난 시점에 이제 최종 모습이 나오기 때문에 그때 경과를 보고 재시술 하는 거를 권해 드리거든. 그래서 그때 한번 더 시술을 받으면 되고, 굳이 뭐 시술 받고 나서 한 달도 안 됐는데 또 한 번 더 하고 그럴 필요는 없을 것 같아.",
+  "char_count": 227
+}

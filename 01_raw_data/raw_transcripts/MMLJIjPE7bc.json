@@ -1,0 +1,16 @@
+{
+  "video_id": "MMLJIjPE7bc",
+  "title": "바디성형은 탱글🍊이죠",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/MMLJIjPE7bc",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:42:59"
+  },
+  "segments": [],
+  "full_text": "직업이 어떻게 되세요?\n음. 저 여기 건너편에서 피부과 하고 있습니다.\n아, 그러시구나.\n근데 뭐, 뭐 이렇게 불편해서 오신 거예요?\n아, 사실 이게 좀 흉터가 좀 져 가지고.\n아하.\n음.\n음.\n더 궁금한 게 있으신가요?\n댓글로 남겨주시거나 프로필 링크를 확인해주세요.",
+  "char_count": 150
+}

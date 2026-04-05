@@ -1,0 +1,16 @@
+{
+  "video_id": "0FmJEQ91WW4",
+  "title": "처진살을 자신감으로",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/0FmJEQ91WW4",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T15:01:00"
+  },
+  "segments": [],
+  "full_text": "혹시 제가 뭐 하는 의사인지 아세요? 네. 저는 출산 후 여성들의 고민을 해결해 드리기도 하고요. 때로는 다이어트 후 생긴 고민을 해결해 드리기도 하죠. 당신의 처진 살을 자신감으로 바꿔 드리는 바디 거상을 하는 성형외과 전문의 오창현입니다.",
+  "char_count": 135
+}

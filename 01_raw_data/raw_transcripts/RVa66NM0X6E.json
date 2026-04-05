@@ -1,0 +1,16 @@
+{
+  "video_id": "RVa66NM0X6E",
+  "title": "수술 후, 너무 안 아파서 마당 잡초도 뽑으셨다고... #복부거상 #처진뱃살",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/RVa66NM0X6E",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T15:12:32"
+  },
+  "segments": [],
+  "full_text": "00:00:00 - 00:00:02\n오늘 수술 다음 날인데 좀 어떠세요?\n\n00:00:02 - 00:00:06\n아, 전혀 안 아프거나 그런 거 없이.\n\n00:00:06 - 00:00:10\n한번 이렇게 돌아보시겠어요? 360도로.\n\n00:00:12 - 00:00:13\n많이 좀 괜찮아지셨어요, 지금?\n\n00:00:16 - 00:00:17\n정면 한번 보시고",
+  "char_count": 197
+}

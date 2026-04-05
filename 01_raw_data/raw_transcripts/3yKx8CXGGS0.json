@@ -1,0 +1,16 @@
+{
+  "video_id": "3yKx8CXGGS0",
+  "title": "처진살에 진심인 탱글🍊",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/3yKx8CXGGS0",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:59:36"
+  },
+  "segments": [],
+  "full_text": "00:00 00:01 00:02 00:03 00:04 00:05 00:06 00:07 00:08",
+  "char_count": 53
+}

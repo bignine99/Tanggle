@@ -1,0 +1,16 @@
+{
+  "video_id": "HxqsUYF1b5I",
+  "title": "탱탱하게 글램하게",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/HxqsUYF1b5I",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:59:22"
+  },
+  "segments": [],
+  "full_text": "somebody's watching me\nit's my anxiety",
+  "char_count": 38
+}

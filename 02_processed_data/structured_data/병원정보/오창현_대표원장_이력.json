@@ -1,0 +1,26 @@
+{
+  "category": "병원정보_의료진",
+  "doctor_name": "오창현",
+  "title": "대표 원장",
+  "qualifications": "의학박사 / 성형외과 전문의",
+  "english_name": "Dr. Changhyun Oh",
+  "career_and_memberships": [
+    "전) BS더바디성형외과 대표원장",
+    "대한성형외과학회 정회원",
+    "대한미용성형외과학회 정회원",
+    "대한성형외과개원의협의회 정회원",
+    "미국성형외과학회(ASPS) 정회원",
+    "국제성형외과학회(ISAPS) 정회원",
+    "PNU 의료경영최고관리자과정 수료",
+    "유방성형연구회 정회원",
+    "항노화연구회 정회원",
+    "눈성형연구회 정회원",
+    "지방줄기세포연구회 정회원"
+  ],
+  "overseas_training": [
+    "Beverly Hills South Pacific Surgical Center (USA)",
+    "LA Marina Plastic Surgery Center (USA)",
+    "Ivo Pitanguy Clinic (BRA)",
+    "Rio National Hospital (BRA)"
+  ]
+}

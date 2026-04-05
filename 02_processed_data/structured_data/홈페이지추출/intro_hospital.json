@@ -1,0 +1,140 @@
+{
+  "category": "Hospital Information",
+  "procedure_name": "TANG:GLE Plastic Surgery Introduction",
+  "summary": "TANG:GLE Plastic Surgery aims to help individuals rediscover their beautiful selves, offering personalized care from consultation to post-operative follow-up, with a commitment to continuous research and minimal scarring.",
+  "doctor_info": {
+    "name": "Oh Chang Hyun",
+    "title": "Chief Director, Plastic Surgeon",
+    "introduction_message": "Do you remember the most beautiful you? As I get married, give birth, and raise children, I forget the me of that time. To you, for whom children, husband, and family come first, I want to give a complete change just for you. I want to help you find the solely radiant you again.",
+    "academic_activities_summary": "We constantly research for satisfactory results.",
+    "academic_activities": [
+      {
+        "type": "Appointment",
+        "title": "Consultant for Plastic Surgery",
+        "institution": "Seoul National University Bundang Hospital",
+        "date": null
+      },
+      {
+        "type": "Key Opinion Leader",
+        "title": "Key Opinion Leader",
+        "institution": "THE CHAEUM",
+        "date": null
+      },
+      {
+        "type": "Award",
+        "title": "Selected as Best Medical Institution (Center of Excellence)",
+        "award_name": "2025 Genuine Elastium",
+        "year": "2025"
+      },
+      {
+        "type": "Award",
+        "title": "Selected as Best Medical Institution (Center of Excellence)",
+        "award_name": "2024 Genuine Elastium",
+        "year": "2024"
+      },
+      {
+        "type": "Lecture/Presentation",
+        "title": "Various clinical know-how using THE CHAEUM filler SHAPE10",
+        "event": "TANG:GLE SYMPOSIUM",
+        "date": "2023-08-25",
+        "time": "09:00-10:00",
+        "speaker": "Oh Chang Hyun, Chief Director, Plastic Surgeon"
+      },
+      {
+        "type": "Conference Presentation",
+        "title": "Using CoolSculpting (partial title)",
+        "event": "AESTHETIC PLASTIC SURGERY 2023 (APS 2023)",
+        "date": "2023-04-01 to 2023-04-02",
+        "venue": "Grand Intercontinental Seoul Parnas, Korea"
+      },
+      {
+        "type": "Meeting Participation",
+        "title": "Meeting of CoolSculpting Advantage In the combiNation treatment with Body surgery (MAIN)",
+        "event": "Allergan Aesthetics / CoolSculpting MAIN",
+        "date": null
+      },
+      {
+        "type": "Conference Participation",
+        "title": "Seoul Breast Meeting",
+        "event": "Seoul Breast Meeting",
+        "date": null
+      },
+      {
+        "type": "Conference Participation",
+        "title": "Korean Society of Plastic and Reconstructive Surgeons",
+        "event": "대한성형외과의사회 (Korean Society of Plastic and Reconstructive Surgeons)",
+        "date": null
+      },
+      {
+        "type": "Conference Presentation",
+        "title": "The Next Normal, A New Journey",
+        "event": "PRS KOREA 2021",
+        "date": "2021-11-12 to 2021-11-14",
+        "type_of_conference": "Virtual Conference"
+      },
+      {
+        "type": "Conference Presentation",
+        "title": "CoolSculpting Treatment Sculpting Female Abdomen CoolAdvantage",
+        "event": "KOREA CoolSculpting User Summit 2021",
+        "date": "2021-11-27",
+        "time": "18:00-21:00",
+        "venue": "Sofitel Ambassador Seoul, Bastille Room (3F)"
+      },
+      {
+        "type": "Expert Meeting",
+        "title": "Cooltip Expert Meeting",
+        "event": "Cooltip Expert Meeting",
+        "date": "2021-03-20",
+        "venue": "Yongsan Dragon City, Baekje+2+3+4"
+      },
+      {
+        "type": "Conference Presentation",
+        "title": "Liposuction on lower extremity using superwet technique",
+        "event": "Seoul Breast Meeting 2020 (SBM) 7",
+        "theme": "My Techniques in Body Contouring",
+        "date": null,
+        "presenter": "Chang Hyun Oh (BS The Body Plastic Surgery Clinic)"
+      },
+      {
+        "type": "Publication",
+        "title": "Clinical application of cryolipolysis in Asian patients for subcutaneous fat reduction and body contouring",
+        "journal": "Archives of Plastic Surgery (Arch Plast Surg)",
+        "authors": ["Chang Hyun Oh", "Jeong Su Shim", "Kwang Il Bae", "Jae Hoo Chang"],
+        "affiliation": "Department of Plastic and Reconstructive Surgery, Inje University College of Medicine, Pusan, Korea",
+        "date": "2020-01-15",
+        "citation": "Arch Plast Surg. 2020;47(1):62-69."
+      },
+      {
+        "type": "Conference Presentation",
+        "title": "Innovation, the ship for the next excellent",
+        "event": "PRS KOREA 2019",
+        "date": "2019-11-08 to 2019-11-10",
+        "venue": "Grand Intercontinental Seoul Parnas, Seoul, Korea"
+      }
+    ]
+  },
+  "advantages": [
+    "Continuous research for satisfactory results",
+    "Minimizing incision lines",
+    "No worries about scars",
+    "No worries about pigmentation",
+    "Fast recovery possible",
+    "Direct consultation, diagnosis, surgery, and prognosis check by the chief director",
+    "Meticulous, careful, and accurate management of all processes"
+  ],
+  "details": {
+    "clinic_philosophy_research": {
+      "title": "We constantly research for satisfactory results",
+      "description": "The desire to always provide good results to those who trust me naturally leads to continuous research and effort. The look in their eyes comparing before and after surgery, and their satisfied expressions after surgery, are why I never stop researching."
+    },
+    "clinic_philosophy_scarring": {
+      "title": "It is as important not to leave traces as it is to become beautiful.",
+      "description": "Plastic surgery is for becoming beautiful. Therefore, traces and scars after surgery should be minimal. We develop and use a Protector to prevent skin damage by minimizing incision lines in inconspicuous areas with repetitive micro-vibrations of the cannula."
+    },
+    "clinic_philosophy_process": {
+      "title": "We directly consult, diagnose, perform surgery, and check the prognosis.",
+      "description": "You spend a lot of time worrying and then come to a plastic surgery clinic. Consulting, diagnosing, finding a surgical method, designing, performing surgery, and checking the progress – all these processes are part of creating the best results, and not a single one is unimportant. We directly check all processes meticulously, carefully, and accurately to create good results."
+    },
+    "clinic_commitment": "For highly complete results and the best medical service, TANG:GLE Plastic Surgery will always strive tirelessly with sincerity."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "video_id": "F4ml9aheo30",
+  "title": "현대의학 특 '성형외과'",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/F4ml9aheo30",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:58:23"
+  },
+  "segments": [],
+  "full_text": "네, 알겠습니다. 오디오 내용을 그대로 텍스트로 옮겨 드리겠습니다.\n\n**00:01**\n혹시 오늘 뭐 그 수술하시고 나서 뭐 특별히 불편하신 거나 뭐 이런 거 있으신가요?\n\n**00:04**\n아니요, 괜찮은데요.\n\n**00:05**\n아, 그러세요? 그러면 혹시 뭐 어젯밤에 통증 때문에 잠을 못 주무시거나 그러진 않으셨고요?",
+  "char_count": 181
+}

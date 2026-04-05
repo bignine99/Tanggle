@@ -1,0 +1,192 @@
+{
+  "clinic_name": "탱글성형외과의원",
+  "category": "체형성형",
+  "procedure_name": "쿨스컬프팅",
+  "slogan": "수술 없이 원하는 부위만 골라서 빼자!",
+  "visual_slogan": "Slim & S Line Body",
+  "summary": "지방세포는 수술이나 통증 걱정 없이 원하는 부위를 슬림하게 만들 수 있습니다.",
+  "procedure_overview": {
+    "procedure_time": "35-75분",
+    "anesthesia_method": "불필요",
+    "hospitalization": "불필요",
+    "stitch_removal": "불필요",
+    "knife_treatment": "불필요",
+    "recovery_period": "바로 일상생활 복귀 가능"
+  },
+  "disclaimer": "환자마다 생활이나 시술방법에 따라 차이가 있을 수 있습니다.",
+  "details": {
+    "prologue": {
+      "title": "Prologue",
+      "description": "쿨스컬프팅은 비수술적 지방세포 감소 시술로 개선하고 싶은 부위에 1회의 냉동지방분해술과 3개월간의 서서히 변화가 이루어져 평균 25-30%정도의 지방층을 영구적으로 감소시킬 수 있는 전세계에서 가장 많이 시행되고 있는 체형 시술 장비입니다."
+    },
+    "fda_approval": {
+      "title": "미국 FDA 허가 사항",
+      "items": [
+        "수술없이 지방흡입과정 감소로 FDA 승인",
+        "수술없이 FDA 승인된 9부위",
+        "우월한 쿨링 기술"
+      ]
+    },
+    "development_background": {
+      "statement": "쿨스컬프팅은 하버드 의대에서 개발된 장비입니다.",
+      "developers": "Cryolipolysis was developed by renowned Massachusetts General Hospital and Harvard Medical School scientists, Dr. Rox Anderson MD and Dieter Manstein MD, PhD",
+      "patents": "Allergan holds and licenses exclusive patents worldwide on fat removal through cryolipolysis®."
+    },
+    "principle_and_features": {
+      "title": "쿨스컬프팅 원리 및 특징",
+      "principle": "지방세포는 특정 온도에서 얼어 죽는 성질을 이용한 시술",
+      "features": [
+        "주변조직 손상 없이 지방세포를 얼려서 파괴하는 비침습적 시술",
+        "파괴된 지방세포는 자연스럽게 몸 밖으로 배출",
+        "원하는 부위만 선택적으로 시술 가능",
+        "시술 후 바로 일상생활 가능",
+        "FDA, KFDA 승인으로 안전성 입증"
+      ],
+      "key_points": [
+        "시술 시 통증 거의 없음",
+        "시술 후 흉터 없음",
+        "시술 후 바로 일상생활 가능"
+      ]
+    },
+    "comparison_with_other_treatments": {
+      "title": "쿨스컬프팅 VS 타 비만 시술/수술",
+      "table_headers": ["구분", "쿨스컬프팅", "지방흡입 시술", "주사요법", "지방분해 시술"],
+      "data": [
+        {
+          "category": "시술방법",
+          "coolsculpting": "냉동지방분해술",
+          "liposuction": "수술",
+          "injection_therapy": "주사",
+          "fat_dissolving_treatment": "고주파, 초음파"
+        },
+        {
+          "category": "통증 및 흉터",
+          "coolsculpting": "거의 없음",
+          "liposuction": "통증, 흉터",
+          "injection_therapy": "통증, 멍",
+          "fat_dissolving_treatment": "통증, 멍"
+        },
+        {
+          "category": "마취여부",
+          "coolsculpting": "불필요",
+          "liposuction": "수면마취, 전신마취",
+          "injection_therapy": "불필요",
+          "fat_dissolving_treatment": "불필요"
+        },
+        {
+          "category": "회복기간",
+          "coolsculpting": "바로 일상생활 복귀",
+          "liposuction": "1~2주",
+          "injection_therapy": "바로 일상생활 복귀",
+          "fat_dissolving_treatment": "바로 일상생활 복귀"
+        },
+        {
+          "category": "시술 후 관리",
+          "coolsculpting": "불필요",
+          "liposuction": "압박복 착용, 마사지",
+          "injection_therapy": "마사지",
+          "fat_dissolving_treatment": "마사지"
+        },
+        {
+          "category": "부작용",
+          "coolsculpting": "거의 없음",
+          "liposuction": "피부 울퉁불퉁, 감각이상",
+          "injection_therapy": "피부 괴사, 염증",
+          "fat_dissolving_treatment": "화상"
+        }
+      ]
+    },
+    "tanggle_advantages": {
+      "title": "탱글에서 쿨스컬프팅이 특별한 이유",
+      "why_effective_at_tanggle": {
+        "question": "탱글에서 쿨스컬프팅을 해야 효과적일까요?",
+        "reasons": [
+          "풍부한 시술 경험과 노하우",
+          "다양한 어플리케이터 보유",
+          "특정 부위별 맞춤 시술 가능",
+          "숙련된 의료진의 꼼꼼한 시술"
+        ]
+      },
+      "special_points": [
+        {
+          "heading": "01. 쿨스컬프팅 관련 논문 발표 및 학회 활동",
+          "description": "쿨스컬프팅 관련 논문 발표 및 학회 활동으로 끊임없이 연구하고 발전하는 탱글성형외과",
+          "journals_mentioned": ["Archives of Plastic Surgery", "Aesthetic Plastic Surgery"]
+        },
+        {
+          "heading": "02. 쿨스컬프팅 관련 국내외 키닥터 (Key Doctor)",
+          "description": "탱글성형외과는 쿨스컬프팅 국내외 키닥터로 활동하며 끊임없이 연구하고 발전합니다.",
+          "events_mentioned": ["2018 KCSPS", "2019 KCSPS", "2020 KCSPS", "2021 KCSPS", "2021 Allergan CoolSculpting User Summit"]
+        },
+        {
+          "heading": "03. 탱글의 쿨스컬프팅은 차별화된 노하우로 디테일한 시술로 만족도 높은 효과를 만들어냅니다.",
+          "sub_heading": "쿨스컬프팅 시술 과정 및 체내 변화"
+        }
+      ]
+    },
+    "applicator_information": {
+      "title": "쿨스컬프팅 어플리케이터와 적용부위",
+      "description": "쿨스컬프팅은 다양한 어플리케이터를 이용하여 부위별 맞춤 시술이 가능합니다. 원하는 부위와 쿨스컬프팅 어플리케이터를 부착하여 체형이 개선됩니다.",
+      "important_know_how": "시술 중 어플리케이터가 잘 유지되도록 포지션을 잡는 것이 아주 중요한 노하우입니다.",
+      "applicators": [
+        {
+          "name": "COOLPETITE Advantage™",
+          "application_areas": ["겨드랑이", "팔", "무릎", "허벅지 위쪽 주변"],
+          "description": "겨드랑이 지방을 감소시키는데 탁월한 효과가 있습니다. 겨드랑이를 포함한 팔, 무릎, 허벅지 위쪽 주변의 지방을 감소시키는데 효과적입니다."
+        },
+        {
+          "name": "COOLART Advantage™",
+          "application_areas": ["허벅지 안쪽"],
+          "description": "허벅지 안쪽의 지방을 감소시키는데 탁월한 효과가 있습니다. 허벅지 안쪽의 지방과 허벅지 사이의 틈을 만들 수 있습니다."
+        },
+        {
+          "name": "COOLCORE Advantage™",
+          "application_areas": ["복부 위쪽"],
+          "description": "복부 위쪽을 드려내는데 탁월한 효과가 있습니다. 복부 부위에 적합하며 슬림하고 탄력있는 복부를 만들 수 있습니다."
+        },
+        {
+          "name": "COOLCURVE+ Advantage™",
+          "application_areas": ["옆구리", "허벅지 바깥쪽"],
+          "description": "옆구리 혹은 허벅지 바깥쪽에 탁월한 효과가 있습니다. 옆구리나 허벅지 바깥쪽 부위에 적합한 어플리케이터입니다."
+        },
+        {
+          "name": "COOLMAX™",
+          "application_areas": ["복부", "옆구리", "팔", "남성 가슴"],
+          "description": "복부 넓은 면적의 지방을 감소시키는데 탁월한 효과가 있습니다. 어플리케이터 중 가장 크며 복부, 옆구리, 팔, 남성 가슴 등에 적용할 수 있습니다."
+        },
+        {
+          "name": "COOLADVANTAGE™ PLUS",
+          "application_areas": ["복부", "옆구리", "팔", "남성 가슴"],
+          "description": "복부 넓은 면적의 지방을 감소시키는데 탁월한 효과가 있습니다. 어플리케이터 중 가장 크며 복부, 옆구리, 팔, 남성 가슴 등에 적용할 수 있습니다."
+        },
+        {
+          "name": "COOLMINI™",
+          "application_areas": ["이중턱", "겨드랑이", "무릎"],
+          "description": "이중턱 지방을 감소시키는데 탁월한 효과가 있습니다. 어플리케이터 중 가장 작으며 이중턱, 겨드랑이, 무릎 등 작은 면적에 적용할 수 있습니다."
+        },
+        {
+          "name": "COOLSMOOTH PRO™",
+          "application_areas": ["허벅지 바깥 부위"],
+          "description": "무흡입 어플리케이터로 면적이 크고 지방을 감소시키는데 효과적입니다. 가장 큰 어플리케이터로 허벅지 바깥 부위에 많이 사용되는 어플리케이터입니다."
+        }
+      ],
+      "applicator_examples_by_area": [
+        {"area": "부유방", "applicator": "Cool mini"},
+        {"area": "복부", "applicator": "Advantage plus, Advantage"},
+        {"area": "옆구리", "applicator": "Cool Advantage"},
+        {"area": "이중턱", "applicator": "Cool mini"}
+      ]
+    },
+    "expected_effects": {
+      "title": "쿨스컬프팅 어떤 효과가 있을까요?",
+      "description": "탱글성형외과는 차별화된 기술력과 디테일한 수술로 만족도 높은 효과를 만들어냅니다.",
+      "effects": [
+        "사이즈 감소",
+        "비만세포 개선",
+        "지방을 두께 감소",
+        "자신감 회복",
+        "통증 거의 없음"
+      ]
+    }
+  }
+}

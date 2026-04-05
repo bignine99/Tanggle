@@ -1,0 +1,16 @@
+{
+  "video_id": "r4gOK-CcSr4",
+  "title": "내 몸이 보내는 변화의 신호",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/r4gOK-CcSr4",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:45:02"
+  },
+  "segments": [],
+  "full_text": "내 몸에서 보내는 변화의 신호\n팔 아래쪽 흔들림\n팔 거상\n가슴 처짐\n가슴 거상\n허리를 펴도 배가 툭\n복부 거상\n허벅지 살이 삐져나옴\n허벅지 거상\n변화가 필요할 때 땡글성형외과\n아디 거상인지 질문\n질문은 프로필 링크에서",
+  "char_count": 121
+}

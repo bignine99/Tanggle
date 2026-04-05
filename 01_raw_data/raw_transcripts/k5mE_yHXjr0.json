@@ -1,0 +1,16 @@
+{
+  "video_id": "k5mE_yHXjr0",
+  "title": "처진살 때문에 고민이라면!?",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/k5mE_yHXjr0",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:42:28"
+  },
+  "segments": [],
+  "full_text": "다 궁금한 게 있으신가요? 댓글로 남겨주시거나 프로필 링크를 확인해 주세요.",
+  "char_count": 42
+}

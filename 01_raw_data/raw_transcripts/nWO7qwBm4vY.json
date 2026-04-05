@@ -1,0 +1,16 @@
+{
+  "video_id": "nWO7qwBm4vY",
+  "title": "접힌 뱃살은 살빼는게 아니라 복부거상이 정답 #shorts",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/nWO7qwBm4vY",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T15:55:30"
+  },
+  "segments": [],
+  "full_text": "00:00-00:01\nI'm feeling lonely\n00:01-00:02\nI'm feeling lonely\n00:02-00:04\nOh, I wish I'd find a lover that could hold me\n00:04-00:06\nthat could hold me\n00:06-00:07\nAnd I'm crying in my room\n00:07-00:09\nAnd I'm crying in my room\n00:09-00:11\nSo scared they're gonna\n00:11-00:12\nSo scared they're gonna\n00:12-00:14\nBut still I want it more, more\n00:14-00:15\nmore, more",
+  "char_count": 365
+}

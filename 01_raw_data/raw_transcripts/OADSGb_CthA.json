@@ -1,0 +1,16 @@
+{
+  "video_id": "OADSGb_CthA",
+  "title": "탱탱하게 글램하게",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/OADSGb_CthA",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T15:00:47"
+  },
+  "segments": [],
+  "full_text": "네, 오디오에서 들리는 내용을 한국어로 그대로 텍스트로 옮겨드리겠습니다.\n\n```\n00:00 00:01 00:02 00:03 00:04 00:05 00:06 00:07 00:08\n```",
+  "char_count": 103
+}

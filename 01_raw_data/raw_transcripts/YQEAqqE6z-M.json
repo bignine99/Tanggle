@@ -1,0 +1,16 @@
+{
+  "video_id": "YQEAqqE6z-M",
+  "title": "처진 팔뚝살 팔거상 17일차 후기 #팔거상",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/YQEAqqE6z-M",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T15:45:14"
+  },
+  "segments": [],
+  "full_text": "00:00 아, 그래 이게 다이어트 할 쪽에 사실 이게 살이 쳐지는지 몰랐거든요. 모르고 했는데 다이어트를 했더니 이제 다 힘없이 늘어난다는 게 좀 스트레스를 많이 받더라고요. 와, 대박이네.",
+  "char_count": 107
+}

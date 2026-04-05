@@ -1,0 +1,214 @@
+{
+  "category": "리프팅",
+  "procedure_name": "엘라스티움 리프팅",
+  "summary": "강력한 탄성력과 리프팅 효과로 피부 탄력과 가득한 V라인을 완성합니다. 인체의 인대와 유사한 강도를 지닌 엘라스티움으로 얼굴의 주름과 피부 탄력을 개선할 수 있습니다. 녹지 않는 실로 오래가는 리프팅 효과를 기대할 수 있습니다.",
+  "surgery_info": {
+    "surgery_time": "30분~1시간 정도",
+    "anesthesia": "부분/수면마취",
+    "hospitalization": "불필요",
+    "stitch_removal": "7-14일",
+    "recovery_time": "바로 일상생활 가능"
+  },
+  "prologue": {
+    "title": "녹지 않는 실로 오래가는 리프팅 효과!",
+    "description": "엘라스티움은 실리콘에 폴리에스터가 그물처럼 엮인 형태로 탄성력이 높아 근육의 움직임에 따라 자유로운 리프팅이 가능한 실입니다. 인대조직과 비슷하고 조직이 안정적으로 결합하기 때문에 이물감이 적고 실제 인대와 같이 근육의 움직임과 탄성력을 살려 얼굴 움직임과 표정을 지을 때 자연스럽습니다. 시간이 지나면 탄성력을 감소하고 있는 폴리에스터가 재조직이 채워져 보다 안정적인 결과를 얻을 수 있습니다. 녹지 않는 비흡수성 실로 효과가 5년 이상 지속되며 염증이나 부작용이 발생했을 때 재거가 쉬운 장점이 있습니다."
+  },
+  "doctor_expertise": {
+    "faculty_member_recognition": {
+      "title": "2020 Elasticum Faculty Member 선정",
+      "doctor_name": "오창현 원장 (Dr. Chang-Hyun Oh)",
+      "affiliation": "BS THE BODY Plastic Surgery",
+      "recognition_date": "1st January 2020",
+      "description": "엘라스티움 얼굴 리프팅, 힙업 리프팅 관련 논문 발표, 다수의 학회 연자 발표와 많은 임상 경험을 인정 받아 TRM KOREA로부터 2020 Elasticum Faculty Member로 선정되었습니다."
+    },
+    "live_surgery_history": [
+      {
+        "date": "2016.07.16",
+        "title": "대구 탱글성형외과 최초 엘라스티움 라이브세미나 시연",
+        "description": "엘라스티움 LIVE SURGERY 시연"
+      },
+      {
+        "date": "2017.06.13",
+        "title": "엘라스티움 볼륨리프팅 세미나 LIVE SURGERY by MINEGU",
+        "description": "대구 구미지역 엘라스티움 볼륨리프팅 세미나 LIVE SURGERY"
+      },
+      {
+        "date": "2018.06.19",
+        "title": "대구 동성로점 논현성형 심포지엄",
+        "description": "대구 동성로점 엘라스티움 심포지엄 LIVE SURGERY"
+      }
+    ],
+    "case_report_and_presentations": [
+      {
+        "date": "2017.04.22",
+        "title": "대한성형외과학회 국제학술대회 초청연자발표",
+        "description": "엘라스티움 리프팅 관련 초청연자 발표"
+      },
+      {
+        "date": "2017.11.12",
+        "title": "대한미용성형외과학회 추계학술대회 엘라스티움 리프팅 관련 발표",
+        "description": "2017 PRS KOREA에서 엘라스티움 리프팅 관련 좌장으로 참여 및 강연 발표"
+      },
+      {
+        "date": "2018.04.07",
+        "title": "엘라스티움 공식 수입업체에서 CASE REPORT 발표",
+        "description": "엘라스티움 공식수입업체인 TRM KOREA에서 엘라스티움 리프팅 관련 CASE REPORT 작성 및 발표"
+      },
+      {
+        "date": "2018.04",
+        "title": "국내최초, 국내최대! 엘라스티움 리프팅 논문 발표",
+        "description": "A New Method for Facial Rejuvenation and Volume Lifting of Cheek by Elasticum: Non-incisional Elastium Lifting (얼굴 볼륨 리프팅에 대한 새로운 방법: 비절개 엘라스티움 리프팅)"
+      }
+    ]
+  },
+  "elasticum_details": {
+    "title": "엘라스티움의 구조와 특징",
+    "description": "실리콘 주위에 폴리에스터가 그물처럼 엮인 구조로 기존 실리프팅의 단점을 보완하여 인체 인대와 유사한 강도와 탄성력을 지닌 비흡수성 실입니다.",
+    "components": [
+      {
+        "name": "실리콘 (Silicone)",
+        "features": ["탄성력", "피부의 움직임에 따라 늘어남"]
+      },
+      {
+        "name": "폴리에스터 (Polyester)",
+        "features": ["조직 고정력", "부드러운 표면"]
+      }
+    ],
+    "advantages_by_component": [
+      {
+        "category": "편안함 (Comfortable)",
+        "features": ["주변 조직 손상 최소화", "강력한 고정력"]
+      },
+      {
+        "category": "우수한 핸들링 (Perfect handling)",
+        "features": ["시술 용이", "실의 끊어짐 현상 방지"]
+      }
+    ],
+    "usage_note": "얼굴 목 전용 엘라스티움 + 전용 니들 사용",
+    "needle_types": ["얼굴 전용 엘라스티움 전용 니들", "목 전용 엘라스티움 전용 니들"]
+  },
+  "elasticity_comparison": {
+    "title": "엘라스티움의 강한 탄성력",
+    "description": "엘라스티움은 다른 실에는 없는 높은 탄성력을 가지고 있습니다.",
+    "elasticum_thread": {
+      "name": "엘라스티움 (elastic thread)",
+      "feature": "탄성이 있어 당겨도 원래 길이까지 회복이 됩니다."
+    },
+    "other_threads": {
+      "name": "엘라스티움을 제외한 모든 실",
+      "feature": "탄성이 없습니다."
+    }
+  },
+  "face_lifting_methods": {
+    "title": "얼굴 리프팅",
+    "incisional_lifting": {
+      "name": "절개 얼굴 리프팅",
+      "description": "피부 절개 후 늘어진 피부를 당겨서 제거하는 방법",
+      "steps": [
+        "귀 앞쪽을 절개하여 늘어진 피부를 박리합니다.",
+        "피부와 근육층을 당겨서 고정합니다.",
+        "남는 피부를 절개하여 제거합니다."
+      ],
+      "pros": "강력한 리프팅 효과",
+      "cons": "흉터 발생 가능성, 긴 회복 기간"
+    },
+    "non_incisional_lifting": {
+      "name": "비절개 얼굴 리프팅",
+      "description": "피부 절개 없이 실을 이용하여 늘어진 피부를 당겨주는 방법",
+      "steps": [
+        "피부 절개 없이 실을 삽입할 부위를 디자인합니다.",
+        "디자인된 부위에 실을 삽입하여 늘어진 피부를 당겨줍니다.",
+        "실을 고정하여 리프팅 효과를 완성합니다."
+      ],
+      "pros": "흉터 걱정 없음, 짧은 회복 기간",
+      "cons": "절개 리프팅보다 효과가 약할 수 있음"
+    },
+    "why_non_incisional": {
+      "title": "Why? 비절개 얼굴 리프팅 어떤 분들에게 필요할까요?",
+      "target_audience": [
+        "흉터가 생길까봐 시술을 망설이는 경우",
+        "수술에 대한 부담감으로 망설이는 경우",
+        "짧은 회복 기간으로 일상생활 복귀를 원하는 경우",
+        "늘어진 턱선과 볼살로 고민하는 경우",
+        "전체적인 얼굴 라인 개선을 원하는 경우"
+      ]
+    },
+    "non_incisional_design": {
+      "title": "비절개 리프팅 디자인",
+      "description": "개개인의 얼굴형과 피부 처짐 정도에 따라 맞춤 디자인으로 진행됩니다.",
+      "designs": [
+        {
+          "name": "볼살 처짐",
+          "features": ["처진 볼살 개선", "V라인 효과"]
+        },
+        {
+          "name": "이중턱",
+          "features": ["이중턱 개선", "턱선 정리"]
+        },
+        {
+          "name": "전체적인 얼굴 처짐",
+          "features": ["얼굴 전체 리프팅", "탄력 개선"]
+        }
+      ]
+    }
+  },
+  "neck_lifting": {
+    "title": "목 리프팅",
+    "description": "목주름과 턱선 처짐을 개선하여 매끄러운 목 라인을 완성합니다.",
+    "why_neck_lifting": {
+      "title": "Why? 목 리프팅 어떤 분들에게 필요할까요?",
+      "target_audience": [
+        "목주름이 깊고 선명하게 보이는 경우",
+        "이중턱으로 목과 얼굴 경계가 불분명한 경우",
+        "목 피부가 늘어져 탄력이 없는 경우",
+        "지방흡입 후 피부가 처진 경우"
+      ]
+    },
+    "neck_lifting_design": {
+      "title": "목 리프팅 디자인",
+      "description": "개개인의 목주름과 피부 처짐 정도에 따라 맞춤 디자인으로 진행됩니다.",
+      "designs": [
+        {
+          "name": "목주름 개선",
+          "description": "목주름의 깊이와 방향을 고려하여 실을 삽입하여 주름을 개선하고 탄력을 높여줍니다."
+        },
+        {
+          "name": "이중턱 개선",
+          "description": "이중턱 부위에 실을 삽입하여 지방층을 당겨주고 턱선과 목 라인을 매끄럽게 정리합니다."
+        },
+        {
+          "name": "목 전체 리프팅",
+          "description": "목 전체의 피부 처짐과 주름을 개선하여 젊고 탄력 있는 목 라인을 완성합니다."
+        }
+      ]
+    }
+  },
+  "special_points": {
+    "title": "엘라스티움 리프팅이 특별한 이유?",
+    "points": [
+      {
+        "name": "특허받은 리프팅 실",
+        "description": "인체 인대와 유사한 강도와 탄성력을 지닌 특허받은 엘라스티움 실 사용"
+      },
+      {
+        "name": "자연스러운 볼륨감과 콜라겐 생성",
+        "description": "실리콘과 폴리에스터의 조합으로 자연스러운 볼륨감과 콜라겐 생성을 유도하여 피부 탄력 개선"
+      },
+      {
+        "name": "만족적인 유지력",
+        "description": "녹지 않는 비흡수성 실로 5년 이상 지속되는 만족스러운 리프팅 효과"
+      }
+    ]
+  },
+  "expected_effects": {
+    "title": "엘라스티움 리프팅 어떤 효과를 기대할 수 있나요?",
+    "effects": [
+      "처진 피부 개선",
+      "탄력 증진",
+      "주름 개선",
+      "V라인 효과",
+      "자연스러운 볼륨",
+      "만족스러운 결과"
+    ]
+  }
+}

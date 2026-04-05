@@ -1,0 +1,16 @@
+{
+  "video_id": "Vh1XFcGyX-k",
+  "title": "힙딥 골반 필러, 어떤 사람들이 찾을까? | 탱글성형외과의원 오창현 대표원장",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/Vh1XFcGyX-k",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:25:30"
+  },
+  "segments": [],
+  "full_text": "원장님, 힙딥 골반 필러는 어떤 분들이 찾으시는 거예요? 어, 힙딥 골반 필러는 기본적으로 골반 라인이 너무 빈약하고 엉덩이 외측이 많이 죽어 있는 분들이 시술을 받게 되는데, 어느 정도 살이 있는 분들은 그런 고민이 좀 덜하지만 대부분이 좀 마른 분들이 많이 이 시술을 찾게 되는데 마르신 분들이 많기 때문에 자가 지방 이식이 좀 불가능한 경우가 많지. 그래서 그 재료를 채우기 위해서는 지방이 부족하기 때문에 이제 필러를 주입해서 모양을 만들어 주는 거지.",
+  "char_count": 257
+}

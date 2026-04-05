@@ -1,0 +1,16 @@
+{
+  "video_id": "UUzotMVf1Lc",
+  "title": "15년차 성형외과 의사가 가장 중요하게 생각하는 것은? #압구정성형외과",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/UUzotMVf1Lc",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T15:00:33"
+  },
+  "segments": [],
+  "full_text": "여러분은 자신의 배를 다른 사람에게 거리낌 없이 보여주실 수 있으신가요? 성형외과적 특성상 자신의 가장 콤플렉스라고 생각하는 신체 부위를 보여주면서 상담하는 경우가 대부분인데요. 특히 저는 복부 거상(Abdominoplasty)을 전문으로 하기 때문에 환자분들이 내원하기까지 정말 많은 고민을 하셨을 거예요. 그만큼 큰 용기를 가지고 방문을 결정하신 환자를 앞에 두고 형식적인 상담만 잠깐 한 후에 진료실에서 내보내실 수가 있나요? 저는 절대 그렇게 못 합니다.",
+  "char_count": 258
+}

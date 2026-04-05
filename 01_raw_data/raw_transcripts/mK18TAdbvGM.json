@@ -1,0 +1,16 @@
+{
+  "video_id": "mK18TAdbvGM",
+  "title": "Is Symmetry the Answer for the Navel? Why Asymmetry Is Natural | Dr. Chang-Hyun Oh, Chief Directo...",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/mK18TAdbvGM",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:19:29"
+  },
+  "segments": [],
+  "full_text": "원장님, 복부 성형할 때 배꼽을 일부러 비대칭해서 만드세요?\n아니, 일부러 비대칭이라는 게 아니고 배꼽 모양을 너무 동그랗게 요렇게 구멍을 내서 봉합을 해버리면 너무 동그란 이 흔적이 남으니까 그 선을 자연스럽게 비대칭적인 느낌을 준다는 거지.\n오히려 비대칭일 때가 좀 더 배꼽 같았다고요.\n어, 그렇지. 이게 더 내 자연스러운 배꼽 같고 인위적이지 않은 느낌이 더 들게 되지.",
+  "char_count": 211
+}

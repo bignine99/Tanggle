@@ -1,0 +1,16 @@
+{
+  "video_id": "uM_tPllzs_E",
+  "title": "여름 바디프로필 필수템  | 모티바 #shorts",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/uM_tPllzs_E",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T16:06:11"
+  },
+  "segments": [],
+  "full_text": "00:00] 00:00:01:001 --> 00:00:01:451\n mommy found out that Mikey was gay.\n\n00:01] 00:00:02:611 --> 00:00:04:441\n Oh, that's so fun.\n\n00:02] 00:00:05:101 --> 00:00:07:281\n I gotta sleep and then we'll go.",
+  "char_count": 203
+}

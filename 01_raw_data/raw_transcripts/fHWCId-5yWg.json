@@ -1,0 +1,16 @@
+{
+  "video_id": "fHWCId-5yWg",
+  "title": "복부거상 재수술 하는 이유 #복부거상",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/fHWCId-5yWg",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T15:52:04"
+  },
+  "segments": [],
+  "full_text": "(singing)\nlike a star\nin the sky\nand I'm feeling lonely\nand I wish I could find another big hug from me\nthen I'm crying in my room\nso scared they all know\nbut still I want more, more, more\nI gave a second chance",
+  "char_count": 211
+}

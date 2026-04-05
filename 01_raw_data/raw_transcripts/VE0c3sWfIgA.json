@@ -1,0 +1,16 @@
+{
+  "video_id": "VE0c3sWfIgA",
+  "title": "흉터때문에 고민하지 마세요! #복부거상",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/VE0c3sWfIgA",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T15:11:22"
+  },
+  "segments": [],
+  "full_text": "00:00:00.740 --> 00:00:02.820\n네, 말씀하세요.\n\n00:00:02.820 --> 00:00:04.780\n음, 제가 좀 궁금해서요.\n\n00:00:04.780 --> 00:00:07.380\n얼굴 지방 이식은 얼마나 해야 효과가 있을까요?\n\n00:00:07.380 --> 00:00:11.480\n아, 얼굴 지방 이식은 보통 1차, 2차, 3차 이렇게 나눠서 진행하는데요.\n\n00:00:11.480 --> 00:00:15.360\n1차 때 보통 20cc에서 40cc 정도를 주입하게 됩니다.",
+  "char_count": 282
+}

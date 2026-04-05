@@ -1,0 +1,16 @@
+{
+  "video_id": "4LoWgkklTDA",
+  "title": "팔 거상하고 나서 흉터 티가 날까요? | 탱글성형외과의원 오창현 대표원장",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/4LoWgkklTDA",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:28:28"
+  },
+  "segments": [],
+  "full_text": "원장님, 팔 거상 수술. 이거 너무 걱정하시는 분들 많으신데, 많이 보이나요?\n일단은 팔을 내리고 있으면은 이 흉터는 겉으로 드러나지 않지. 팔 안쪽 라인으로 절개선이 형성이 되기 때문에 그런데. 수술한 지 얼마 안 됐을 때 반소매를 입고 팔을 든 상태가 되면은 안쪽에서 보일 수 있지만, 우리 병원에서 수술 받았던 분들의 이야기를 들어 보면은 처음에는 이 흉터가 불고 흉터의 양상이 좀 많이 눈에 띄는 게 신경이 쓰였지만 시간 갈수록 이런 흉터가 많이 옅어지면서 사실 크게 신경이 쓰이지 않는다고 이야기를 하지.",
+  "char_count": 287
+}

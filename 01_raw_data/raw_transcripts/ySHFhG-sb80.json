@@ -1,0 +1,16 @@
+{
+  "video_id": "ySHFhG-sb80",
+  "title": "가장 오래가는 자신감",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/ySHFhG-sb80",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:47:16"
+  },
+  "segments": [],
+  "full_text": "환자는",
+  "char_count": 3
+}

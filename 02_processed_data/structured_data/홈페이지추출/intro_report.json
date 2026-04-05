@@ -1,0 +1,15 @@
+{
+  "category": null,
+  "procedure_name": null,
+  "summary": null,
+  "surgery_info": {
+    "surgery_time": null,
+    "anesthesia": null,
+    "hospitalization": null,
+    "stitch_removal": null,
+    "recovery_time": null
+  },
+  "advantages": [],
+  "details": null,
+  "doctor_info": null
+}

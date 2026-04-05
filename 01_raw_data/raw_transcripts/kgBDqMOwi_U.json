@@ -1,0 +1,16 @@
+{
+  "video_id": "kgBDqMOwi_U",
+  "title": "위밴드 수술까지 했던 고도비만 처진살까지 완벽정리!! #복부거상",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/kgBDqMOwi_U",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T15:53:56"
+  },
+  "segments": [],
+  "full_text": "00:00 라이즈 라이즈",
+  "char_count": 13
+}

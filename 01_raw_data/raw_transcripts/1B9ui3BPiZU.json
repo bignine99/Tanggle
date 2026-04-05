@@ -1,0 +1,16 @@
+{
+  "video_id": "1B9ui3BPiZU",
+  "title": "지방흡입으로 비만이 해결될까요? #지방흡입 #복부지방흡입 #처진뱃살",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/1B9ui3BPiZU",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T15:35:26"
+  },
+  "segments": [],
+  "full_text": "지방 흡입을 한다고 해서 몸무게가 그렇게 많이 줄지는 않습니다. 복부 지방을 예를 들어서 한 5kg을 뺀다고 하더라도 내 몸에서 5kg이 빠지는 게 아니라 뭐 한 2kg, 3kg 변화가 있을까? 물리적으로는 그렇다는 소리죠. 그러면 그 자리에 또 부피가 생기기 때문에 몸무게 감소 효과는 크게 없거든요. 겉 껍데기가 얇아진다는 것이 속이 얇아지는 건 아니거든요.",
+  "char_count": 202
+}

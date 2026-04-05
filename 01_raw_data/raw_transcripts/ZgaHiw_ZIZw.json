@@ -1,0 +1,16 @@
+{
+  "video_id": "ZgaHiw_ZIZw",
+  "title": "이런 분들은 복직근이개입니다.",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/ZgaHiw_ZIZw",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T15:14:02"
+  },
+  "segments": [],
+  "full_text": "이 증상이라는 게 정도가 약한 분들도 있고 정도가 심한 분들도 있기 때문에 복직근 이개가 심하신 분들은 음식을 섭취하게 되면 금방 배가 불룩 튀어나온다든지, 앉아 있을 때 배에 힘을 풀면은 배가 불룩 튀어나온다든지 이런 증상들을 겪게 되는 거죠. 보통은 출산 후 6주 정도가 지나면 복직근이 원래 상태로 회복을 하게 되는데, 빠르게는 6주, 길게는 6개월 정도까지도 우리가 좀 지켜봐야 합니다. 근데 그 이후에도 볼록하게 튀어나 있는 배가 원래대로 돌아오지 않는다면은 그거는 이제 복직근 이개 증상을 가지고 있다고 말씀드릴 수가 있죠. 그런 경우에는 운동을 하거나 시기 조절을 한다고 해서 튀어나온 배가 개선되기는 상당히 어렵습니다.",
+  "char_count": 354
+}

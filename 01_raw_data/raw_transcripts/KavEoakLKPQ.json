@@ -1,0 +1,16 @@
+{
+  "video_id": "KavEoakLKPQ",
+  "title": "여름에 거상 수술 받아도 되나요?",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/KavEoakLKPQ",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:41:46"
+  },
+  "segments": [],
+  "full_text": "X. 사실 수술하고 나면은, 저희가 드레싱으로 이렇게 상처 부위를 다 커버해 드리기 때문에 땀이 조금 흐르는 정도는, 그런 드레싱으로 어느 정도 흡수가 되고요. 그다음에 뭐 여름에 수술하셨던 분들, 뭐 아니면 겨울에 수술을 하셨던 분들, 이런 분들의 상처 경과를 봐도 특별히 큰 차이가 나지는 않습니다. 그래서 그 부분을 너무 걱정 안 하셔도 될 것 같아요. 자세한 정보는 관련 영상을 보시거나 프로필 링크를 확인해 주세요. 더 궁금한 점 있으시면 댓글로 남겨주세요. 다음 영상 제작에 반영하도록 하겠습니다. 감사합니다.",
+  "char_count": 291
+}

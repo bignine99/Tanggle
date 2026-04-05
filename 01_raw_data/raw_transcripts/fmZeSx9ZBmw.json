@@ -1,0 +1,16 @@
+{
+  "video_id": "fmZeSx9ZBmw",
+  "title": "탱글🍊 고민 빅데이터 4가지",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/fmZeSx9ZBmw",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:42:00"
+  },
+  "segments": [],
+  "full_text": "병원에서 가장 많이 듣는 고민 네 가지.\n나이가 들면 피부 처짐.\n출산 후엔 가슴 처짐.\n다이어트 후엔 복부 처짐.\n고민 해결은\n탱글 바디성형.\n탱글하게 글래머하게 탱글성형외과외과.\n바디거상 시술, 진심.\n진심은 프로필 링크에서.",
+  "char_count": 128
+}

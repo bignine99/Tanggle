@@ -1,0 +1,16 @@
+{
+  "video_id": "HWBPo7tVpYg",
+  "title": "처진살 없애고 새로운 인생🍊",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/HWBPo7tVpYg",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:47:44"
+  },
+  "segments": [],
+  "full_text": "[00:00:00] 쿵\n[00:00:00] 쿵\n[00:00:01] 쿵\n[00:00:01] 쿵\n[00:00:01] 쿵\n[00:00:01] 쿵\n[00:00:02] 쿵\n[00:00:02] 쿵\n[00:00:03] 쿵\n[00:00:03] 쿵\n[00:00:03] 쿵\n[00:00:03] 쿵\n[00:00:04] 쿵\n[00:00:04] 쿵\n[00:00:04] 쿵\n[00:00:04] 쿵\n[00:00:05] 쿵\n[00:00:05] 쿵\n[00:00:06] 쿵",
+  "char_count": 246
+}

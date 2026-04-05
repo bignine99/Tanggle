@@ -1,0 +1,16 @@
+{
+  "video_id": "lhnfi4KAj_s",
+  "title": "처진 살에 진심입니다",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/lhnfi4KAj_s",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T15:01:14"
+  },
+  "segments": [],
+  "full_text": "00:00 Westside\n00:01 Westside\n00:02 Westside\n00:03 Westside\n00:04 Westside\n00:05 Westside\n00:06 Westside\n00:07 Westside\n00:08 Westside\n00:09\n00:10\n00:11\n00:12\n00:13",
+  "char_count": 164
+}

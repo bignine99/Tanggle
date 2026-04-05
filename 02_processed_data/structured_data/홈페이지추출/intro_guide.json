@@ -1,0 +1,46 @@
+{
+  "category": "병원 정보",
+  "page_title": "진료안내 및 오시는 길",
+  "summary": "탱글성형외과의 진료시간, 위치, 그리고 다양한 교통수단을 이용한 오시는 길 안내입니다.",
+  "clinic_hours": {
+    "title": "탱글성형외과 진료시간",
+    "weekdays": "AM 10:00 ~ PM 7:00",
+    "saturday": "AM 10:00 ~ PM 5:00",
+    "closed": "일요일, 공휴일 휴진"
+  },
+  "clinic_location": {
+    "subway_line": "3호선",
+    "subway_station": "압구정역",
+    "subway_exit": "3번 출구",
+    "walk_time": "도보 3분",
+    "address_road_name": "서울특별시 강남구 논현로 842 (압구정 빌딩 7F)",
+    "address_lot_number": "서울특별시 강남구 신사동 599 압구정 빌딩 7F"
+  },
+  "directions": {
+    "by_subway": {
+      "summary": "3호선 압구정역 3번출구에서 도보 3분 거리에 위치하고 있습니다.",
+      "steps": [
+        "압구정역 3번 출구로 나오셔서 바로 회전",
+        "150m 직진 (압구정 CGV 지나침)",
+        "압구정빌딩 도착 (올리브영 조금 지나면 정문이 보임)",
+        "압구정빌딩 통행 입구로 들어오셔서 7층으로 오세요."
+      ]
+    },
+    "by_bus": {
+      "trunk_bus": ["142", "145", "148", "240", "440", "641", "542"],
+      "branch_bus": ["4212", "4312"],
+      "express_bus": ["1100", "3030", "8001", "9202", "9404", "9409"],
+      "village_bus": ["강남08", "서초03"],
+      "airport_bus": ["6009"]
+    },
+    "by_car": {
+      "navigation_guidance": "내비게이션을 이용해주세요.",
+      "parking_info": {
+        "location": "건물 뒤 지하 주차장 입구가 있습니다.",
+        "free_parking": "상시 1시간 무료",
+        "additional_charge": "1시간 이후 10분마다 1,000원 추가",
+        "validation_required": "귀가 전 데스크에서 방문 확인 도장 받으시기 바랍니다."
+      }
+    }
+  }
+}

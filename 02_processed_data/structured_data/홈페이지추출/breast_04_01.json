@@ -1,0 +1,85 @@
+{
+  "category": "Nipple Reduction",
+  "procedure_name": "유두축소 (Nipple Reduction)",
+  "summary": "Find the beauty hidden in your chest! Make your breasts more beautiful with appropriately sized nipples. Nipple reduction can improve both aesthetics and functionality simultaneously by creating nipples that harmonize with the size and proportion of the breast.",
+  "prologue": {
+    "title": "Prologue",
+    "content": "If the nipple size is excessively large or protruded, functional problems may arise. Large and protruded nipples can cause pain due to friction with underwear, or stand out even when wearing underwear and clothes. It can also cause breast shape imbalance, acting as a significant complex for some people. Nipple reduction is a delicate surgery that requires applying a precise surgical method tailored to the nipple's shape and excess skin, so it is recommended to decide after sufficient consultation with an experienced specialist."
+  },
+  "surgery_info": {
+    "surgery_time": "30 minutes",
+    "anesthesia": "Sedation Anesthesia",
+    "hospitalization": "Not necessary",
+    "stitch_removal": "2 weeks later",
+    "visit_for_treatment": "2-3 times",
+    "recovery_period": "1-2 days later",
+    "note": "May vary depending on the patient's condition or surgical method."
+  },
+  "special_points": {
+    "title": "Why Tangle Plastic Surgery's Nipple Reduction is Special",
+    "description": "Check out why Tangle Plastic Surgery is special right now.",
+    "advantages": [
+      {
+        "id": "01",
+        "title": "Personalized Design and Surgical Method",
+        "description": "Through sufficient consultation, a customized design and surgical method are applied to suit the individual's condition."
+      },
+      {
+        "id": "02",
+        "title": "Minimal Sensory Loss, Minimal Damage to Milk Ducts",
+        "description": "Minimal sensory loss and milk duct damage with minimal incision and delicate surgery."
+      },
+      {
+        "id": "03",
+        "title": "Simultaneous Improvement of Aesthetics and Functionality",
+        "description": "Simultaneously improves the functional aspects and aesthetic beauty of the nipple."
+      }
+    ]
+  },
+  "ideal_size": {
+    "title": "Ideal Nipple/Areola",
+    "areola_diameter": "3.5-4.5cm (average)",
+    "nipple_diameter": "1cm (average)",
+    "nipple_height": "0.7-1cm (average)"
+  },
+  "target_audience": {
+    "title": "Who is Nipple Reduction effective for?",
+    "description": "Tangle Plastic Surgery's nipple reduction, find out if it applies to your condition.",
+    "cases": [
+      "If both nipples are asymmetrical",
+      "If nipples have enlarged due to pregnancy or childbirth",
+      "If nipples are abnormally protruded",
+      "If you want to improve your nipples to harmonize with your breasts"
+    ]
+  },
+  "how_it_is_done": {
+    "title": "How is Nipple Reduction surgery performed?",
+    "description": "Since the surgical method varies depending on the size and length of the nipple, as well as the texture of the nipple areola, it is important to choose a surgical method tailored to the individual.",
+    "methods": [
+      {
+        "type": "If the nipple width is wide",
+        "steps": ["Partial incision", "Suture"]
+      },
+      {
+        "type": "If the nipple length is long",
+        "steps": ["Divide nipple into three parts", "Incise middle part", "Suture"]
+      },
+      {
+        "type": "If breastfeeding is not necessary",
+        "description": "If the nipple is too long or wide, the nipple duct tissue and nipple are cut to reduce the nipple to the desired size and then sutured.",
+        "steps": ["Before surgery", "Incision", "Suture"]
+      }
+    ]
+  },
+  "effects": {
+    "title": "What are the effects of Nipple Reduction?",
+    "description": "With years of rich experience and technical expertise, detailed surgery creates highly satisfying results.",
+    "benefits": [
+      "Nipple shape that harmonizes with the breast",
+      "All can breastfeed",
+      "Increased confidence",
+      "Reduced inflammation",
+      "Fast recovery possible"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "video_id": "eXRYKMbdqMU",
+  "title": "바디거상의 모든것",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/eXRYKMbdqMU",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:46:16"
+  },
+  "segments": [],
+  "full_text": "아이고, 고생의 모든 것.\n수술 시간은\n3에서 5시간.\n다운타임은\n1주일.\n효과 지속 기간은\n아주 오래.\n수술 자국은\n잘 가려지는 위치.\n처진 살의 진심인 오창현 원장입니다.",
+  "char_count": 97
+}

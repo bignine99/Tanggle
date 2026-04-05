@@ -1,0 +1,16 @@
+{
+  "video_id": "WA2IR4A3hc8",
+  "title": "바디성형 후 탱글체조",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/WA2IR4A3hc8",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T15:00:19"
+  },
+  "segments": [],
+  "full_text": "이봐, 아이들이 어때?",
+  "char_count": 12
+}

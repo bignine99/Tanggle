@@ -1,0 +1,16 @@
+{
+  "video_id": "_gTMKbBf4Cw",
+  "title": "40분 누워있으면 영구적으로 빠지는 팔뚝살 시술 #통증없음",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/_gTMKbBf4Cw",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T15:38:53"
+  },
+  "segments": [],
+  "full_text": "I guess you wonder where I've been\nI searched to find a love within\nI came back to let you know\nGot a thing for you\nAnd I can't let go\nMy friends wonder what is wrong with me",
+  "char_count": 174
+}

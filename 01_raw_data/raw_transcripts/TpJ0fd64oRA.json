@@ -1,0 +1,16 @@
+{
+  "video_id": "TpJ0fd64oRA",
+  "title": "처진살에 진심인 탱글🍊",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/TpJ0fd64oRA",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:58:56"
+  },
+  "segments": [],
+  "full_text": "00:00:01.230 --> 00:00:02.530\nWest side\n\n00:00:02.530 --> 00:00:04.990\nCome through the west side\n\n00:00:04.990 --> 00:00:07.450\nCome up on the west side\n\n00:00:07.450 --> 00:00:08.190\nYeah\n\n00:00:11.470 --> 00:00:12.030\nWest side",
+  "char_count": 230
+}

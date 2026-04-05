@@ -1,0 +1,16 @@
+{
+  "video_id": "qJCAdD9AfOw",
+  "title": "출산 후 복부만 안들어가는데 복부거상으로 해결이 될까? | 탱글성형외과의원 오창현 대표원장",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/qJCAdD9AfOw",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:29:41"
+  },
+  "segments": [],
+  "full_text": "출산 후에 복근만 유도가 안 들어가는 데 복부 거상으로 해결이 되나요? 아, 당연히 해결이 되죠. 이게 출산을 하시고 나면은 복직근이 벌어져서 수축되지 않고 늘어진 상태가 유지되기 때문에 이 상태에서는 내부 장기가 배를 쭉 밀고 있는 형상을 띄게 되는데 이런 경우에는 복부 거상을 통해서 복직근 교정을 하면은 충분히 배를 평평하게 만들 수 있다고 알고 있으면 될 거 같은데.",
+  "char_count": 209
+}

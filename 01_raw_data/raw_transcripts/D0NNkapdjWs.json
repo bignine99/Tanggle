@@ -1,0 +1,16 @@
+{
+  "video_id": "D0NNkapdjWs",
+  "title": "쌍둥이 출산 후 복부거상",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/D0NNkapdjWs",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:42:14"
+  },
+  "segments": [],
+  "full_text": "원장님 원장님. 어. 제 친한 지인이 쌍둥이 출산 후에 복부가 예전 같지 않다고 고민이신데. 운동해도 안 돌아온다고 해요. 거상 수술이 도움 될까요? 아, 지금 밥 먹으려고 하는데. 금방 이야기해 줄게. 어. 복부 거상 하면은 지금 고민하는 부분은 싹 다 해결할 수 있는지. 운동해도 안 돌아오는 배. 처진 거는 잘라내야 되고. 근육이 벌어져서 다시 들어가지 않는 건 이제 근육을 묶어서. 복부 거상을 통해서 이런 걸 다 해결해 줄 수 있지. 더 궁금한 게 있으신가요? 댓글로 남겨주시거나 프로필 링크를 확인해 주세요.",
+  "char_count": 290
+}

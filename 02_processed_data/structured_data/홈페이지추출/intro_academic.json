@@ -1,0 +1,93 @@
+{
+  "category": "병원 정보 및 의료진 이력",
+  "procedure_name": "탱글성형외과 및 오창현 원장 이력",
+  "summary": "탱글성형외과는 정품 엘라스티꿈 최우수 의료기관으로 2024년과 2025년에 연속 선정되었으며, 오창현 대표원장은 서울대학교병원 분당서울대학교병원 성형외과 자문의이자 더채움 필러의 Key Opinion Leader입니다. 다양한 국내외 학회에서 활발한 강연 및 발표 활동을 펼치고 있으며, 냉동지방분해술(CoolSculpting) 관련 논문을 게재하는 등 폭넓은 전문성을 인정받고 있습니다.",
+  "clinic_achievements": [
+    {
+      "year": "2025",
+      "award": "정품 엘라스티꿈 최우수 의료기관 선정",
+      "details": "Elastium CENTER OF EXCELLENCE"
+    },
+    {
+      "year": "2024",
+      "award": "정품 엘라스티꿈 최우수 의료기관 선정",
+      "details": "Elastium CENTER OF EXCELLENCE"
+    }
+  ],
+  "doctor_info": {
+    "name": "오창현",
+    "title": "대표원장, 성형외과 전문의",
+    "credentials": [
+      {
+        "type": "자문의",
+        "organization": "서울대학교병원 분당서울대학교병원",
+        "department": "성형외과"
+      },
+      {
+        "type": "Key Opinion Leader",
+        "organization": "THE CHAEUM"
+      }
+    ],
+    "lectures_presentations": [
+      {
+        "date": "2023-08-25",
+        "event": "강연/안내",
+        "topic": "더채움 필러 SHAPE10을 활용한 다양한 임상 노하우",
+        "time": "AM 09:00 ~ 10:00"
+      },
+      {
+        "date": "2023-04-01 ~ 2023-04-02",
+        "event": "AESTHETIC PLASTIC SURGERY 2023 (APS 2023)",
+        "location": "GRAND INTERCONTINENTAL SEOUL PARNAS, KOREA",
+        "topic": "TANG:GLE Plastic Surgery Clinic (탱글 성형외과) 대표로 발표"
+      },
+      {
+        "event": "MAIN (Meeting of coolsculpting Advantage In the combiNation treatment with Body surgery)",
+        "organization": "Allergan Aesthetics",
+        "topic": "CoolSculpting 및 바디 수술 병합 치료의 장점"
+      },
+      {
+        "event": "대한성형외과의사회 행사",
+        "topic": "발표"
+      },
+      {
+        "date": "2021-11-12 ~ 2021-11-14",
+        "event": "PRS KOREA 2021 (Virtual Conference)",
+        "topic": "발표"
+      },
+      {
+        "date": "2021-11-27",
+        "event": "KOREA CoolSculpting User Summit 2021",
+        "location": "소피텔 앰배서더 서울, 바스티유 룸 (3F)",
+        "topic": "CoolSculpting Treatment: Sculpting Female Abdomen CoolAdvantage (BS The Body Plastic Surgery Clinic 소속으로 발표)"
+      },
+      {
+        "date": "2021-03-20",
+        "event": "Cooltip Expert Meeting",
+        "organization": "coolsculpting, Allergan Aesthetics",
+        "location": "용산 드래곤시티, 백두 2+3+4F",
+        "topic": "전문가 회의 참여"
+      },
+      {
+        "event": "Seoul Breast Meeting 2020 (SBM) 7",
+        "theme": "My Techniques in Body Contouring",
+        "topic": "Liposuction on lower extremity using superwet technique (BS The Body Plastic Surgery Clinic 소속으로 발표)"
+      },
+      {
+        "date": "2019-11-08 ~ 2019-11-10",
+        "event": "PRS KOREA 2019",
+        "location": "Grand Intercontinental Seoul Parnas, Seoul, Korea",
+        "topic": "발표"
+      }
+    ],
+    "publications": [
+      {
+        "date": "2020-01-15",
+        "title": "Clinical application of cryolipolysis in Asian patients for subcutaneous fat reduction and body contouring",
+        "authors": ["Chang Hyun Oh", "Jeong Su Shim", "Kwang Il Bae", "Jae Ho Chang"],
+        "journal": "Arch Plast Surg.",
+        "volume_issue_pages": "2020;47(1):62-69."
+      }
+    ]
+  }
+}

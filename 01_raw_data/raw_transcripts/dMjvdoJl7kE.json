@@ -1,0 +1,16 @@
+{
+  "video_id": "dMjvdoJl7kE",
+  "title": "제왕절개로 인해 몇겹이나 접히는 복부 #복부거상으로 매끈하게 변신가능?!",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/dMjvdoJl7kE",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T15:47:04"
+  },
+  "segments": [],
+  "full_text": "I love you and me dancing in the moonlight nobody can see it's just you and me tonight I love you and me dancing in the moonlight nobody can see it's just you and me tonight",
+  "char_count": 173
+}

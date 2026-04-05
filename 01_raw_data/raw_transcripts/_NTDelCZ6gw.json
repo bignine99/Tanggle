@@ -1,0 +1,16 @@
+{
+  "video_id": "_NTDelCZ6gw",
+  "title": "남성여유증 집에서 체크해보세요 #남성여유증 #여유증 #여유증수술",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/_NTDelCZ6gw",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T15:37:22"
+  },
+  "segments": [],
+  "full_text": "요즘엔 기준이 있습니다. 유륜만 뽕긋하게 튀어나온 경우, 그럴 때는 이제 사이먼 등급이라는 등급으로 1단계가 되고요. 그다음에 2단계는 가슴이 전체적으로 돌출감이 있는 경우, 그럴 때는 2단계 중에 2A 단계가 됩니다. 그 단계에서 가슴 아래쪽에 요렇게 밑주름처럼 요렇게 형성되면서 살짝 처짐이 있는 경우는 2B가 되고요. 그보다 더 심하게 처진 경우는 3단계가 되거든요. 요즘 모양에 따라서 이렇게 구별할 수 있는데, 이게 유선인지 아닌지는 초음파 검사를 통해서 정확하게 판단을 할 수가 있습니다.",
+  "char_count": 279
+}

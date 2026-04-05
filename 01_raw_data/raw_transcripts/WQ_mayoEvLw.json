@@ -1,0 +1,16 @@
+{
+  "video_id": "WQ_mayoEvLw",
+  "title": "의사가 아버지가 되는 순간",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/WQ_mayoEvLw",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:47:03"
+  },
+  "segments": [],
+  "full_text": "일단 계속해서 보도록 하죠.",
+  "char_count": 15
+}

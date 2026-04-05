@@ -1,0 +1,16 @@
+{
+  "video_id": "_NQ9E3BHFUo",
+  "title": "처진 살의 진실 4가지",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/_NQ9E3BHFUo",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:45:16"
+  },
+  "segments": [],
+  "full_text": "이거 안 열어봤는데.",
+  "char_count": 11
+}

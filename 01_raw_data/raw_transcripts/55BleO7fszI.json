@@ -1,0 +1,16 @@
+{
+  "video_id": "55BleO7fszI",
+  "title": "다이어트 후 처진살이 고민이라면 !  #복부거상 #shorts",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/55BleO7fszI",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T15:53:43"
+  },
+  "segments": [],
+  "full_text": "Call them too spicy for your home\nWe fire, burn\nDrunkenly burn and grow up\nToo spicy\nBurn in a small cage\nFrom that moment\nAnother day dawned",
+  "char_count": 141
+}

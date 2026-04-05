@@ -1,0 +1,16 @@
+{
+  "video_id": "qcFgd4srf4g",
+  "title": "임신 계획과 복부거상술",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/qcFgd4srf4g",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:43:14"
+  },
+  "segments": [],
+  "full_text": "00:00:00.000 --> 00:00:09.000\n어 임신 계획이 명확하게 정해져 있으시다면은 거상 수술은 출산을 하시고 나서 하시기를 권해드립니다.\n\n00:00:10.000 --> 00:00:22.000\n왜냐하면은 거상 후에 또 임신을 하셨을 때는 배가 다시 쳐질 수가 있거든요. 그래서 그런 정확한 가족 계획이 있으시다면은 그 가족 계획을 다 끝내시고 나서 마지막에 수술 받는 걸 권해드립니다.\n\n00:00:23.000 --> 00:00:27.000\n더 궁금한 게 있으신가요? 댓글로 남겨주시거나 프로필 링크를 확인해 주세요.",
+  "char_count": 298
+}

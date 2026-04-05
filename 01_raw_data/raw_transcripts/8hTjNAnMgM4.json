@@ -1,0 +1,16 @@
+{
+  "video_id": "8hTjNAnMgM4",
+  "title": "처진 가슴을 운동으로 해결을 한다고?! 과연?",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/8hTjNAnMgM4",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T15:02:48"
+  },
+  "segments": [],
+  "full_text": "운동으로 가슴 처짐을 개선할 수는 없죠. 그건 불가능한 일이고 다른 부위에 처짐은 좀 개선이 될 수가 있어요. 예를 들면 팔이 좀 처지면 근육이 좀 커지면 이 늘어진 피부를 안에서 볼륨이 이렇게 만들어지면 좀 커버할 수 있는데 근육이 커지는 것만으로 이 늘어진 피부를 받쳐주는 건 한계가 있거든요. 그리고 가슴은 또 조금 더 무거운 조직이기도 하고 볼륨이 크기 때문에 운동으로 처짐을 개선할 수는 없다고 보시면 됩니다. 그래서 결국 가슴 처짐을 개선할 수 있는 유일한 방법은 가슴 거상술이 나는 거.",
+  "char_count": 279
+}

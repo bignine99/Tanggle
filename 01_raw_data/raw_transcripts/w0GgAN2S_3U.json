@@ -1,0 +1,16 @@
+{
+  "video_id": "w0GgAN2S_3U",
+  "title": "처지고 가죽처럼 늘어난 팔뚝살 거상! #shorts",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/w0GgAN2S_3U",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T15:54:09"
+  },
+  "segments": [],
+  "full_text": "(음악)",
+  "char_count": 4
+}

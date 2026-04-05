@@ -1,0 +1,16 @@
+{
+  "video_id": "qnoLHsD6IK0",
+  "title": "한국 성형, 세계적으로 유명한 이유 | 탱글성형외과의원 오창현 대표원장",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/qnoLHsD6IK0",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T14:20:27"
+  },
+  "segments": [],
+  "full_text": "한국 성형 제일 유명하잖아요. 왜 유명해진 거예요? 한국 성형외과 의사들이 그만큼 치열하게 공부하고 연구하면서 수술에 적용을 하면서 많은 케이스를 하다 보니까 그렇게 실력이 많이 업그레이드 되었다고 나는 생각을 하거든. 보통 아시아를 비교하더라도 30년 전, 40년 전 이럴 때는 한국 성형외과 의사들이 일본 성형외과 의사들한테 가서 성형수술을 배웠었거든. 이제 한국하고 일본은 상황이 완전히 역전돼 버렸지. 그래서 일본에서도 성형수술을 잘 받고 싶어 하는 분들은 일부러 한국까지 찾아오는 시대가 됐지.",
+  "char_count": 281
+}

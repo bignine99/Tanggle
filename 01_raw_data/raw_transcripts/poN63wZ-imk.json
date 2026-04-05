@@ -1,0 +1,16 @@
+{
+  "video_id": "poN63wZ-imk",
+  "title": "#복부거상 처진살 .. 다시는 못볼줄 알았던 잘록한 허리 꿈만 같아요😭 #복부거상술",
+  "duration_seconds": 0,
+  "category": "쇼츠",
+  "youtube_url": "https://www.youtube.com/shorts/poN63wZ-imk",
+  "extraction": {
+    "method": "gemini_api",
+    "method_detail": "gemini_flash",
+    "success": true,
+    "timestamp": "2026-04-05T15:45:27"
+  },
+  "segments": [],
+  "full_text": "00:00:00.000 --> 00:00:09.500\n00:00:00.000 --> 00:00:09.500",
+  "char_count": 59
+}
