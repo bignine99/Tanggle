@@ -2,12 +2,74 @@
 
 import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { MessageCircle, X, Send, User, Sparkles, ChevronDown } from "lucide-react";
+import { MessageCircle, X, Send, User, Sparkles, ChevronDown, Play } from "lucide-react";
 
 type Message = {
   role: "user" | "model";
   content: string;
 };
+
+// YouTube Video Card Component - Premium Design
+function YouTubeCard({ videoId }: { videoId: string }) {
+  const [showEmbed, setShowEmbed] = useState(false);
+  const thumbUrl = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
+
+  if (showEmbed) {
+    return (
+      <motion.div
+        initial={{ opacity: 0, scale: 0.95 }}
+        animate={{ opacity: 1, scale: 1 }}
+        className="ml-11 mt-1 mb-2 w-[75%] rounded-xl overflow-hidden border border-tanggle-gold/30 shadow-[0_4px_20px_-4px_rgba(201,172,122,0.25)]"
+      >
+        <div className="relative w-full aspect-video bg-black">
+          <iframe
+            className="absolute top-0 left-0 w-full h-full"
+            src={`https://www.youtube.com/embed/${videoId}?rel=0&autoplay=1`}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
+      </motion.div>
+    );
+  }
+
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 8 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.2 }}
+      className="ml-11 mt-1 mb-2 w-[75%]"
+    >
+      <button
+        onClick={() => setShowEmbed(true)}
+        className="group relative w-full rounded-xl overflow-hidden border border-tanggle-gold/30 shadow-[0_4px_20px_-4px_rgba(201,172,122,0.2)] hover:border-tanggle-gold/60 transition-all hover:shadow-[0_4px_24px_-4px_rgba(201,172,122,0.35)]"
+      >
+        {/* Thumbnail */}
+        <div className="relative w-full aspect-video bg-tanggle-charcoal">
+          <img
+            src={thumbUrl}
+            alt="영상 미리보기"
+            className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity"
+          />
+          {/* Gradient overlay */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20" />
+          {/* Play button */}
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="w-14 h-14 rounded-full bg-tanggle-gold/90 flex items-center justify-center shadow-[0_0_30px_rgba(201,172,122,0.5)] group-hover:scale-110 transition-transform backdrop-blur-sm">
+              <Play className="w-6 h-6 text-tanggle-charcoal ml-0.5" fill="currentColor" />
+            </div>
+          </div>
+          {/* Label */}
+          <div className="absolute bottom-2 left-3 flex items-center gap-1.5">
+            <div className="px-2 py-0.5 rounded-md bg-tanggle-gold/90 text-[10px] font-bold text-tanggle-charcoal tracking-wide">
+              ▶ 원장님 직강 영상
+            </div>
+          </div>
+        </div>
+      </button>
+    </motion.div>
+  );
+}
 
 export default function ChatFAB() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,6 +77,13 @@ export default function ChatFAB() {
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
+
+  // Global toggle for Chatbot Activation
+  const isEnabled = process.env.NEXT_PUBLIC_ENABLE_CHAT !== "false";
+
+  if (!isEnabled) {
+    return null;
+  }
 
   const getGreeting = () => {
     const hour = new Date().getHours();
@@ -69,7 +138,10 @@ export default function ChatFAB() {
         body: JSON.stringify({ messages: [...messages, { role: "user", content: query }] })
       });
 
-      if (!response.ok) throw new Error("Network error");
+      if (!response.ok) {
+        const errText = await response.text().catch(() => "Unknown error");
+        throw new Error(`서버 오류 (${response.status}): ${errText}`);
+      }
 
       const reader = response.body?.getReader();
       const decoder = new TextDecoder();
@@ -85,7 +157,6 @@ export default function ChatFAB() {
           setMessages(prev => {
             const newMessages = [...prev];
             const lastIndex = newMessages.length - 1;
-            // Create a new object to avoid mutating the previous state directly
             newMessages[lastIndex] = {
               ...newMessages[lastIndex],
               content: newMessages[lastIndex].content + chunk
@@ -96,7 +167,7 @@ export default function ChatFAB() {
       }
     } catch (error) {
       console.error(error);
-      setMessages(prev => [...prev, { role: "model", content: "죄송합니다. 지식 검색 중 일시적인 오류가 발생했습니다. 나중에 다시 시도해주세요." }]);
+      setMessages(prev => [...prev, { role: "model", content: "죄송합니다. 일시적인 오류가 발생했습니다.\n\n빠른 상담을 원하시면 02-542-8427로 연락해 주세요. 확인 후 다시 시도해 주셔도 됩니다." }]);
     } finally {
       setIsLoading(false);
     }
@@ -105,6 +176,28 @@ export default function ChatFAB() {
   const handleSend = (e?: React.FormEvent) => {
     if (e) e.preventDefault();
     submitQuery(input);
+  };
+
+  // Helper: parse message content
+  const parseMessage = (content: string) => {
+    const parts = content.split(/예상 질문:|추천 질문:|다음 질문:/);
+    const rawMain = parts[0].trim().replace(/\*/g, '');
+    const questionsStr = parts.length > 1 ? parts[1] : null;
+    const suggestions = questionsStr
+      ? questionsStr
+          .split('\n')
+          .map(l => l.trim())
+          .filter(l => l.length > 0)
+          .slice(0, 3)
+          .map(l => l.replace(/^[0-9]+\.\s*/, '').replace(/^[-*•]\s*/, '').replace(/\[|\]/g, '').trim())
+      : [];
+
+    // Extract [YOUTUBE:videoId]
+    const ytMatch = rawMain.match(/\[YOUTUBE:([a-zA-Z0-9_-]+)\]/);
+    const videoId = ytMatch ? ytMatch[1] : null;
+    const cleanText = rawMain.replace(/\[YOUTUBE:[a-zA-Z0-9_-]+\]/g, '').trim();
+
+    return { cleanText, videoId, suggestions };
   };
 
   return (
@@ -163,17 +256,9 @@ export default function ChatFAB() {
             <div className="flex-1 overflow-y-auto p-5 scroll-smooth">
               <div className="space-y-6">
                 {messages.map((msg, idx) => {
-                  // Sometimes the AI uses different prefixes or none, so we handle a few variants
-                  const parts = msg.content.split(/예상 질문:|추천 질문:|다음 질문:/);
-                  const mainText = parts[0].trim().replace(/\*/g, '');
-                  const questionsStr = parts.length > 1 ? parts[1] : null;
-                  const suggestions = questionsStr 
-                    ? questionsStr.split('\n')
-                        .map(l => l.trim())
-                        .filter(l => l.length > 0)
-                        .slice(0, 3)
-                        .map(l => l.replace(/^[0-9]+\.\s*/, '').replace(/^[-*•]\s*/, '').replace(/\[|\]/g, '').trim()) 
-                    : [];
+                  const isLastMsg = idx === messages.length - 1;
+                  const isStreaming = isLastMsg && isLoading && msg.role === "model";
+                  const { cleanText, videoId, suggestions } = parseMessage(msg.content);
 
                   return (
                     <motion.div 
@@ -194,11 +279,16 @@ export default function ChatFAB() {
                             ? "bg-tanggle-charcoal text-white rounded-2xl rounded-tr-sm" 
                             : "bg-white/80 border border-tanggle-charcoal/10 rounded-2xl rounded-tl-sm text-tanggle-charcoal"
                         }`}>
-                          {mainText}
+                          {cleanText}
                         </div>
                       </div>
+
+                      {/* YouTube Video Card - only show after streaming completes */}
+                      {videoId && msg.role === "model" && !isStreaming && (
+                        <YouTubeCard videoId={videoId} />
+                      )}
                       
-                      {suggestions.length > 0 && msg.role === "model" && (
+                      {suggestions.length > 0 && msg.role === "model" && !isStreaming && (
                         <div className="ml-11 mt-1 mb-2 flex flex-col gap-2 max-w-[80%]">
                           <div className="text-[12px] font-bold text-tanggle-gold flex items-center gap-1.5 ml-1">
                             <Sparkles className="w-3 h-3" />
