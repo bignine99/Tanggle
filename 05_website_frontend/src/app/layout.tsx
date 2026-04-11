@@ -4,6 +4,7 @@ import Script from "next/script";
 import GlobalNav from "@/components/layout/GlobalNav";
 import ChatFAB from "@/components/chat/ChatFAB";
 import CommandPalette from "@/components/ui/CommandPalette";
+import InAppBrowserRedirect from "@/components/layout/InAppBrowserRedirect";
 import "./globals.css";
 
 const outfit = Outfit({
@@ -41,6 +42,7 @@ export default function RootLayout({
         {children}
         <ChatFAB />
         <CommandPalette />
+        <InAppBrowserRedirect />
         
         {/* Google Translate Integration hidden container */}
         <div id="google_translate_element" style={{ display: "none" }}></div>
