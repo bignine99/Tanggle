@@ -7,6 +7,9 @@ const LANGUAGES = [
   { code: "ko", label: "한국어" },
   { code: "en", label: "English" },
   { code: "zh-CN", label: "中文" },
+  { code: "ja", label: "日本語" },
+  { code: "ar", label: "العربية" },
+  { code: "th", label: "ไทย" },
   { code: "ru", label: "Русский" },
   { code: "vi", label: "Tiếng Việt" }
 ];

@@ -11,7 +11,7 @@ export default function QnaAccordion({ qnaList }: { qnaList: QnAPair[] }) {
   return (
     <div className="bg-white rounded-lg border border-neutral-100 p-8 shadow-sm">
       <h3 className="text-2xl font-bold text-neutral-900 mb-8 border-b border-neutral-100 pb-4">
-        오창현 원장이 답하는 <span className="text-primary-500">핵심 Q&A</span>
+        이수현 원장이 답하는 <span className="text-primary-500">핵심 Q&A</span>
       </h3>
       
       <div className="space-y-4">
@@ -50,3 +50,4 @@ export default function QnaAccordion({ qnaList }: { qnaList: QnAPair[] }) {
     </div>
   );
 }
+

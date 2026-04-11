@@ -1,7 +1,7 @@
 {
   "category": "지방이식",
   "procedure_name": "PRP 미세지방이식",
-  "clinic_name": "탱글성형외과",
+  "clinic_name": "AURA Clinic",
   "summary": "꺼진 부위에 볼륨을 주어 라인까지 살린 동안 얼굴을 만듭니다. 자가지방과 자가혈액을 활용하여 얼굴의 꺼진 부위를 채워 볼륨 있고 입체적인 얼굴라인을 만들 수 있습니다.",
   "surgery_info": {
     "surgery_time": "30분~1시간",
@@ -18,8 +18,8 @@
     "description_right": "지방이 과다한 부위에서 지방을 채취하고 자신의 혈액에서 혈소판을 고농도로 응축되어 있는 혈장인 PRP를 분리하여, 함께 주입하는 방법입니다. 혈소판에 포함되어 있는 성장인자의 영향으로 지방세포가 활성화되어 생착률이 높아지고 진피층의 콜라겐, 탄력 섬유가 증가되어 볼륨 있는 얼굴을 오랫동안 유지할 수 있습니다. 또한 부가적으로 피부 재생의 효과도 볼 수 있습니다."
   },
   "special_points": {
-    "title": "탱글성형외과 PRP 미세지방이식이 특별한 이유",
-    "description": "탱글성형외과만의 특별함이 지금 바로 확인해보세요.",
+    "title": "AURA Clinic PRP 미세지방이식이 특별한 이유",
+    "description": "AURA Clinic만의 특별함이 지금 바로 확인해보세요.",
     "advantages": [
       {
         "number": "01",
@@ -58,7 +58,7 @@
   },
   "target_audience": {
     "title": "PRP 미세지방이식 어떤 분들에게 효과적일까요?",
-    "description": "탱글성형외과의 PRP미세지방이식, 당신의 증상에 해당하는지 알아보세요.",
+    "description": "AURA Clinic의 PRP미세지방이식, 당신의 증상에 해당하는지 알아보세요.",
     "who_is_it_for": [
       "볼륨 없고 밋밋한 얼굴에 볼륨을 원하는 경우",
       "보형물 없이 얼굴의 볼륨감을 살리고 싶은 경우",
@@ -69,7 +69,7 @@
   },
   "treatable_areas": {
     "title": "PRP 미세지방이식 어떤 부위에 효과적일까요?",
-    "description": "탱글성형외과의 PRP미세지방이식, 시술 가능 부위에 대해 알아봅니다.",
+    "description": "AURA Clinic의 PRP미세지방이식, 시술 가능 부위에 대해 알아봅니다.",
     "areas": [
       "이마",
       "앞광대",
@@ -117,9 +117,9 @@
   },
   "effects": {
     "title": "PRP 미세지방이식 어떤 효과가 있을까요?",
-    "description": "탱글성형외과의 PRP미세지방이식으로 얻을 수 있는 효과를 알아보세요.",
+    "description": "AURA Clinic의 PRP미세지방이식으로 얻을 수 있는 효과를 알아보세요.",
     "benefits": [
-      "탱글한 볼륨감 상승",
+      "AURA한 볼륨감 상승",
       "동안 얼굴 완성",
       "피부 재생",
       "주름 개선"

@@ -1,6 +1,6 @@
 {
   "category": "필러 (Filler)",
-  "procedure_name": "TANG:GLE 필러 (TANG:GLE Filler)",
+  "procedure_name": "AURA Clinic 필러 (AURA Clinic Filler)",
   "summary": "꺼진 부위를 빠르고 간편하게 채워주어 얼굴의 볼륨감을 즉각적으로 개선할 수 있습니다. (Quickly and easily fills sunken areas to immediately improve facial volume.)",
   "surgery_info": {
     "surgery_time": "10분 이내 (Within 10 minutes)",
@@ -17,7 +17,7 @@
     "content": "꺼진 부위로 볼륨이 없거나 주름진 부위를 채워주고 얼굴의 볼륨감을 살릴 수 있는 시술방법입니다. 일반적인 히알루론산 필러를 많이 사용하며, 시술 후 거의 티가 나지 않아 바로 일상생활이 가능합니다. 시술 결과가 마음에 들지 않을 때는 녹여서 수정 및 제거가 가능합니다. 필러 시술 시 알맞은 깊이의 피부층에 정량을 주입하는 것이 만족스러운 결과를 얻기 위한 요인입니다. (It is a procedure that can fill sunken or wrinkled areas and restore facial volume. General hyaluronic acid fillers are often used, and daily life is immediately possible with almost no visible signs after the procedure. If the results are not satisfactory, it can be dissolved, modified, and removed. Injecting the correct amount into the appropriate skin layer during filler treatment is a key factor for satisfactory results.)"
   },
   "special_points": {
-    "title": "탱글성형외과 필러가 특별한 이유? (Why Tangle Plastic Surgery's filler is special?)",
+    "title": "AURA Clinic 필러가 특별한 이유? (Why Tangle Plastic Surgery's filler is special?)",
     "points": [
       {
         "number": "01",
@@ -61,7 +61,7 @@
     ]
   },
   "filler_types": {
-    "title": "탱글성형외과 필러, 어떤 종류가 있을까요? (Tangle Plastic Surgery Filler, what types are there?)",
+    "title": "AURA Clinic 필러, 어떤 종류가 있을까요? (Tangle Plastic Surgery Filler, what types are there?)",
     "types": [
       {
         "name": "쥬비덤 (Juvederm)",
@@ -91,7 +91,7 @@
   },
   "procedure_how": {
     "title": "시술은 어떻게 이루어질까요? (How is the procedure performed?)",
-    "description": "탱글성형외과 필러 시술은 고객의 얼굴형과 피부 상태를 고려하여 맞춤 디자인으로 진행됩니다. (Tangle Plastic Surgery's filler procedure is customized considering the client's face shape and skin condition.)",
+    "description": "AURA Clinic 필러 시술은 고객의 얼굴형과 피부 상태를 고려하여 맞춤 디자인으로 진행됩니다. (Tangle Plastic Surgery's filler procedure is customized considering the client's face shape and skin condition.)",
     "steps": [
       {
         "number": "01",
@@ -123,7 +123,7 @@
         ]
       },
       "tangle_procedure": {
-        "title": "탱글성형외과 필러 시술 (Tangle Plastic Surgery Filler Procedure)",
+        "title": "AURA Clinic 필러 시술 (Tangle Plastic Surgery Filler Procedure)",
         "points": [
           "끝이 뭉툭한 캐뉼라를 사용하여 혈관 손상 및 멍 발생을 최소화합니다. (Uses a blunt-tipped cannula to minimize blood vessel damage and bruising.)",
           "주사 부위가 좁아 통증이 적고 안전하게 시술이 가능합니다. (The narrow injection area reduces pain and allows for safe treatment.)"
@@ -133,7 +133,7 @@
   },
   "effects": {
     "title": "필러, 어떤 효과가 있을까요? (Filler, what effects can it have?)",
-    "description": "탱글성형외과 필러 시술은 다양한 효과를 기대할 수 있습니다. (Tangle Plastic Surgery's filler procedure can expect various effects.)",
+    "description": "AURA Clinic 필러 시술은 다양한 효과를 기대할 수 있습니다. (Tangle Plastic Surgery's filler procedure can expect various effects.)",
     "list": [
       "자연스러운 볼륨감 (Natural volume)",
       "입체적인 동안 얼굴 (Three-dimensional youthful face)",

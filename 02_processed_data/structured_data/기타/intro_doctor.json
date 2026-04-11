@@ -1,11 +1,11 @@
 {
   "category": "병원 정보",
   "page_title": "의료진 소개",
-  "summary": "실력과 인성, 그리고 노하우까지 탱글성형외과 의료진을 소개합니다.",
+  "summary": "실력과 인성, 그리고 노하우까지 AURA Clinic 의료진을 소개합니다.",
   "medical_staff": [
     {
       "type": "Specialist Doctor",
-      "name_korean": "오창현",
+      "name_korean": "이수현",
       "name_english": "Changhyun Oh",
       "position": "대표원장",
       "specialty": "성형외과 전문의",
@@ -31,12 +31,12 @@
           "Rio National Hospital(BRA)"
         ],
         "symposium_info": {
-          "section_title": "TANG:GLE SYMPOSIUM",
-          "activity_title": "오창현 대표원장의 학술활동",
+          "section_title": "AURA Clinic SYMPOSIUM",
+          "activity_title": "이수현 대표원장의 학술활동",
           "description": "만족스러운 결과를 위해 끊임없이 연구합니다",
           "link_text": "학술활동 더 자세히 보기"
         },
-        "visual_evidence_description": "수술, 강연, 학회 참여, 연구 발표 등 오창현 대표원장의 다양한 학술 활동 및 전문성을 보여주는 이미지들."
+        "visual_evidence_description": "수술, 강연, 학회 참여, 연구 발표 등 이수현 대표원장의 다양한 학술 활동 및 전문성을 보여주는 이미지들."
       }
     },
     {

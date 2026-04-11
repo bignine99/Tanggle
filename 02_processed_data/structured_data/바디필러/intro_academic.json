@@ -1,7 +1,7 @@
 {
   "category": "병원 정보 및 의료진 이력",
-  "procedure_name": "탱글성형외과 및 오창현 원장 이력",
-  "summary": "탱글성형외과는 정품 엘라스티꿈 최우수 의료기관으로 2024년과 2025년에 연속 선정되었으며, 오창현 대표원장은 서울대학교병원 분당서울대학교병원 성형외과 자문의이자 더채움 필러의 Key Opinion Leader입니다. 다양한 국내외 학회에서 활발한 강연 및 발표 활동을 펼치고 있으며, 냉동지방분해술(CoolSculpting) 관련 논문을 게재하는 등 폭넓은 전문성을 인정받고 있습니다.",
+  "procedure_name": "AURA Clinic 및 이수현 원장 이력",
+  "summary": "AURA Clinic는 정품 엘라스티꿈 최우수 의료기관으로 2024년과 2025년에 연속 선정되었으며, 이수현 대표원장은 서울대학교병원 분당서울대학교병원 성형외과 자문의이자 더채움 필러의 Key Opinion Leader입니다. 다양한 국내외 학회에서 활발한 강연 및 발표 활동을 펼치고 있으며, 냉동지방분해술(CoolSculpting) 관련 논문을 게재하는 등 폭넓은 전문성을 인정받고 있습니다.",
   "clinic_achievements": [
     {
       "year": "2025",
@@ -15,7 +15,7 @@
     }
   ],
   "doctor_info": {
-    "name": "오창현",
+    "name": "이수현",
     "title": "대표원장, 성형외과 전문의",
     "credentials": [
       {
@@ -39,7 +39,7 @@
         "date": "2023-04-01 ~ 2023-04-02",
         "event": "AESTHETIC PLASTIC SURGERY 2023 (APS 2023)",
         "location": "GRAND INTERCONTINENTAL SEOUL PARNAS, KOREA",
-        "topic": "TANG:GLE Plastic Surgery Clinic (탱글 성형외과) 대표로 발표"
+        "topic": "AURA Clinic Plastic Surgery Clinic (AURA Clinic) 대표로 발표"
       },
       {
         "event": "MAIN (Meeting of coolsculpting Advantage In the combiNation treatment with Body surgery)",

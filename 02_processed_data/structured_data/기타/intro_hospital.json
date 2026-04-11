@@ -1,7 +1,7 @@
 {
   "category": "Hospital Information",
-  "procedure_name": "TANG:GLE Plastic Surgery Introduction",
-  "summary": "TANG:GLE Plastic Surgery aims to help individuals rediscover their beautiful selves, offering personalized care from consultation to post-operative follow-up, with a commitment to continuous research and minimal scarring.",
+  "procedure_name": "AURA Clinic Plastic Surgery Introduction",
+  "summary": "AURA Clinic Plastic Surgery aims to help individuals rediscover their beautiful selves, offering personalized care from consultation to post-operative follow-up, with a commitment to continuous research and minimal scarring.",
   "doctor_info": {
     "name": "Oh Chang Hyun",
     "title": "Chief Director, Plastic Surgeon",
@@ -35,7 +35,7 @@
       {
         "type": "Lecture/Presentation",
         "title": "Various clinical know-how using THE CHAEUM filler SHAPE10",
-        "event": "TANG:GLE SYMPOSIUM",
+        "event": "AURA Clinic SYMPOSIUM",
         "date": "2023-08-25",
         "time": "09:00-10:00",
         "speaker": "Oh Chang Hyun, Chief Director, Plastic Surgeon"
@@ -135,6 +135,6 @@
       "title": "We directly consult, diagnose, perform surgery, and check the prognosis.",
       "description": "You spend a lot of time worrying and then come to a plastic surgery clinic. Consulting, diagnosing, finding a surgical method, designing, performing surgery, and checking the progress – all these processes are part of creating the best results, and not a single one is unimportant. We directly check all processes meticulously, carefully, and accurately to create good results."
     },
-    "clinic_commitment": "For highly complete results and the best medical service, TANG:GLE Plastic Surgery will always strive tirelessly with sincerity."
+    "clinic_commitment": "For highly complete results and the best medical service, AURA Clinic Plastic Surgery will always strive tirelessly with sincerity."
   }
 }

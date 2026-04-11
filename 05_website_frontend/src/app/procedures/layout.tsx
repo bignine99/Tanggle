@@ -2,9 +2,25 @@ import Link from "next/link";
 import { getCategories } from "@/lib/dataFetcher";
 import { ReactNode } from "react";
 
+const enMap: Record<string, string> = {
+  '얼굴거상': 'Face Lifting',
+  '이마거상': 'Forehead Lifting',
+  '목거상': 'Neck Lifting',
+  '가슴거상': 'Breast Lifting',
+  '팔거상': 'Arm Lifting',
+  '복부거상': 'Tummy Tuck',
+  '허벅지거상': 'Thigh Lifting',
+  '동안성형': 'Anti-Aging',
+  '엉덩이성형': 'Hip-Up',
+  '지방흡입': 'Liposuction',
+  '바디필러': 'Body Filler',
+  '남성여유증': 'Gynecomastia',
+  '기타': 'Others'
+};
+
 export const metadata = {
-  title: "탱글성형외과 | 맞춤 시술 안내",
-  description: "당신의 아름다움을 위한 완벽한 솔루션, 탱글성형외과의 시술 정보입니다.",
+  title: "Aura Clinic | 맞춤 시술 안내",
+  description: "당신의 아름다움을 위한 완벽한 솔루션, Aura Clinic의 시술 정보입니다.",
 };
 
 export default function ProceduresLayout({ children }: { children: ReactNode }) {
@@ -31,7 +47,7 @@ export default function ProceduresLayout({ children }: { children: ReactNode }) 
             당신의 가치를 높이는 <strong className="font-semibold text-neutral-950">시술 솔루션</strong>
           </h1>
           <p className="text-neutral-500 max-w-2xl mt-2 leading-relaxed">
-            오창현 대표원장의 독보적인 기술력과 끊임없는 연구를 바탕으로, 가장 안전하고 이상적인 결과를 약속드립니다. 모든 데이터는 탱글성형외과의 자체 지식 기반으로 작성되었습니다.
+            오창현 대표원장의 독보적인 기술력과 끊임없는 연구를 바탕으로, 가장 안전하고 이상적인 결과를 약속드립니다. 모든 데이터는 Aura Clinic의 자체 지식 기반으로 작성되었습니다.
           </p>
         </div>
       </section>
@@ -65,7 +81,10 @@ export default function ProceduresLayout({ children }: { children: ReactNode }) 
                         href={`/procedures/${encodeURIComponent(cat)}`}
                         className="group flex items-center justify-between px-4 py-1.5 rounded-md text-[13px] font-medium tracking-wide text-neutral-600 hover:text-neutral-900 hover:bg-neutral-50 transition-all"
                       >
-                        {cat}
+                        <span className="flex items-baseline gap-1">
+                          {cat}
+                          {enMap[cat] && <span className="text-[10px] text-neutral-400 font-normal tracking-tight">({enMap[cat]})</span>}
+                        </span>
                       </Link>
                   </li>
               ))}
@@ -84,7 +103,10 @@ export default function ProceduresLayout({ children }: { children: ReactNode }) 
                         href={`/procedures/${encodeURIComponent(cat)}`}
                         className="group flex items-center justify-between px-4 py-1.5 rounded-md text-[13px] font-medium tracking-wide text-neutral-600 hover:text-neutral-900 hover:bg-neutral-50 transition-all"
                       >
-                        {cat}
+                        <span className="flex items-baseline gap-1">
+                          {cat}
+                          {enMap[cat] && <span className="text-[10px] text-neutral-400 font-normal tracking-tight">({enMap[cat]})</span>}
+                        </span>
                       </Link>
                   </li>
               ))}
@@ -100,3 +122,4 @@ export default function ProceduresLayout({ children }: { children: ReactNode }) 
     </div>
   );
 }
+

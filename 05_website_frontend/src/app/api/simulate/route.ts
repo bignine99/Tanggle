@@ -5,103 +5,215 @@ const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY || "" });
 
 const PROCEDURE_DETAILS: Record<string, string> = {
   '얼굴거상': `
-    [핵심 목적: 늘어진 살 제거 및 슬림하고 세련된 V라인 리프팅]
-    - [얼굴라인/윤곽(가장 중요)]: 하안면부의 늘어진 살(불독살, 심부볼, 이중턱)을 완전히 제거하세요. 피부를 위로 끌어당겨 뼈에 밀착시키고, 둔탁한 턱선을 '아주 갸름하고 날렵한 V라인'으로 만드세요. 얼굴 폭이 아주 살짝 슬림해지는 효과.
-    - [피부/주름]: 절대 볼륨을 무리하게 채우지 마세요. 팔자주름과 입가 주름을 당겨서 팽팽하게 펴주세요.
-    - [이마/눈썹/눈]: 자연스럽게 유지.
-    - [입/입술]: 두께나 색상(립스틱) 절대 변경 금지. 입꼬리 처짐만 개선.
+    SURGICAL PROCEDURE: Maximum Facial Rhytidectomy (Face Lift) & Neck Lift
+    
+    BEFORE STATE:
+    - Sagging jowls along the jawline
+    - Deep nasolabial folds (smile lines) and marionette lines
+    
+    AFTER STATE:
+    - MAXIMUM ANATOMICAL LIFT: The jawline contour is radically sharp, defined, and firm (V-line)
+    - COMPLETE ELIMINATION: Jowls and excess skin along the jaw and neck are completely removed
+    - COMPLETE ELIMINATION: Nasolabial folds are completely erased
+    - Face appears lifted to the anatomical maximum and overall width is radically slimmer
+    
+    PHOTO CONSISTENCY:
+    - Same face identity, eyes, forehead, head size, clothing, and background
   `,
   '동안성형': `
-    [핵심 목적: 자연스럽고 생기 있는 얼굴 볼륨 회복(Fat Graft) 및 맑은 아기 피부]
-    - [얼굴라인/윤곽(가장 중요)]: ⚠️절대 얼굴 양옆 가로 폭을 통통하게 부풀리지 마세요⚠️. 얼굴의 바깥쪽 윤곽은 그대로 두되, 꺼진 '앞광대'와 '앞볼' 부위에만 필러를 맞은 듯 생기 있는 둥근 입체감을 살짝 채워주세요. 슬림한 달걀형 유지.
-    - [눈/입술]: 다크서클과 눈밑 꺼짐을 매끄럽게 채우고 애교살을 살짝만 도톰하게 하여 어려 보이게 하세요. 입술은 두께를 1.1배 정도만 아주 살짝 도톰하고 주름 없이 팽팽하게 만드세요(립스틱 추가 금지).
-    - [피부]: 피부톤을 밝히고, 모공과 잔주름 없이 반짝이는 윤광이 도는 20대의 맑고 팽팽한 텍스처로 완벽히 교체하세요.
+    SURGICAL PROCEDURE: Anti-Aging Mid-Face Rejuvenation (Fat Grafting)
+    
+    BEFORE STATE:
+    - Flat or slightly hollow cheeks and under-eye area
+    
+    AFTER STATE:
+    - Subtle, youthful plumpness (volume) restored to the anterior cheeks (apple zone)
+    - Hollows and dark circles under the eyes are smoothly filled
+    - Skin texture is visibly smoother, brighter, and youthful
+    - Lips are subtly plumper by 10% without altering shape
+    
+    PHOTO CONSISTENCY:
+    - Same face width, jawline shape, pose, and background
   `,
   '이마거상': `
-    [핵심 목적: 상안면부 노화 완전 해결 및 눈썹/이마 위치 상향]
-    - [이마/눈썹(가장 중요)]: 이마 주름을 다림질하듯 다 펴고, 눈썹의 위치를 기존보다 1~2cm 확실하게 위로 끌어올리세요.
-    - [눈]: 무겁게 덮인 윗눈꺼풀 처진 살을 완전히 없애고 눈 주변 시야를 시원하게 오픈하여 눈 크기를 1.5배 키우세요.
-    - [얼굴라인/윤곽/피부]: 하안면부 턱선이나 볼의 형태는 건드리지 말고 오직 눈 위 상안면부만 드라마틱하게 젊고 생기있게 만드세요.
+    SURGICAL PROCEDURE: Maximum Forehead Lift (Brow Lift)
+    
+    BEFORE STATE:
+    - Drooping eyebrows and heavy upper eyelids
+    - Forehead wrinkles present
+    
+    AFTER STATE:
+    - MAXIMUM ANATOMICAL LIFT: Eyebrows are elevated to the extreme anatomical limit
+    - Upper eyelids are stretched tight, making eyes appear drastically larger and refreshed
+    - COMPLETE ELIMINATION: Forehead skin is completely smooth with all wrinkles annihilated
+    
+    PHOTO CONSISTENCY:
+    - Lower face, cheeks, jawline, and background maintained
   `,
   '가슴거상': `
-    [핵심 목적: 처진 가슴의 강력한 상향 이동 및 탄력 복원]
-    - [위치/형태]: 중력의 영향으로 늘어지고 처진 가슴 전체를 위로 강력하게 끌어올리세요. 하수(처짐) 현상을 100% 제거하고 젊고 탄탄한 원추형(Cone) 형태로 복원하세요.
-    - [유두/유륜]: 아래로 처진 유두의 위치를 가슴 정중앙 높은 곳으로 확연하게 상향 이동시키세요.
-    - [볼륨감]: 퍼진 조직을 중앙으로 강력하게 모아, 보형물을 넣은 것처럼 윗가슴에 터질 듯 꽉 찬 볼륨을 묘사하세요.
+    SURGICAL PROCEDURE: Mastopexy (Breast Lift)
+    
+    BEFORE STATE:
+    - Breasts show ptosis (sagging) and downward pointing nipples
+    
+    AFTER STATE:
+    - Breast tissue is lifted to a higher, more youthful position on the chest wall
+    - Upper pole fullness is restored (rounder shape)
+    - Areola/nipple position is elevated and centered
+    - Background fills the space where sagging tissue was removed
+    
+    PHOTO CONSISTENCY:
+    - Same face, pose, and clothing maintained
   `,
   '팔거상': `
-    [핵심 목적: 소매살(처진 살) 직각 절제 및 탄탄한 일자 팔 라인]
-    - [윤곽/두께]: 어깨부터 팔꿈치 아래로 펄럭이듯 축 처진 살(소매살)과 과도한 지방을 칼로 도려내듯 100% 물리적으로 완전히 절제하세요.
-    - [탄력/밀착]: 피부 가죽이 상완 삼두근에 완전히 타이트하게 달라붙은 것처럼 매우 얇고 슬림한 일자(Straight) 팔 라인을 형성하세요.
+    SURGICAL PROCEDURE: Radical Brachioplasty (Arm Lift)
+    
+    BEFORE STATE (current photo):
+    - Upper arm has excess loose skin hanging from the tricep area
+    - The arm silhouette shows a convex bulge on the underside between shoulder and elbow
+    - Skin appears soft and drooping when arm is raised
+    
+    AFTER STATE (generate this):
+    - RADICAL VOLUME REDUCTION: The underside of the upper arm is shaved flat tightly to the bone/muscle
+    - Upper arm circumference reduced by 50% or more (Maximum Transformation)
+    - A clean, drastically straight linear contour from shoulder to elbow
+    - Skin is taut, smooth, and adheres directly to the underlying muscle
+    - Where excess skin/fat was removed, the background (wall, space behind arm) 
+      is now visible and must be seamlessly reconstructed
+    
+    PHOTO CONSISTENCY:
+    - Same face, same lighting, same pose, same clothing
+    - Only the upper arm shape radically changes
   `,
   '복부거상': `
-    [핵심 목적: 늘어진 심한 앞치마 뱃살 완전 절제 및 초슬림 복부 조각]
-    - [복부/피부(가장 중요)]: 하복부(배꼽 아래)로 흘러내리듯 겹치고 처진 두꺼운 피부 가죽(앞치마 살)과 뱃살을 100% 잘라내어 "피부 자체를 무조건 삭제"하세요. 복부가 등가죽에 붙은 것처럼 극도로 납작하고 단단해진 배를 연출하세요.
-    - [튼살/잡티]: 하복부와 옆구리를 덮고 있는 모든 튼살(Stretch marks)과 셀룰라이트, 흉터를 지우개로 지우듯 한 점도 남김없이 지워 도자기처럼 매끄러운 살결로 만드세요.
-    - [옆구리/허리선]: 양쪽 옆구리(러브핸들) 살을 깊게 파내어 그림 같은 S라인(모래시계형) 허리를 강력하게 묘사하세요. 화면상 좌우 가로 폭이 확연히 줄어들어야 합니다.
-    - [배꼽]: 가로로 길게 처지거나 찌그러진 배꼽을 상단으로 이동시키고, 작고 매끈한 세로형 11자 배꼽으로 완전히 성형하세요.
+    SURGICAL PROCEDURE: Radical Abdominoplasty (Tummy Tuck)
+    
+    BEFORE STATE:
+    - Lower abdomen has protruding and sagging fatty tissue
+    - Waistline lacks definition
+    
+    AFTER STATE:
+    - RADICAL VOLUME REDUCTION: Abdomen is aggressively flattened, reduced by 50% or more in projection
+    - MAXIMUM TRANSFORMATION: Waist-to-hip ratio is radically cinched into an extreme hourglass silhouette
+    - Skin is extremely smooth with no stretch marks visible
+    - Background seamlessly fills the enormous space where abdominal volume was removed
+    
+    PHOTO CONSISTENCY:
+    - Same face, pose, and clothing maintained
   `,
   '허벅지거상': `
-    [핵심 목적: 허벅지 맞닿는 살 완전 제거 및 극강의 11자 다리]
-    - [윤곽/부피]: 사타구니부터 무릎까지 허벅지 안팎으로 늘어지고 겹쳐진 두꺼운 살을 극단적으로 잘라내세요.
-    - [실루엣]: 양 허벅지 사이의 간격(Thigh gap)이 아주 넓어지도록 허벅지 가로 폭을 대폭 축소하여, 다리가 두 배는 더 길고 가늘어 보이는 일자(11자) 하체 실루엣을 제공하세요.
+    SURGICAL PROCEDURE: Radical Thigh Lift (Thighplasty)
+    
+    BEFORE STATE:
+    - Inner thighs have excess skin and fat
+    - Thighs touch at the inner surface when standing
+    
+    AFTER STATE:
+    - RADICAL VOLUME REDUCTION: Inner thigh volume reduced by 50% or more
+    - A massive, highly visible gap exists between the inner thighs
+    - Smooth, extremely tight skin contour from groin to knee
+    - Floor/background is vividly visible through the newly created thigh gap
+    
+    PHOTO CONSISTENCY:
+    - Same face, pose, and clothing maintained
   `,
   '엉덩이성형': `
-    [핵심 목적: 중력을 거스르는 거대한 애플힙 업]
-    - [모양/위치]: 아래로 처진 엉덩이 밑선과 지방을 허리 쪽으로 아주 강력하게 끌어당겨 올리세요.
-    - [볼륨]: 골반과 둔부에 극강의 빵빵한 부피감을 주입하여 터질듯한 서양인 스타일의 둥근 애플힙을 묘사하세요.
+    SURGICAL PROCEDURE: Gluteal Augmentation & Lift
+    
+    BEFORE STATE:
+    - Flat or sagging buttocks profile
+    
+    AFTER STATE:
+    - Gluteal fold is lifted higher
+    - Buttocks have significantly increased projection and rounded volume (apple hip)
+    
+    PHOTO CONSISTENCY:
+    - Same face, pose, and clothing maintained
   `,
   '지방흡입': `
-    [핵심 목적: 뼈대에 가죽만 남긴 듯한 극단적 슬림]
-    - [윤곽]: 사진의 피사체가 가진 해당 부위(복부, 팔, 다리 등)의 지방(Fat)을 95% 이상 덜어내어, 가장 이상적이고 뼈에 밀착된 극단적인 마른 체형으로 가로 폭을 축소하세요.
+    SURGICAL PROCEDURE: Radical Liposuction (Body Contouring)
+    
+    BEFORE STATE:
+    - Target body area shows excess adipose tissue and bulky contour
+    
+    AFTER STATE:
+    - RADICAL VOLUME REDUCTION: Circumference of the target area is reduced by 50% or more
+    - Silhouette is remarkably leaner, radically altering the body shape
+    - Background is vividly restored where massive volume was extracted
+    
+    PHOTO CONSISTENCY:
+    - Same face, pose, and clothing maintained
   `,
   '바디필러': `
-    [핵심 목적: 힙딥(Hip-dip) 제거 및 완벽한 바디 곡선]
-    - [볼륨]: 골반 바깥쪽 패인 곳이나 가슴, 엉덩이 등의 볼륨이 꺼진 곳을 풍선처럼 팽창시켜 굴곡 없이 매우 부드럽고 관능적인 바디 라인을 렌더링하세요.
+    SURGICAL PROCEDURE: Body Contouring Fillers (Hip/Breast)
+    
+    BEFORE STATE:
+    - Depressions (like hip dips) or flattened curves
+    
+    AFTER STATE:
+    - Hollow areas are seamlessly inflated creating a very smooth, voluptuous curve
+    
+    PHOTO CONSISTENCY:
+    - Same face, pose, and clothing maintained
   `,
   '남성여유증': `
-    [핵심 목적: 남성 가슴의 완전한 평탄화 및 복근 윤곽]
-    - [가슴]: 여성처럼 봉긋하게 솟아오른 유선 조직과 지방을 가차 없이 깎아내어 바닥처럼 평평하고 단단하게 만드세요.
-    - [근육]: 깎아낸 부위에 남성 특유의 단단한 반원 형태의 가슴 근육(대흉근) 라인을 은은하게 조각하세요.
+    SURGICAL PROCEDURE: Gynecomastia Correction
+    
+    BEFORE STATE:
+    - Male chest shows pronounced, gland-like protrusion
+    
+    AFTER STATE:
+    - Chest is completely flat against the chest wall
+    - Pectoral muscle lines are subtly defined
+    - Background is inpainted perfectly where chest volume was reduced
+    
+    PHOTO CONSISTENCY:
+    - Same face, pose, and clothing maintained
   `
 };
 
 export async function POST(req: Request) {
   try {
+    // We will extract details locally so the frontend doesn't need to change
     const { imageBase64, procedure } = await req.json();
 
     if (!imageBase64 || !procedure) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
     }
 
-    const model = "gemini-2.5-flash-image";
-    const specificInstruction = PROCEDURE_DETAILS[procedure] || "";
+    // 1. Extract Base64 Data & Mime Type from the data URL sent by the frontend
+    let base64Data = imageBase64;
+    let mimeType = "image/jpeg";
     
-    const prompt = `당신은 할리우드 영화의 특수분장 마스터이자 세계 최고의 성형외과 권위자입니다. 
-    사용자가 "${procedure}" 시술을 받은 후의 결과를 **충격적일 정도로 드라마틱하고 확실하게** 시뮬레이션해야 합니다.
+    if (imageBase64.includes(",")) {
+      base64Data = imageBase64.split(",")[1];
+      try {
+        mimeType = imageBase64.split(";")[0].split(":")[1] || "image/jpeg";
+      } catch (e) {
+        mimeType = "image/jpeg";
+      }
+    }
 
-    **⚠️ 경고: 원본 이미지와 거의 똑같거나 조명만 밝아지는 결과는 절대 금지입니다. ⚠️**
-    **사용자가 이미지를 보자마자 "와, 완전히 다른 사람이 됐네!"라고 느낄 수 있을 만큼 구조적인 변화를 주어야 합니다.**
+    const details = PROCEDURE_DETAILS[procedure] || "";
 
-    시술 핵심 가이드라인:
-    ${specificInstruction}
+    // 2. Apply the 'Clinical Prompt' proven to work in AI Studio
+    const prompt = `
+      You are a Medical Visualization Expert. 
+      TASK: Clinical Reconstruction and Maximum Simulation of ${procedure}.
+      GOAL: ${details}
+      
+      STRICT RULES:
+      1. RADICAL & MAXIMUM TRANSFORMATION: Prioritize Dramatic Visual Impact over mere naturalness. Perform a TOTAL RECONSTRUCTION.
+      2. ANATOMICAL MODIFICATION: Apply a Maximum Anatomical Lift and Radical Volume Reduction where applicable. Physically modify the target area to the absolute maximum clinical limit.
+      3. WRINKLE & VOLUME RECONSTRUCTION: Complete Elimination of target wrinkles. Radical Volume Reduction for slimming procedures (shave off up to 50% or more of the silhouette).
+      4. BACKGROUND INPAINTING: Reconstruct the background vividly seamlessly in empty spaces left by the radical reduction.
+      5. REALISM & AESTHETICS: Fully healed, clean Clinical Reconstruction. No scars, sutures, or bruising.
+      
+      Output: Return the modified image only.
+    `;
 
-    **강력 요구사항 (반드시 준수):**
-    1. **구조적 변형**: 단순히 픽셀을 밝게 하는 것이 아니라, 얼굴의 윤곽, 주름의 깊이, 살의 처짐 정도를 물리적으로 변형시키세요.
-    2. **주름 완전 삭제**: 모든 주름을 100% 지우고 그 자리를 팽팽하고 젊은 피부 조직으로 채우세요.
-    3. **강력한 리프팅/볼륨**: 처진 부위는 중력을 무시할 정도로 위로 올리고, 꺼진 부위는 필러를 넣은 듯 빵빵하게 채우세요.
-    4. **시각적 대비**: Before와 After의 차이가 너무나 명확해서 조금만 비교해도 확연히 느껴져야 합니다.
-    5. **도자기 피부**: 피부의 모든 잡티, 모공, 거친 질감을 지우고 20대의 매끄러운 피부로 교체하세요.
-    6. **절대적 차별화 규칙**: "동안성형(생기 있는 볼륨/피부결)"과 "얼굴거상(날카로운 턱선/리프팅)"은 목적이 완전히 다른 시술입니다. 각 시술의 구체적인 목적에 맞게 결과 이미지가 서로 확연히 다르게 보이도록 표현하세요.
-
-    **🚨[절대 필수 조건 - 구도 및 얼굴 크기 유지]🚨**
-    - **가장 중요**: 원본 이미지의 프레이밍(Framing), 얼굴 크기 비율, 카메라 줌(Zoom), 피사체의 위치, 배경을 **100% 동일하게 유지**하십시오.
-    - 왼쪽 절반(원본)과 오른쪽 절반(생성)을 합쳐놓아도 어깨선과 이목구비의 기본 위치가 일치해야 합니다.
-    - **절대로 이미지를 줌인(Zoom-in)하거나 크롭(Crop)하여 얼굴을 꽉 차게 만들지 마십시오.** 오직 얼굴 표면의 텍스처, 윤곽선, 볼륨감만 내부적으로 변형해야 합니다.
-
-    결과물은 오직 생성된 이미지 데이터만 반환하세요. 텍스트는 일절 출력하지 마십시오.`;
-
-    const base64Data = imageBase64.includes(",") ? imageBase64.split(",")[1] : imageBase64;
+    // 3. Use the requested model
+    const model = "gemini-2.5-flash-image";
 
     const response = await ai.models.generateContent({
       model: model,
@@ -110,7 +222,7 @@ export async function POST(req: Request) {
           {
             inlineData: {
               data: base64Data,
-              mimeType: "image/png",
+              mimeType: mimeType,
             },
           },
           {
@@ -118,18 +230,22 @@ export async function POST(req: Request) {
           },
         ],
       },
+      config: {
+        responseModalities: ["IMAGE"],
+      }
     });
 
-    for (const part of response.candidates?.[0]?.content?.parts || []) {
-      if (part.inlineData) {
-        return NextResponse.json({ 
-          success: true, 
-          image: `data:${part.inlineData.mimeType || 'image/png'};base64,${part.inlineData.data}` 
-        });
-      }
+    const generatedPart = response.candidates?.[0]?.content?.parts?.find((p: any) => p.inlineData);
+
+    if (!generatedPart) {
+      throw new Error("No image generated by Gemini");
     }
-    
-    throw new Error("No image generated by Gemini");
+
+    return NextResponse.json({ 
+      success: true,
+      image: `data:${generatedPart.inlineData?.mimeType || 'image/png'};base64,${generatedPart.inlineData?.data}`
+    });
+
   } catch (error: any) {
     console.error("AI Simulation Route Error:", error);
     return NextResponse.json({ error: error.message || "Failed to generate simulation" }, { status: 500 });

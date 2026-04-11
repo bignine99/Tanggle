@@ -85,7 +85,7 @@ export function getProcedureData(): ProcedureData[] {
       // Fallback strategies for title & summary since data shapes vary
       const title = raw.metadata?.title || raw.procedure_name || raw.category || "안내";
       const summary = raw.content?.summary || raw.summary || "";
-      const video_id = raw.video_id || "";
+      const video_id = ""; // Force disable all youtube videos for generic clinic branding
       
       dataList.push({
         id: fileName,

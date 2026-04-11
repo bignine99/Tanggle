@@ -2,8 +2,40 @@ import Link from "next/link";
 import { getProceduresByCategory } from "@/lib/dataFetcher";
 import { notFound } from "next/navigation";
 import { categoryDescriptions } from "@/lib/categoryDescriptions";
+import BeforeAfterSlider from "@/components/ui/BeforeAfterSlider";
+import { Sparkles } from "lucide-react";
+import fs from "fs";
+import path from "path";
+
 interface CategoryPageProps {
   params: Promise<{ category: string }>;
+}
+
+function getSimulationImages(category: string) {
+  try {
+    const simDir = path.join(process.cwd(), 'public', 'images', 'simulations');
+    let beforeUrl = null;
+    let afterUrl = null;
+    
+    // Check possible extensions for before
+    if (fs.existsSync(path.join(simDir, `${category}_before.png`))) beforeUrl = `/images/simulations/${category}_before.png`;
+    else if (fs.existsSync(path.join(simDir, `${category}_before.jpeg`))) beforeUrl = `/images/simulations/${category}_before.jpeg`;
+    else if (fs.existsSync(path.join(simDir, `${category}_before.jpg`))) beforeUrl = `/images/simulations/${category}_before.jpg`;
+    else if (fs.existsSync(path.join(simDir, `${category}_before.webp`))) beforeUrl = `/images/simulations/${category}_before.webp`;
+
+    // Check possible extensions for after
+    if (fs.existsSync(path.join(simDir, `${category}_after.png`))) afterUrl = `/images/simulations/${category}_after.png`;
+    else if (fs.existsSync(path.join(simDir, `${category}_after.jpeg`))) afterUrl = `/images/simulations/${category}_after.jpeg`;
+    else if (fs.existsSync(path.join(simDir, `${category}_after.jpg`))) afterUrl = `/images/simulations/${category}_after.jpg`;
+    else if (fs.existsSync(path.join(simDir, `${category}_after.webp`))) afterUrl = `/images/simulations/${category}_after.webp`;
+
+    if (beforeUrl && afterUrl) {
+      return { before: beforeUrl, after: afterUrl };
+    }
+  } catch (e) {
+    console.error(e);
+  }
+  return null;
 }
 
 function getCategoryImageUrl(category: string): string {
@@ -117,6 +149,40 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
                   <span className="w-1.5 h-1.5 rounded-full bg-primary-500 mr-2.5 shrink-0"></span>
                   {desc.footer}
                 </div>
+                
+                {/* AI 가상 성형 B&A 슬라이더 위젯 연동 */}
+                <div className="mt-12 w-full pt-8 border-t border-orange-100/50">
+                  <h4 className="text-xl font-bold text-neutral-900 mb-6 flex items-center justify-center">
+                    <Sparkles className="w-5 h-5 text-primary-500 mr-2 border-none" />
+                    AI 가상 성형 프리뷰
+                  </h4>
+                  {(() => {
+                    const simImages = getSimulationImages(decodedCategory);
+                    if (simImages) {
+                      return (
+                        <div className="max-w-xl mx-auto mb-6 relative">
+                          <BeforeAfterSlider 
+                            beforeImage={simImages.before} 
+                            afterImage={simImages.after} 
+                          />
+                          <div className="absolute inset-0 pointer-events-none rounded-3xl border-2 border-white/50 mix-blend-overlay"></div>
+                        </div>
+                      );
+                    } else {
+                      return (
+                        <div className="max-w-xl mx-auto mb-6 relative bg-neutral-100 rounded-3xl flex items-center justify-center aspect-[4/3]">
+                          <p className="text-neutral-400 font-medium text-sm">해당 카테고리의 시뮬레이션 샘플을 준비 중입니다.</p>
+                        </div>
+                      );
+                    }
+                  })()}
+                  <div className="text-center">
+                    <p className="text-sm text-neutral-500 mb-3">내 사진을 직접 업로드하여 맞춤형 시뮬레이션을 생성할 수 있습니다.</p>
+                    <Link href="/ai-preview" className="mt-2 inline-flex items-center justify-center px-6 py-2.5 bg-neutral-900 text-white font-bold rounded-xl hover:bg-black transition-colors text-sm shadow-md">
+                      내 사진으로 직접 분석해보기
+                    </Link>
+                  </div>
+                </div>
               </div>
             </div>
           );
@@ -152,7 +218,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
               
               {!proc.video_id && (
                 <span className="absolute top-4 left-4 z-20 text-white/60 font-bold text-xs uppercase tracking-[0.2em]">
-                  TANGGLE CLINIC
+                  AURA CLINIC
                 </span>
               )}
 

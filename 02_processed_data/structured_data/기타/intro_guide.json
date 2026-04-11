@@ -1,9 +1,9 @@
 {
   "category": "병원 정보",
   "page_title": "진료안내 및 오시는 길",
-  "summary": "탱글성형외과의 진료시간, 위치, 그리고 다양한 교통수단을 이용한 오시는 길 안내입니다.",
+  "summary": "AURA Clinic의 진료시간, 위치, 그리고 다양한 교통수단을 이용한 오시는 길 안내입니다.",
   "clinic_hours": {
-    "title": "탱글성형외과 진료시간",
+    "title": "AURA Clinic 진료시간",
     "weekdays": "AM 10:00 ~ PM 7:00",
     "saturday": "AM 10:00 ~ PM 5:00",
     "closed": "일요일, 공휴일 휴진"
@@ -13,8 +13,8 @@
     "subway_station": "압구정역",
     "subway_exit": "3번 출구",
     "walk_time": "도보 3분",
-    "address_road_name": "서울특별시 강남구 논현로 842 (압구정 빌딩 7F)",
-    "address_lot_number": "서울특별시 강남구 신사동 599 압구정 빌딩 7F"
+    "address_road_name": "서울특별시 강남구 AURA대로 123 (AURA 빌딩 7F)",
+    "address_lot_number": "서울특별시 강남구 신사동 599 AURA 빌딩 7F"
   },
   "directions": {
     "by_subway": {
@@ -22,8 +22,8 @@
       "steps": [
         "압구정역 3번 출구로 나오셔서 바로 회전",
         "150m 직진 (압구정 CGV 지나침)",
-        "압구정빌딩 도착 (올리브영 조금 지나면 정문이 보임)",
-        "압구정빌딩 통행 입구로 들어오셔서 7층으로 오세요."
+        "AURA빌딩 도착 (올리브영 조금 지나면 정문이 보임)",
+        "AURA빌딩 통행 입구로 들어오셔서 7층으로 오세요."
       ]
     },
     "by_bus": {

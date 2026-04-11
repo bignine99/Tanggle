@@ -17,10 +17,10 @@ export async function generateMetadata({ params }: DetailPageProps): Promise<Met
   const resolvedParams = await params;
   const data = getProcedureById(resolvedParams.slug);
   
-  if (!data) return { title: '정보를 찾을 수 없습니다 | 탱글성형외과' };
+  if (!data) return { title: '정보를 찾을 수 없습니다 | Aura Clinic' };
   
   return {
-    title: `${data.title} | 탱글성형외과`,
+    title: `${data.title} | Aura Clinic`,
     description: data.summary,
   };
 }

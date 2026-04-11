@@ -22,7 +22,7 @@ export default function DoctorsPage() {
               <span className="text-primary-500">디테일</span>을 완성하다
             </h1>
             <h2 className="text-3xl font-bold text-neutral-900 mb-8">
-              오창현 대표원장
+              이수현 대표원장
             </h2>
             <p className="text-lg text-neutral-500 leading-relaxed mb-10 font-light max-w-lg">
               "체형을 교정하는 것은 단순히 지방을 빼는 것이 아닙니다. 
@@ -37,14 +37,6 @@ export default function DoctorsPage() {
               >
                 원장님 1:1 상담 예약
               </button>
-              <a 
-                href="https://www.youtube.com/@Tanggle_Tube" 
-                target="_blank" 
-                rel="noreferrer"
-                className="flex items-center justify-center gap-3 bg-white border border-neutral-200 text-neutral-900 px-8 py-4 rounded-lg font-bold shadow-sm hover:shadow-md transition-all hover:border-primary-500"
-              >
-                <PlayCircle className="text-red-500 w-5 h-5" /> 유튜브 보러가기
-              </a>
             </div>
           </motion.div>
 
@@ -54,17 +46,14 @@ export default function DoctorsPage() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="order-1 lg:order-2 relative"
           >
-            {/* Portrait Image Mockup using CSS */}
-            <div className="aspect-[4/5] rounded-lg overflow-hidden shadow-2xl relative bg-gradient-to-tr from-neutral-800 to-neutral-900">
-              {/* Fallback silhouette if image is missing */}
-              <div className="w-full h-full flex flex-col items-center justify-end opacity-90">
-                <div className="w-full h-full bg-gradient-to-b from-white/10 to-transparent">
-                   {/* In a real scenario, an absolute Next/Image goes here */}
-                   <div className="w-full h-full flex items-center justify-center">
-                     <span className="text-white/40 font-light text-2xl tracking-widest">DR. O</span>
-                   </div>
-                </div>
-              </div>
+            {/* Portrait Image */}
+            <div className="aspect-[4/5] rounded-lg overflow-hidden shadow-2xl relative">
+              <Image 
+                src="/images/dr-lee.jpg" 
+                alt="이수현 대표원장" 
+                fill 
+                className="object-cover" 
+              />
             </div>
             
             {/* Floating stats card */}
@@ -74,9 +63,9 @@ export default function DoctorsPage() {
               transition={{ delay: 0.8 }}
               className="absolute -bottom-8 -left-8 md:bottom-12 md:-left-12 bg-white/90 backdrop-blur-xl p-6 rounded-lg shadow-xl border border-neutral-100 w-64"
             >
-              <p className="text-primary-500 font-bold text-sm mb-1">유튜브 구독자</p>
-              <p className="text-3xl font-extrabold text-neutral-900 mb-2">1.14만 명+</p>
-              <p className="text-xs text-neutral-500">바디성형 분야 누적 450개 이상의 지식 영상 등재</p>
+              <p className="text-primary-500 font-bold text-sm mb-1">프리미엄 바디성형</p>
+              <p className="text-3xl font-extrabold text-neutral-900 mb-2">4,500+</p>
+              <p className="text-xs text-neutral-500">성공적인 체형 교정 및 수술 사례 달성</p>
             </motion.div>
           </motion.div>
         </div>
@@ -100,7 +89,7 @@ export default function DoctorsPage() {
               {
                 icon: <BookOpen className="w-8 h-8 text-primary-500" />,
                 title: "투명한 소통과 학술 데이터",
-                desc: "환자들에게 올바른 성형 지식을 전달하기 위해 450여 개의 유튜브 영상을 제작하며, 투명하고 진정성 있는 상담을 최우선으로 합니다."
+                desc: "환자들에게 올바른 성형 지식을 전달하기 위해 꾸준한 연구와 학술 활동을 진행하며, 투명하고 진정성 있는 상담을 최우선으로 합니다."
               },
               {
                 icon: <Award className="w-8 h-8 text-primary-500" />,
@@ -132,12 +121,16 @@ export default function DoctorsPage() {
             
             <div className="bg-neutral-50 border border-neutral-100 rounded-lg p-10 lg:p-14 flex flex-col md:flex-row gap-12 items-center">
               <div className="w-48 h-48 md:w-64 md:h-64 shrink-0 rounded-full bg-white shadow-xl overflow-hidden flex items-center justify-center border border-neutral-200 relative">
-                <div className="absolute inset-0 bg-gradient-to-tr from-neutral-100/50 to-transparent"></div>
-                <span className="text-neutral-300 font-bold text-xl uppercase tracking-widest">DR. YANG</span>
+                <Image 
+                  src="/images/dr-cho.jpg" 
+                  alt="조난영 원장" 
+                  fill 
+                  className="object-cover" 
+                />
               </div>
               
               <div className="flex-1">
-                <h4 className="text-3xl font-bold text-neutral-900 mb-2">양병이 원장</h4>
+                <h4 className="text-3xl font-bold text-neutral-900 mb-2">조난영 원장</h4>
                 <p className="text-primary-500 font-medium mb-6 flex gap-3 text-lg items-center">
                   <span>마취통증의학과 전문의</span>
                   <span className="w-1.5 h-1.5 rounded-full bg-primary-200"></span>
@@ -145,13 +138,13 @@ export default function DoctorsPage() {
                 </p>
                 
                 <ul className="space-y-3 font-light text-neutral-500 mb-8">
-                  <li className="flex gap-2"><span className="text-primary-500 font-bold">✓</span> 前) 그날/일퍼센트/유노성형외과 마취과장</li>
-                  <li className="flex gap-2"><span className="text-primary-500 font-bold">✓</span> 前) 분당제일여성병원 마취과장</li>
+                  <li className="flex gap-2"><span className="text-primary-500 font-bold">✓</span> 前) 서울대학교병원 마취통증의학과 임상강사</li>
+                  <li className="flex gap-2"><span className="text-primary-500 font-bold">✓</span> 前) 글로벌 탑티어 뷰티메디컬센터 마취과장</li>
                   <li className="flex gap-2"><span className="text-primary-500 font-bold">✓</span> 대한마취통증의학회 및 통증학회 정회원</li>
                 </ul>
                 
                 <p className="text-neutral-900 font-medium leading-relaxed bg-white p-6 border border-neutral-100 rounded-lg italic shadow-sm">
-                  "환자의 안전이 그 어떤 결과보다 우선되어야 합니다. 수술 전 상담부터 수술 중 실시간 모니터링, 그리고 회복 후 마취에서 깨어나는 순간까지 1:1 전담으로 상주하며 철저히 관리합니다."
+                  "마취는 단순한 수면 상태가 아니라, 신체의 모든 핵심 생체 징후를 완벽히 통제하고 조율하는 정밀 의학입니다. 수술이 시작되는 순간부터 마취에서 완전히 깨어나는 순간까지, 단 1초도 환자의 곁을 떠나지 않고 안전을 지킵니다."
                 </p>
               </div>
             </div>
