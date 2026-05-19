@@ -16,43 +16,59 @@ function HumanoidModel({ onSelectPart }: { onSelectPart: (part: string) => void 
     }
   });
 
-  // Abstract human proportions (refined for better realism and screen fit)
+  // Cute Chibi/Mascot proportions (Big head, chubby body, short limbs, ears)
   const parts = [
-    { id: '얼굴거상/동안성형', name: 'FACE', position: [0, 2.8, 0], rotation: [0, 0, 0], type: 'head' },
-    { id: '목거상', name: 'NECK', position: [0, 2.0, 0], rotation: [0, 0, 0], type: 'neck' },
-    { id: '가슴성형', name: 'CHEST', position: [0, 0.8, 0], rotation: [0, 0, 0], type: 'chest' },
-    { id: '복부성형/지방흡입', name: 'ABDOMEN', position: [0, -0.6, 0], rotation: [0, 0, 0], type: 'abdomen' },
-    { id: '팔거상/지방흡입', name: 'ARMS', position: [-1.2, 0.4, 0], rotation: [0, 0, -0.15], type: 'arm' },
-    { id: '팔거상/지방흡입', name: 'ARMS', position: [1.2, 0.4, 0], rotation: [0, 0, 0.15], type: 'arm' },
-    { id: '허벅지거상/하체', name: 'LEGS', position: [-0.4, -2.4, 0], rotation: [0, 0, -0.05], type: 'leg' },
-    { id: '허벅지거상/하체', name: 'LEGS', position: [0.4, -2.4, 0], rotation: [0, 0, 0.05], type: 'leg' },
+    { id: '얼굴거상/동안성형', name: 'FACE', position: [0, 1.8, 0], rotation: [0, 0, 0], type: 'head' },
+    { id: '귀여운귀', name: 'EAR_L', position: [-0.9, 2.6, 0], rotation: [0, 0, 0], type: 'ear' },
+    { id: '귀여운귀', name: 'EAR_R', position: [0.9, 2.6, 0], rotation: [0, 0, 0], type: 'ear' },
+    { id: '가슴성형', name: 'CHEST', position: [0, 0.2, 0], rotation: [0, 0, 0], type: 'chest' },
+    { id: '복부성형/지방흡입', name: 'ABDOMEN', position: [0, -0.8, 0], rotation: [0, 0, 0], type: 'abdomen' },
+    { id: '팔거상/지방흡입', name: 'ARMS', position: [-1.2, -0.1, 0], rotation: [0, 0, -0.5], type: 'arm' },
+    { id: '팔거상/지방흡입', name: 'ARMS', position: [1.2, -0.1, 0], rotation: [0, 0, 0.5], type: 'arm' },
+    { id: '허벅지거상/하체', name: 'LEGS', position: [-0.5, -2.0, 0], rotation: [0, 0, 0], type: 'leg' },
+    { id: '허벅지거상/하체', name: 'LEGS', position: [0.5, -2.0, 0], rotation: [0, 0, 0], type: 'leg' },
   ];
 
   return (
     <group ref={group} position={[0, 0, 0]}>
       {parts.map((part, index) => {
-        const isHovered = hovered === part.id;
+        const isHovered = hovered === part.id && part.type !== 'ear'; // Ears highlight with head or not at all, let's keep them separate but not interactive, wait let's make them interactive just for fun or disable hover
         return (
           <mesh
             key={`${part.id}-${index}`}
             position={new THREE.Vector3(...part.position)}
             rotation={new THREE.Euler(...part.rotation)}
-            onPointerOver={(e) => { e.stopPropagation(); setHovered(part.id); document.body.style.cursor = 'pointer'; }}
-            onPointerOut={(e) => { e.stopPropagation(); setHovered(null); document.body.style.cursor = 'auto'; }}
-            onClick={(e) => { e.stopPropagation(); onSelectPart(part.id); }}
+            onPointerOver={(e) => { 
+              e.stopPropagation(); 
+              if(part.type !== 'ear') {
+                setHovered(part.id); 
+                document.body.style.cursor = 'pointer'; 
+              }
+            }}
+            onPointerOut={(e) => { 
+              e.stopPropagation(); 
+              if(part.type !== 'ear') {
+                setHovered(null); 
+                document.body.style.cursor = 'auto'; 
+              }
+            }}
+            onClick={(e) => { 
+              e.stopPropagation(); 
+              if(part.type !== 'ear') onSelectPart(part.id); 
+            }}
           >
             {part.type === 'head' ? (
-              <sphereGeometry args={[0.55, 64, 64]} />
-            ) : part.type === 'neck' ? (
-              <cylinderGeometry args={[0.15, 0.2, 0.6, 32]} />
+              <sphereGeometry args={[1.1, 64, 64]} />
+            ) : part.type === 'ear' ? (
+              <sphereGeometry args={[0.35, 32, 32]} />
             ) : part.type === 'chest' ? (
-              <capsuleGeometry args={[0.7, 0.9, 32, 64]} />
+              <capsuleGeometry args={[0.8, 0.6, 32, 64]} />
             ) : part.type === 'abdomen' ? (
-              <capsuleGeometry args={[0.65, 0.8, 32, 64]} />
+              <capsuleGeometry args={[0.9, 0.5, 32, 64]} />
             ) : part.type === 'arm' ? (
-              <capsuleGeometry args={[0.22, 1.8, 32, 64]} />
+              <capsuleGeometry args={[0.3, 1.0, 32, 64]} />
             ) : part.type === 'leg' ? (
-              <capsuleGeometry args={[0.3, 2.2, 32, 64]} />
+              <capsuleGeometry args={[0.35, 0.8, 32, 64]} />
             ) : null}
             
             <MeshDistortMaterial
