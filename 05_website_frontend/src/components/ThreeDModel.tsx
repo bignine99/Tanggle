@@ -1,8 +1,8 @@
 "use client";
 
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useMemo } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
-import { OrbitControls, Environment, Float, MeshDistortMaterial, ContactShadows, Html } from '@react-three/drei';
+import { OrbitControls, Environment, Float, MeshDistortMaterial, ContactShadows, Html, useGLTF, Center } from '@react-three/drei';
 import * as THREE from 'three';
 import { Sparkles } from 'lucide-react';
 
@@ -10,32 +10,53 @@ function HumanoidModel({ onSelectPart }: { onSelectPart: (part: string) => void 
   const group = useRef<THREE.Group>(null);
   const [hovered, setHovered] = useState<string | null>(null);
 
+  const { scene } = useGLTF('/human.glb');
+
+  useMemo(() => {
+    scene.traverse((child) => {
+      if ((child as THREE.Mesh).isMesh) {
+        const mesh = child as THREE.Mesh;
+        mesh.material = new THREE.MeshPhysicalMaterial({
+          color: '#ffffff',
+          metalness: 0.4,
+          roughness: 0.1,
+          transmission: 0.9,
+          thickness: 0.5,
+          transparent: true,
+          opacity: 0.4,
+        });
+      }
+    });
+  }, [scene]);
+
   useFrame((state) => {
     if (group.current) {
-      group.current.rotation.y = Math.sin(state.clock.elapsedTime * 0.2) * 0.3;
+      group.current.rotation.y = Math.sin(state.clock.elapsedTime * 0.3) * 0.2;
     }
   });
 
-  // Premium High-Tech Nodes (Holographic Constellation style)
   const parts = [
-    { id: '이마거상', name: 'FOREHEAD', position: [0, 2.5, 0] },
-    { id: '얼굴거상/동안성형', name: 'FACE', position: [0, 1.8, 0] },
-    { id: '목거상', name: 'NECK', position: [0, 1.2, 0] },
-    { id: '가슴거상/가슴성형', name: 'BREAST', position: [0, 0.4, 0] },
-    { id: '복부거상/지방흡입', name: 'TUMMY', position: [0, -0.6, 0] },
-    { id: '엉덩이성형', name: 'HIP', position: [0, -1.5, 0] },
-    { id: '팔거상', name: 'LEFT ARM', position: [-1.2, 0.2, 0] },
-    { id: '팔거상', name: 'RIGHT ARM', position: [1.2, 0.2, 0] },
-    { id: '허벅지거상', name: 'LEFT THIGH', position: [-0.6, -2.5, 0] },
-    { id: '허벅지거상', name: 'RIGHT THIGH', position: [0.6, -2.5, 0] },
+    { id: '이마거상', name: 'FOREHEAD', position: [0, 2.8, 0.4] },
+    { id: '얼굴거상/동안성형', name: 'FACE', position: [0, 2.3, 0.4] },
+    { id: '목거상', name: 'NECK', position: [0, 1.8, 0.2] },
+    { id: '가슴거상/가슴성형', name: 'BREAST', position: [0, 1.0, 0.4] },
+    { id: '복부거상/지방흡입', name: 'TUMMY', position: [0, 0.0, 0.4] },
+    { id: '엉덩이성형', name: 'HIP', position: [0, -0.8, 0.0] },
+    { id: '팔거상', name: 'LEFT ARM', position: [-0.9, 0.6, 0] },
+    { id: '팔거상', name: 'RIGHT ARM', position: [0.9, 0.6, 0] },
+    { id: '허벅지거상', name: 'LEFT THIGH', position: [-0.4, -1.8, 0.2] },
+    { id: '허벅지거상', name: 'RIGHT THIGH', position: [0.4, -1.8, 0.2] },
   ];
 
   return (
-    <group ref={group} position={[0, 0.5, 0]}>
-      {/* Central glowing core line to connect the spine conceptually */}
-      <mesh position={[0, 0.5, -0.5]}>
-        <cylinderGeometry args={[0.02, 0.02, 5, 8]} />
-        <meshBasicMaterial color="#EC4899" transparent opacity={0.2} />
+    <group ref={group} position={[0, -0.5, 0]}>
+      <Center scale={3.5} position={[0, 0, 0]}>
+        <primitive object={scene} />
+      </Center>
+
+      <mesh position={[0, 0.5, 0]}>
+        <cylinderGeometry args={[0.01, 0.01, 6, 8]} />
+        <meshBasicMaterial color="#EC4899" transparent opacity={0.3} />
       </mesh>
 
       {parts.map((part, index) => {
@@ -43,25 +64,12 @@ function HumanoidModel({ onSelectPart }: { onSelectPart: (part: string) => void 
         return (
           <mesh
             key={`${part.id}-${index}`}
-            position={new THREE.Vector3(...part.position)}
-            onPointerOver={(e) => { 
-              e.stopPropagation(); 
-              setHovered(part.id); 
-              document.body.style.cursor = 'pointer'; 
-            }}
-            onPointerOut={(e) => { 
-              e.stopPropagation(); 
-              setHovered(null); 
-              document.body.style.cursor = 'auto'; 
-            }}
-            onClick={(e) => { 
-              e.stopPropagation(); 
-              onSelectPart(part.id); 
-            }}
+            position={new THREE.Vector3(...(part.position as [number, number, number]))}
+            onPointerOver={(e) => { e.stopPropagation(); setHovered(part.id); document.body.style.cursor = 'pointer'; }}
+            onPointerOut={(e) => { e.stopPropagation(); setHovered(null); document.body.style.cursor = 'auto'; }}
+            onClick={(e) => { e.stopPropagation(); onSelectPart(part.id); }}
           >
-            {/* Elegant glowing sphere node */}
-            <sphereGeometry args={[isHovered ? 0.35 : 0.25, 64, 64]} />
-            
+            <sphereGeometry args={[isHovered ? 0.25 : 0.15, 32, 32]} />
             <MeshDistortMaterial
               color={isHovered ? "#EC4899" : "#ffffff"}
               envMapIntensity={isHovered ? 3 : 1.5}
@@ -69,22 +77,21 @@ function HumanoidModel({ onSelectPart }: { onSelectPart: (part: string) => void 
               clearcoatRoughness={0.1}
               metalness={0.8}
               roughness={0.1}
-              distort={isHovered ? 0.4 : 0.1}
+              distort={isHovered ? 0.5 : 0.2}
               speed={isHovered ? 4 : 2}
               transparent
-              opacity={isHovered ? 1 : 0.6}
+              opacity={isHovered ? 1 : 0.8}
             />
 
-            {/* Glowing Aura Ring */}
             {isHovered && (
               <mesh>
-                <ringGeometry args={[0.4, 0.42, 32]} />
-                <meshBasicMaterial color="#EC4899" transparent opacity={0.5} side={THREE.DoubleSide} />
+                <ringGeometry args={[0.3, 0.32, 32]} />
+                <meshBasicMaterial color="#EC4899" transparent opacity={0.6} side={THREE.DoubleSide} />
               </mesh>
             )}
 
             {isHovered && (
-              <Html center position={[1.0, 0, 0]} className="pointer-events-none z-50">
+              <Html center position={[1.2, 0, 0]} className="pointer-events-none z-50">
                 <div className="glass-card px-4 py-2 rounded-full flex flex-col items-start min-w-[120px] animate-in fade-in zoom-in duration-300 shadow-2xl border border-pink-500/30 bg-black/60 backdrop-blur-md">
                   <span className="text-[10px] text-pink-400 font-bold tracking-[0.2em]">{part.name}</span>
                   <span className="text-white text-xs font-light whitespace-nowrap">{part.id.split('/')[0]} 분석하기</span>
@@ -97,6 +104,8 @@ function HumanoidModel({ onSelectPart }: { onSelectPart: (part: string) => void 
     </group>
   );
 }
+
+useGLTF.preload('/human.glb');
 
 export default function ThreeDModel() {
   const [selectedPart, setSelectedPart] = useState<string | null>(null);
