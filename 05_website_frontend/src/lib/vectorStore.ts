@@ -18,7 +18,7 @@ export class AuraVectorStore {
   constructor(apiKey: string, indexPath?: string) {
     this.apiKey = apiKey;
     this.genAI = new GoogleGenerativeAI(this.apiKey);
-    this.indexPath = indexPath || path.join(process.cwd(), "..", "03_rag_database", "vector_index.json");
+    this.indexPath = indexPath || path.join(process.cwd(), "src", "data", "vector_index.json");
     this.loadIndex();
   }
 

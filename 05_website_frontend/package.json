@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "prebuild": "node -e \"require('fs').mkdirSync('src/data',{recursive:true}); require('fs').copyFileSync('../03_rag_database/vector_index.json', 'src/data/vector_index.json')\"",
     "dev": "next dev --webpack",
     "build": "next build",
     "start": "next start",
