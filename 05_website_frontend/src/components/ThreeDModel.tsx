@@ -16,20 +16,20 @@ function HumanoidModel({ onSelectPart }: { onSelectPart: (part: string) => void 
     }
   });
 
-  // Abstract human proportions
+  // Abstract human proportions (refined for better realism and screen fit)
   const parts = [
-    { id: '얼굴거상/동안성형', name: 'FACE', position: [0, 4.2, 0], rotation: [0, 0, 0], type: 'head' },
-    { id: '목거상', name: 'NECK', position: [0, 3.1, 0], rotation: [0, 0, 0], type: 'neck' },
-    { id: '가슴성형', name: 'CHEST', position: [0, 1.5, 0], rotation: [0, 0, 0], type: 'chest' },
-    { id: '복부성형/지방흡입', name: 'ABDOMEN', position: [0, -0.3, 0], rotation: [0, 0, 0], type: 'abdomen' },
-    { id: '팔거상/지방흡입', name: 'ARMS', position: [-1.4, 0.8, 0], rotation: [0, 0, -0.2], type: 'arm' },
-    { id: '팔거상/지방흡입', name: 'ARMS', position: [1.4, 0.8, 0], rotation: [0, 0, 0.2], type: 'arm' },
-    { id: '허벅지거상/하체', name: 'LEGS', position: [-0.6, -3.2, 0], rotation: [0, 0, -0.05], type: 'leg' },
-    { id: '허벅지거상/하체', name: 'LEGS', position: [0.6, -3.2, 0], rotation: [0, 0, 0.05], type: 'leg' },
+    { id: '얼굴거상/동안성형', name: 'FACE', position: [0, 2.8, 0], rotation: [0, 0, 0], type: 'head' },
+    { id: '목거상', name: 'NECK', position: [0, 2.0, 0], rotation: [0, 0, 0], type: 'neck' },
+    { id: '가슴성형', name: 'CHEST', position: [0, 0.8, 0], rotation: [0, 0, 0], type: 'chest' },
+    { id: '복부성형/지방흡입', name: 'ABDOMEN', position: [0, -0.6, 0], rotation: [0, 0, 0], type: 'abdomen' },
+    { id: '팔거상/지방흡입', name: 'ARMS', position: [-1.2, 0.4, 0], rotation: [0, 0, -0.15], type: 'arm' },
+    { id: '팔거상/지방흡입', name: 'ARMS', position: [1.2, 0.4, 0], rotation: [0, 0, 0.15], type: 'arm' },
+    { id: '허벅지거상/하체', name: 'LEGS', position: [-0.4, -2.4, 0], rotation: [0, 0, -0.05], type: 'leg' },
+    { id: '허벅지거상/하체', name: 'LEGS', position: [0.4, -2.4, 0], rotation: [0, 0, 0.05], type: 'leg' },
   ];
 
   return (
-    <group ref={group} position={[0, 0.5, 0]}>
+    <group ref={group} position={[0, 0, 0]}>
       {parts.map((part, index) => {
         const isHovered = hovered === part.id;
         return (
@@ -42,17 +42,17 @@ function HumanoidModel({ onSelectPart }: { onSelectPart: (part: string) => void 
             onClick={(e) => { e.stopPropagation(); onSelectPart(part.id); }}
           >
             {part.type === 'head' ? (
-              <sphereGeometry args={[0.7, 64, 64]} />
+              <sphereGeometry args={[0.55, 64, 64]} />
             ) : part.type === 'neck' ? (
-              <cylinderGeometry args={[0.25, 0.35, 1.0, 32]} />
+              <cylinderGeometry args={[0.15, 0.2, 0.6, 32]} />
             ) : part.type === 'chest' ? (
-              <capsuleGeometry args={[0.85, 1.4, 32, 64]} />
+              <capsuleGeometry args={[0.7, 0.9, 32, 64]} />
             ) : part.type === 'abdomen' ? (
-              <capsuleGeometry args={[0.8, 1.2, 32, 64]} />
+              <capsuleGeometry args={[0.65, 0.8, 32, 64]} />
             ) : part.type === 'arm' ? (
-              <capsuleGeometry args={[0.3, 2.5, 32, 64]} />
+              <capsuleGeometry args={[0.22, 1.8, 32, 64]} />
             ) : part.type === 'leg' ? (
-              <capsuleGeometry args={[0.45, 3.5, 32, 64]} />
+              <capsuleGeometry args={[0.3, 2.2, 32, 64]} />
             ) : null}
             
             <MeshDistortMaterial
