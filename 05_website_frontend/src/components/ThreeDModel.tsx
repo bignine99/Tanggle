@@ -16,64 +16,70 @@ function HumanoidModel({ onSelectPart }: { onSelectPart: (part: string) => void 
     }
   });
 
+  // Abstract human proportions
   const parts = [
-    { id: '얼굴거상', name: 'FACE', position: [0, 2.5, 0], type: 'head' },
-    { id: '가슴성형', name: 'CHEST', position: [0, 0.5, 0], type: 'chest' },
-    { id: '지방흡입', name: 'ABDOMEN', position: [0, -1.0, 0], type: 'abdomen' },
-    { id: '허벅지거상', name: 'THIGHS', position: [0, -3.0, 0], type: 'thighs' },
+    { id: '얼굴거상/동안성형', name: 'FACE', position: [0, 4.2, 0], rotation: [0, 0, 0], type: 'head' },
+    { id: '목거상', name: 'NECK', position: [0, 3.1, 0], rotation: [0, 0, 0], type: 'neck' },
+    { id: '가슴성형', name: 'CHEST', position: [0, 1.5, 0], rotation: [0, 0, 0], type: 'chest' },
+    { id: '복부성형/지방흡입', name: 'ABDOMEN', position: [0, -0.3, 0], rotation: [0, 0, 0], type: 'abdomen' },
+    { id: '팔거상/지방흡입', name: 'ARMS', position: [-1.4, 0.8, 0], rotation: [0, 0, -0.2], type: 'arm' },
+    { id: '팔거상/지방흡입', name: 'ARMS', position: [1.4, 0.8, 0], rotation: [0, 0, 0.2], type: 'arm' },
+    { id: '허벅지거상/하체', name: 'LEGS', position: [-0.6, -3.2, 0], rotation: [0, 0, -0.05], type: 'leg' },
+    { id: '허벅지거상/하체', name: 'LEGS', position: [0.6, -3.2, 0], rotation: [0, 0, 0.05], type: 'leg' },
   ];
 
   return (
     <group ref={group} position={[0, 0.5, 0]}>
-      {parts.map((part) => {
+      {parts.map((part, index) => {
         const isHovered = hovered === part.id;
         return (
           <mesh
-            key={part.id}
+            key={`${part.id}-${index}`}
             position={new THREE.Vector3(...part.position)}
+            rotation={new THREE.Euler(...part.rotation)}
             onPointerOver={(e) => { e.stopPropagation(); setHovered(part.id); document.body.style.cursor = 'pointer'; }}
             onPointerOut={(e) => { e.stopPropagation(); setHovered(null); document.body.style.cursor = 'auto'; }}
             onClick={(e) => { e.stopPropagation(); onSelectPart(part.id); }}
           >
             {part.type === 'head' ? (
-              <sphereGeometry args={[0.9, 64, 64]} />
+              <sphereGeometry args={[0.7, 64, 64]} />
+            ) : part.type === 'neck' ? (
+              <cylinderGeometry args={[0.25, 0.35, 1.0, 32]} />
             ) : part.type === 'chest' ? (
-              <capsuleGeometry args={[0.8, 0.8, 32, 64]} />
+              <capsuleGeometry args={[0.85, 1.4, 32, 64]} />
             ) : part.type === 'abdomen' ? (
-              <cylinderGeometry args={[0.7, 0.75, 1.5, 32]} />
-            ) : (
-              <capsuleGeometry args={[0.8, 1.5, 32, 64]} />
-            )}
+              <capsuleGeometry args={[0.8, 1.2, 32, 64]} />
+            ) : part.type === 'arm' ? (
+              <capsuleGeometry args={[0.3, 2.5, 32, 64]} />
+            ) : part.type === 'leg' ? (
+              <capsuleGeometry args={[0.45, 3.5, 32, 64]} />
+            ) : null}
             
             <MeshDistortMaterial
               color={isHovered ? "#EC4899" : "#ffffff"}
               envMapIntensity={isHovered ? 2 : 1}
               clearcoat={1}
               clearcoatRoughness={0.1}
-              metalness={0.3}
+              metalness={0.4}
               roughness={0.2}
-              distort={isHovered ? 0.2 : 0}
+              distort={isHovered ? 0.15 : 0}
               speed={isHovered ? 3 : 1}
               transparent
-              opacity={isHovered ? 0.9 : 0.6}
+              opacity={isHovered ? 0.95 : 0.7}
             />
 
-            {isHovered && (
-              <Html center position={[1.5, 0, 0]} className="pointer-events-none">
-                <div className="glass-card px-4 py-2 rounded-full flex flex-col items-start min-w-[120px] animate-in fade-in zoom-in duration-300">
+            {/* Show label only on one of the symmetrical parts if hovered */}
+            {isHovered && (part.type !== 'arm' || part.position[0] > 0) && (part.type !== 'leg' || part.position[0] > 0) && (
+              <Html center position={[1.5, 0, 0]} className="pointer-events-none z-50">
+                <div className="glass-card px-4 py-2 rounded-full flex flex-col items-start min-w-[120px] animate-in fade-in zoom-in duration-300 shadow-2xl border border-pink-500/30 bg-black/40 backdrop-blur-md">
                   <span className="text-[10px] text-pink-400 font-bold tracking-[0.2em]">{part.name}</span>
-                  <span className="text-white text-xs font-light whitespace-nowrap">{part.id} 분석하기</span>
+                  <span className="text-white text-xs font-light whitespace-nowrap">{part.id.split('/')[0]} 분석하기</span>
                 </div>
               </Html>
             )}
           </mesh>
         )
       })}
-
-      <mesh position={[0, -0.25, 0]}>
-        <cylinderGeometry args={[0.2, 0.2, 6, 16]} />
-        <meshStandardMaterial color="#ffffff" transparent opacity={0.1} />
-      </mesh>
     </group>
   );
 }
@@ -121,7 +127,7 @@ export default function ThreeDModel() {
 
   return (
     <>
-      <Canvas camera={{ position: [0, 0, 8], fov: 45 }}>
+      <Canvas camera={{ position: [0, 0, 12], fov: 45 }}>
         <color attach="background" args={['#000000']} />
         <ambientLight intensity={0.5} />
         <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} intensity={2} color="#EC4899" />
