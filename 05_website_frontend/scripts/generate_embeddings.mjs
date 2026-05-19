@@ -19,7 +19,7 @@ const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 const embeddingModel = genAI.getGenerativeModel({ model: "gemini-embedding-001" });
 
 const DATA_PATH = path.join(__dirname, '..', '..', '02_processed_data', 'structured_data');
-const OUTPUT_PATH = path.join(__dirname, '..', '..', '03_rag_database', 'vector_index.json');
+const OUTPUT_PATH = path.join(__dirname, '..', 'src', 'data', 'vector_index.json');
 
 async function getEmbedding(text) {
   try {

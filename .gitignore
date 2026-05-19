@@ -31,5 +31,3 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Bundled data for deployment
-05_website_frontend/src/data/vector_index.json
