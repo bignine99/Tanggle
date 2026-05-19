@@ -16,29 +16,34 @@ function HumanoidModel({ onSelectPart }: { onSelectPart: (part: string) => void 
     }
   });
 
-  // Cute Human proportions mapped to specific lifting procedures
+  // Premium High-Tech Nodes (Holographic Constellation style)
   const parts = [
-    { id: '이마거상', name: 'FOREHEAD', position: [0, 2.2, 0], rotation: [0, 0, 0], type: 'forehead' },
-    { id: '얼굴거상/동안성형', name: 'FACE', position: [0, 1.6, 0], rotation: [0, 0, 0], type: 'face' },
-    { id: '목거상', name: 'NECK', position: [0, 1.0, 0], rotation: [0, 0, 0], type: 'neck' },
-    { id: '가슴거상/가슴성형', name: 'BREAST', position: [0, 0.3, 0], rotation: [0, 0, 0], type: 'chest' },
-    { id: '복부거상/지방흡입', name: 'TUMMY', position: [0, -0.6, 0], rotation: [0, 0, 0], type: 'abdomen' },
-    { id: '엉덩이성형', name: 'HIP', position: [0, -1.3, 0], rotation: [0, 0, 0], type: 'hip' },
-    { id: '팔거상', name: 'ARMS', position: [-1.1, 0.0, 0], rotation: [0, 0, -0.3], type: 'arm' },
-    { id: '팔거상', name: 'ARMS', position: [1.1, 0.0, 0], rotation: [0, 0, 0.3], type: 'arm' },
-    { id: '허벅지거상', name: 'THIGHS', position: [-0.4, -2.5, 0], rotation: [0, 0, -0.05], type: 'leg' },
-    { id: '허벅지거상', name: 'THIGHS', position: [0.4, -2.5, 0], rotation: [0, 0, 0.05], type: 'leg' },
+    { id: '이마거상', name: 'FOREHEAD', position: [0, 2.5, 0] },
+    { id: '얼굴거상/동안성형', name: 'FACE', position: [0, 1.8, 0] },
+    { id: '목거상', name: 'NECK', position: [0, 1.2, 0] },
+    { id: '가슴거상/가슴성형', name: 'BREAST', position: [0, 0.4, 0] },
+    { id: '복부거상/지방흡입', name: 'TUMMY', position: [0, -0.6, 0] },
+    { id: '엉덩이성형', name: 'HIP', position: [0, -1.5, 0] },
+    { id: '팔거상', name: 'LEFT ARM', position: [-1.2, 0.2, 0] },
+    { id: '팔거상', name: 'RIGHT ARM', position: [1.2, 0.2, 0] },
+    { id: '허벅지거상', name: 'LEFT THIGH', position: [-0.6, -2.5, 0] },
+    { id: '허벅지거상', name: 'RIGHT THIGH', position: [0.6, -2.5, 0] },
   ];
 
   return (
     <group ref={group} position={[0, 0.5, 0]}>
+      {/* Central glowing core line to connect the spine conceptually */}
+      <mesh position={[0, 0.5, -0.5]}>
+        <cylinderGeometry args={[0.02, 0.02, 5, 8]} />
+        <meshBasicMaterial color="#EC4899" transparent opacity={0.2} />
+      </mesh>
+
       {parts.map((part, index) => {
         const isHovered = hovered === part.id;
         return (
           <mesh
             key={`${part.id}-${index}`}
             position={new THREE.Vector3(...part.position)}
-            rotation={new THREE.Euler(...part.rotation)}
             onPointerOver={(e) => { 
               e.stopPropagation(); 
               setHovered(part.id); 
@@ -54,41 +59,33 @@ function HumanoidModel({ onSelectPart }: { onSelectPart: (part: string) => void 
               onSelectPart(part.id); 
             }}
           >
-            {part.type === 'forehead' ? (
-              <sphereGeometry args={[0.55, 64, 64]} />
-            ) : part.type === 'face' ? (
-              <sphereGeometry args={[0.5, 64, 64]} />
-            ) : part.type === 'neck' ? (
-              <cylinderGeometry args={[0.15, 0.2, 0.4, 32]} />
-            ) : part.type === 'chest' ? (
-              <capsuleGeometry args={[0.65, 0.5, 32, 64]} />
-            ) : part.type === 'abdomen' ? (
-              <capsuleGeometry args={[0.6, 0.4, 32, 64]} />
-            ) : part.type === 'hip' ? (
-              <capsuleGeometry args={[0.65, 0.3, 32, 64]} />
-            ) : part.type === 'arm' ? (
-              <capsuleGeometry args={[0.2, 1.2, 32, 64]} />
-            ) : part.type === 'leg' ? (
-              <capsuleGeometry args={[0.28, 1.4, 32, 64]} />
-            ) : null}
+            {/* Elegant glowing sphere node */}
+            <sphereGeometry args={[isHovered ? 0.35 : 0.25, 64, 64]} />
             
             <MeshDistortMaterial
               color={isHovered ? "#EC4899" : "#ffffff"}
-              envMapIntensity={isHovered ? 2 : 1}
+              envMapIntensity={isHovered ? 3 : 1.5}
               clearcoat={1}
               clearcoatRoughness={0.1}
-              metalness={0.4}
-              roughness={0.2}
-              distort={isHovered ? 0.15 : 0}
-              speed={isHovered ? 3 : 1}
+              metalness={0.8}
+              roughness={0.1}
+              distort={isHovered ? 0.4 : 0.1}
+              speed={isHovered ? 4 : 2}
               transparent
-              opacity={isHovered ? 0.95 : 0.7}
+              opacity={isHovered ? 1 : 0.6}
             />
 
-            {/* Show label only on one of the symmetrical parts if hovered */}
-            {isHovered && (part.type !== 'arm' || part.position[0] > 0) && (part.type !== 'leg' || part.position[0] > 0) && (
-              <Html center position={[1.5, 0, 0]} className="pointer-events-none z-50">
-                <div className="glass-card px-4 py-2 rounded-full flex flex-col items-start min-w-[120px] animate-in fade-in zoom-in duration-300 shadow-2xl border border-pink-500/30 bg-black/40 backdrop-blur-md">
+            {/* Glowing Aura Ring */}
+            {isHovered && (
+              <mesh>
+                <ringGeometry args={[0.4, 0.42, 32]} />
+                <meshBasicMaterial color="#EC4899" transparent opacity={0.5} side={THREE.DoubleSide} />
+              </mesh>
+            )}
+
+            {isHovered && (
+              <Html center position={[1.0, 0, 0]} className="pointer-events-none z-50">
+                <div className="glass-card px-4 py-2 rounded-full flex flex-col items-start min-w-[120px] animate-in fade-in zoom-in duration-300 shadow-2xl border border-pink-500/30 bg-black/60 backdrop-blur-md">
                   <span className="text-[10px] text-pink-400 font-bold tracking-[0.2em]">{part.name}</span>
                   <span className="text-white text-xs font-light whitespace-nowrap">{part.id.split('/')[0]} 분석하기</span>
                 </div>
