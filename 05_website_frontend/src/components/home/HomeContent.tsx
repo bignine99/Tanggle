@@ -391,7 +391,7 @@ export default function HomeContent({ categories }: { categories: string[] }) {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.1, duration: 0.8 }}
-            className="flex flex-col sm:flex-row gap-4"
+            className="flex flex-col sm:flex-row gap-4 flex-wrap justify-center"
           >
             <button
               onClick={() => window.location.href = '/ai-preview'}
@@ -401,7 +401,18 @@ export default function HomeContent({ categories }: { categories: string[] }) {
               <div className="absolute inset-0 shimmer" />
               <span className="relative z-10 flex items-center gap-3 text-white font-bold text-base shadow-sm">
                 <Camera className="w-5 h-5" />
-                AI 뷰티 시뮬레이션 체험
+                AI 뷰티 2D 시뮬레이션
+              </span>
+            </button>
+
+            <button
+              onClick={() => window.location.href = '/3d-simulator'}
+              className="group relative px-10 py-5 rounded-full overflow-hidden transition-all duration-500 border border-pink-500/50 hover:border-pink-400"
+            >
+              <div className="absolute inset-0 bg-pink-500/10 group-hover:bg-pink-500/20 transition-all" />
+              <span className="relative z-10 flex items-center gap-3 text-white font-bold text-base shadow-sm drop-shadow-md">
+                <Sparkles className="w-5 h-5" />
+                3D 인터랙티브 AI 모델
               </span>
             </button>
 
