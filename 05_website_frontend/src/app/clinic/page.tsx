@@ -115,7 +115,7 @@ export default function ClinicPage() {
               
               <div className="bg-white p-6 rounded-lg border border-neutral-200 shadow-sm">
                 <h4 className="text-sm font-bold text-primary-500 tracking-widest mb-1">상담 및 예약</h4>
-                <p className="text-3xl font-extrabold text-neutral-900">02-1234-5678</p>
+                <p className="text-3xl font-extrabold text-neutral-900">010-4160-1876</p>
               </div>
             </div>
           </div>

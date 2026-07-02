@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { GoogleGenerativeAI } from "@google/generative-ai";
+import { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } from "@google/generative-ai";
 import fs from "fs";
 import path from "path";
 
@@ -11,12 +11,30 @@ import { AuraVectorStore } from "@/lib/vectorStore";
 const apiKey = process.env.GEMINI_API_KEY || "";
 const genAI = new GoogleGenerativeAI(apiKey);
 const model = genAI.getGenerativeModel({ 
-  model: "gemini-2.5-flash-lite", // Thinking model for better response
+  model: "gemini-2.5-flash", // Upgraded to flash for production stability
   generationConfig: {
     temperature: 0.1,
     topK: 10,
     topP: 0.1,
-  }
+  },
+  safetySettings: [
+    {
+      category: HarmCategory.HARM_CATEGORY_HARASSMENT,
+      threshold: HarmBlockThreshold.BLOCK_NONE,
+    },
+    {
+      category: HarmCategory.HARM_CATEGORY_HATE_SPEECH,
+      threshold: HarmBlockThreshold.BLOCK_NONE,
+    },
+    {
+      category: HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT,
+      threshold: HarmBlockThreshold.BLOCK_NONE,
+    },
+    {
+      category: HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT,
+      threshold: HarmBlockThreshold.BLOCK_NONE,
+    },
+  ]
 });
 
 // --------------------------------------------------------------------------
@@ -68,7 +86,7 @@ export async function POST(req: Request) {
 
 <병원 기본 안내 - 이것은 항상 숙지하고 답변에 활용하세요>
 - 병원명: Aura Clinic
-- 전화번호: 02-1234-5678 (상담 및 예약)
+- 전화번호: 010-4160-1876 (상담 및 예약)
 - 의료진: 이수현 대표원장(성형외과 전문의, 미국/국제 성형외과학회 정회원), 양병이 원장(마취통증의학과 전문의 상주)
 - 주소: 서울특별시 강남구 AURA대로 123 AURA빌딩 7층 (AURA역 1번출구 앞 도보 1분)
 - 주차: 건물 내 전용 주차장 (발렛 파킹 상시 무료 지원, 데스크에서 차량 등록 필수)
@@ -99,7 +117,7 @@ ${languageInstruction}
    - 답변은 방대한 의학 데이터베이스인 <관련 검색 지식>을 최우선으로 삼아, 추측성 답변을 배제하고 매우 전문적이고 깊이 있는 의학 지식을 쉽게 풀어서 설명하세요.
    - 🚨[중요] **반드시 <관련 검색 지식>에 존재하는 데이터만 바탕으로 답변하세요.** 
    - 구체적인 수치나 데이터(회복 기간, 절개 부위, 비용 등)가 있다면 **숨기지 말고 적극적으로 안내하세요.** 단, "개인의 상태에 따라 변동될 수 있습니다"라는 안내를 덧붙이세요.
-   - 정보가 데이터베이스에 명확히 없다면 억지로 지어내지 말고, "자세한 부분은 02-1234-5678로 내원 상담을 예약하시면 원장님께서 직접 안내해 주실 것입니다." 라고 정중히 안내하세요.
+   - 정보가 데이터베이스에 명확히 없다면 억지로 지어내지 말고, "자세한 부분은 010-4160-1876로 내원 상담을 예약하시면 원장님께서 직접 안내해 주실 것입니다." 라고 정중히 안내하세요.
 
 2. 미디어(유튜브) 노출 지침
    - 🚨[중요] **답변에 참고한 <관련 검색 지식>의 항목 중 '관련 유튜브 영상 ID'가 존재한다면**, 전체 답변의 제일 마지막(예상 질문 직전)에 딱 한 번만 "[YOUTUBE:영상ID]" 토큰을 삽입하세요. 
@@ -147,7 +165,7 @@ ${languageInstruction}
           }
         } catch (streamError) {
           console.error("Stream error:", streamError);
-          controller.enqueue(new TextEncoder().encode("\n\n죄송합니다. 답변 생성 중 일시적인 오류가 발생했습니다. 02-1234-5678로 문의 부탁드립니다."));
+          controller.enqueue(new TextEncoder().encode("\n\n죄송합니다. 답변 생성 중 일시적인 오류가 발생했습니다. 010-4160-1876로 문의 부탁드립니다."));
         }
         controller.close();
       }

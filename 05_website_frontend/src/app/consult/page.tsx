@@ -57,7 +57,7 @@ export default function ConsultPage() {
       }
     } catch (error) {
       console.error(error);
-      alert("접수 중 오류가 발생했습니다. 원활한 상담을 위해 02-1234-5678로 유선 문의 바랍니다.");
+      alert("접수 중 오류가 발생했습니다. 원활한 상담을 위해 010-4160-1876로 유선 문의 바랍니다.");
     } finally {
       setIsSubmitting(false);
     }

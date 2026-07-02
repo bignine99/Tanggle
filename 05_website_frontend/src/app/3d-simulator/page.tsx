@@ -2,11 +2,16 @@
 import React, { Suspense } from 'react';
 import Link from 'next/link';
 import { Sparkles, ArrowLeft } from 'lucide-react';
-import ThreeDModel from '@/components/ThreeDModel';
+import dynamic from 'next/dynamic';
+
+const ThreeDModel = dynamic(() => import('@/components/ThreeDModel'), { 
+  ssr: false,
+  loading: () => <div className="w-full h-full flex items-center justify-center text-white/50 tracking-widest font-light">Loading 3D Engine...</div>
+});
 
 export default function ThreeDSimulatorPage() {
   return (
-    <div className="relative w-full h-[100dvh] bg-black overflow-hidden font-sans">
+    <div className="fixed inset-0 z-[999] w-full h-[100dvh] bg-black overflow-hidden font-sans">
        <div className="absolute top-6 left-6 z-50">
          <Link href="/" className="glass-card px-4 py-2 rounded-full flex items-center gap-2 text-white text-sm font-bold tracking-widest hover:bg-white/10 transition-colors">
            <ArrowLeft className="w-4 h-4" /> BACK

@@ -143,7 +143,7 @@ export default function ChatFAB() {
       }
     } catch (error) {
       console.error(error);
-      setMessages(prev => [...prev, { role: "model", content: "죄송합니다. 일시적인 오류가 발생했습니다.\n\n빠른 상담을 원하시면 02-1234-5678로 연락해 주세요. 확인 후 다시 시도해 주셔도 됩니다." }]);
+      setMessages(prev => [...prev, { role: "model", content: "죄송합니다. 일시적인 오류가 발생했습니다.\n\n빠른 상담을 원하시면 010-4160-1876로 연락해 주세요. 확인 후 다시 시도해 주셔도 됩니다." }]);
     } finally {
       setIsLoading(false);
     }
