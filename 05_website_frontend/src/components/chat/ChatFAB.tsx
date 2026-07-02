@@ -210,7 +210,8 @@ export default function ChatFAB() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 30, scale: 0.9 }}
             transition={{ type: "spring", stiffness: 400, damping: 25 }}
-            className="fixed bottom-8 right-8 z-50 w-[90vw] max-w-[420px] h-[650px] max-h-[85vh] flex flex-col rounded-3xl shadow-[0_20px_60px_-15px_rgba(0,0,0,0.5)] overflow-hidden border border-neutral-200 bg-white/95 backdrop-blur-xl"
+            className="notranslate fixed bottom-8 right-8 z-50 w-[90vw] max-w-[420px] h-[650px] max-h-[85vh] flex flex-col rounded-3xl shadow-[0_20px_60px_-15px_rgba(0,0,0,0.5)] overflow-hidden border border-neutral-200 bg-white/95 backdrop-blur-xl"
+            translate="no"
           >
             {/* Header */}
             <div className="bg-black text-white p-5 flex justify-between items-center relative overflow-hidden">
